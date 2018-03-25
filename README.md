@@ -58,7 +58,7 @@ Used Technologies:
 - Jira 
 - etc.
  
-Senior PHP Developer at Currency Solutions (London, UK)
+### Senior PHP Developer at Currency Solutions (London, UK)
 September 2015 – September 2016 (1 year 1 month)  
 Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers. 
 
@@ -70,10 +70,11 @@ Used Technologies:
 - Jira, Bitbucket, Bamboo 
 - etc.
  
-Senior PHP Developer
-Topface
-November 2013 – August 2015 (1 year 10 months)  Saint Petersburg, Russian Federation
+### Senior PHP Developer at Topface (St. Petersburg, Russia)
+November 2013 – August 2015 (1 year 10 months)
+
 Topface is world famous social network for datings with more than 90 million users. 
+
 Development for highload: ~90rps, ~1.5 mln users daily. 
 
 Main duties: 
@@ -96,9 +97,10 @@ Used Technologies:
 - Docker 
 - Redmine 
 - etc.
-Senior Web Developer / Senior PHP Developer
-StarLine
-September 2012 – November 2013 (1 year 3 months)  Saint Petersburg, Russian Federation
+
+### Senior Web Developera at StarLine (St. Petersburg, Russia)
+September 2012 – November 2013 (1 year 3 months)
+
 StarLine is service for transport monitoring and remote alarms and sensors control. 
 
 Main duties: 
@@ -115,9 +117,9 @@ Used Technologies:
 - SVN 
 - Redmine 
 - etc.
-Web Developer / PHP Developer
-Ltd M2C
-February 2008 – September 2012 (4 years 8 months)  Murmansk Region, Russian Federation
+
+### Web Developer at Ltd M2C (Murmansk, Russia)
+February 2008 – September 2012 (4 years 8 months)
 Ltd M2C is the largest provider of Internet, digital television and telephony in Murmansk. 
 
 Main duties: 
@@ -136,58 +138,59 @@ Used Technologies:
 - Flash, ActionScript 
 - Photoshop, 3dsMax 
 - etc.
-Web Developer / PHP Developer / JS Developer
-Freelance
-January 2002 – February 2008 (6 years 2 months)  Murmansk Region, Russian Federation
-Personal Projects
-Game "Mazay Mahjong and bunnies"(Link)
+
+### Web Developer / PHP Developer / JS Developer at Freelance (Murmansk, Russia)
+January 2002 – February 2008 (6 years 2 months)
+
+## Personal Projects
+### Game "Mazay Mahjong and bunnies"
 October 2014
-It is my personal project, that I made in free time from work. 
+
+It is my personal project, that I made in free time. 
 
 Game here: https://apps.facebook.com/mazay_mahjong/ 
 Please, see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA 
 
-As a game designer, I designed a game concept, elements and levels, and found the music. 
-As the project Manager, I was in collaboration with the artist about ideas and concepts. I analyzed logic logic and user behavior. 
-As technical designer, I edited the received images and the design of the game. 
-As a programmer, I designed the system architecture for a highload, and wrote front-end and back-end code. 
-As admin, I made server configuration and software. 
+I designed a game concept, elements, levels, music. I analyzed the game logic and a user behavior, edited a design of the game, designed a system architecture for highload, and wrote front-end and back-end code. 
+Also, I made a server configuration and software. 
 
 Used Technologies:
 - PHP, Redis, Memcached, Mysql, Nginx
 - JavaScript (Native), jQuery, Canvas.
 - HTML, CSS
 - Photoshop
-Open Source Projects on Github(Link)
+
+### Open Source Projects on Github(Link)
 
 Open Source Projects on Github 
 
 https://github.com/cheprasov 
 
 https://packagist.org/packages/cheprasov/
-Honors & Awards
 
-The best corporate site of the Murmansk region in 2006
+## Honors & Awards
+
+### The best corporate site of the Murmansk region in 2006
 Department for Youth Affairs of the Murmansk region + Arctic Media Group
 December 2006
 This award has confirmed the participation and victory in the regional project. The best corporate site of the 51 applicants. I was as a designer and a programmer. http://web.archive.org/web/20070110234754/http://nore.ru/news/13.html http://4erdak.ru/news/3523/
 
-The best site in the category Anfas of the Murmansk region in 2006
+### The best site in the category Anfas of the Murmansk region in 2006
 Department for Youth Affairs of the Murmansk region + Arctic Media Group
 December 2006
 This award has confirmed the participation and victory in the regional project. The best personal site of the 74 applicants. I was as a designer and a programmer. http://4erdak.ru/news/3523/
 
-The best site in the category Infa of the Murmansk region in 2007
+### The best site in the category Infa of the Murmansk region in 2007
 Department for Youth Affairs of the Murmansk region + 4erdak
 December 2007
 This award has confirmed the participation and victory in the regional project. The best information site. It was my own personal project. I was as a designer and a programmer. http://4erdak.ru/news/4791/
 
-The best corporate site of the Murmansk region in 2007
+### The best corporate site of the Murmansk region in 2007
 Department for Youth Affairs of the Murmansk region + 4erdak.ru
 December 2007
 This award has confirmed the participation and victory in the regional project. I was as a designer and a programmer. http://4erdak.ru/news/4791/ http://mti-murmansk.ru/
 
-The most hard-working developer
+### The most hard-working developer
 Topface Developer Awards
 September 2014
 I have got a special "Oscar"! :) 
