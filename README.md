@@ -12,6 +12,8 @@ Phone:	07490 216907
 
 Email:	acheprasov84@gmail.com
 
+Linkedin: https://www.linkedin.com/in/alexandercheprasov/
+
 Current work:	Badoo Trading Ltd.
 
 Previous works: Currency Solutions Ltd., Topface, StarLine, Ltd M2C, ...
@@ -41,7 +43,7 @@ Now, I work in London under Tier 2 general Visa, and I require a sponsorship for
 ## Experience
  
 ### Senior PHP Developer at Badoo Trading Ltd (London, UK  / Tier 2 Visa)
-October 2016 – Present (1 year 5 months)  
+October 2016 – Present (1 year 6 months)  
 Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, Badoo provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day. 
 
 Main duties: 
