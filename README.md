@@ -79,12 +79,12 @@ Main duties:
 - DB architecture 
 - Development for highload 
 - Unit Testing 
+- Code review
 
 Most interesting tasks: 
 - Development of the user's activity system architecture and DB structure (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload. 
 - The development of the intellectual system for counting user's activity, with automatic recalculation in case of failures. 
 - The introduction of several experiments to increase monetization. 
-- Code review. 
 
 Used Technologies: 
 - PHP 5.3 - 5.4 
@@ -95,7 +95,7 @@ Used Technologies:
 - Redmine 
 - etc.
 
-### Senior Web Developera at StarLine (St. Petersburg, Russia)
+### Senior Full-Stack Developer at StarLine (St. Petersburg, Russia)
 September 2012 – November 2013 (1 year 3 months)  
 StarLine is service for transport monitoring and remote alarms and sensors control. 
 
