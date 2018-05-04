@@ -23,7 +23,7 @@ My name is Alexander and I am Senior PHP Developer.
 
 I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development. 
 
-I have been working as programmer more then 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Backend (PHP, MySql, Redis) and Frontend (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies.
+I have been working as programmer more then 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Backend (PHP 5/7, MySql, Redis) and Frontend (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies.
  
 ## Skills
 - PHP 5/7 (Highload, PHPUnit, Zend Framework) 
