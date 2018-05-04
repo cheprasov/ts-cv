@@ -2,7 +2,7 @@ Last update: 25 March 2018
 
 # Alexander Cheprasov
 
-Senior PHP Developer
+Senior PHP / Full Stack Developer
 
 London, United Kingdom, SE16 3JH
 
@@ -19,7 +19,7 @@ Current work:	Badoo Trading Ltd.
 Previous works: Currency Solutions Ltd., Topface, StarLine, Ltd M2C, ...
 
 ## Summary
-My name is Alexander and I am a Senior PHP / Fullstack Developer. 
+My name is Alexander and I am a Senior PHP / Full Stack Developer. 
 
 I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development. 
 
