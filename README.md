@@ -57,7 +57,7 @@ Used Technologies:
 - Jira 
 - etc.
  
-### Senior PHP Developer at Currency Solutions (London, UK / Tier 2 Visa)
+### Senior PHP / Full Stack Developer at Currency Solutions (London, UK / Tier 2 Visa)
 September 2015 – September 2016 (1 year 1 month)  
 Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers. 
 
