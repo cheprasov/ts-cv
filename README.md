@@ -19,7 +19,7 @@ Current work:	Badoo Trading Ltd.
 Previous works: Currency Solutions Ltd., Topface, StarLine, Ltd M2C, ...
 
 ## Summary
-My name is Alexander and I am Senior PHP Developer. 
+My name is Alexander and I am a Senior PHP / Fullstack Developer. 
 
 I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development. 
 
