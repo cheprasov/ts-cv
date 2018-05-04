@@ -23,18 +23,18 @@ My name is Alexander and I am Senior PHP Developer.
 
 I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development. 
 
-I have been working as programmer more then 12 years, and I have knowledges for development of any system completely from simple websites to really complex systems requiring a high level of security (as Currency Solutions Company), and highload systems (as Badoo and Topface).
+I have been working as programmer more then 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Backend (PHP, MySql, Redis, ) and Frontend (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies.
  
 ## Skills
 - PHP 5/7 (Highload, PHPUnit, Zend Framework) 
+- JavaScript (Native, React, ES5/ES6, jQuery, Node.js, Grunt) 
 - MySql, Redis, Memcached, ZooKeeper 
-- Nginx, Docker, Unix, Ansible, AWS, Apache 
-- JavaScript (Native, ES5/6, jQuery, ReactJS, Node.js, Grunt) 
+- HTML5, CSS3, LESS
 - Golang, LUA 
-- HTML, CSS, LESS 
-- Graphite & Grafana, ElasticSearch & Kibana 
+- Nginx, Docker, Unix, Ansible, AWS, Apache 
 - Git, GitHub, Gitlab, SVN, JIRA 
 - OOP, MVC, SOA, SOLID, TDD, BDD, Microservices, REST, APIs 
+- Graphite & Grafana, ElasticSearch & Kibana 
 - Agile, Scrum
 
 ## My requirements
@@ -61,11 +61,15 @@ Used Technologies:
 September 2015 – September 2016 (1 year 1 month)  
 Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers. 
 
+Main duties: 
+- Development of Front-end (JavaScript, React) for a service of global money transfer.
+- Backend development for the money transer service, REST API, DB architecture, highload optimization, Unit Testing, Code review and other. 
+
 Used Technologies: 
 - PHP 5.5 - 5.6 
+- JavaScript (ES6, ReactJS, jQuery, TypeScript) 
 - MySQL, Redis, Memcached 
 - Nginx, Docker, Gitlab. 
-- JavaScript (ES6, ReactJS, jQuery, TypeScript) 
 - Jira, Bitbucket, Bamboo 
 - etc.
  
