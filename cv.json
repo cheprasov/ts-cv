@@ -1,0 +1,250 @@
+{
+  "update": "2018-05-05",
+
+  "profile": {
+    "photo_url": "",
+    "first_name": "Alexander",
+    "last_name": "Cheprasov",
+    "date_birth": "1984-10-10",
+    "headline": "Senior PHP / Full Stack Developer",
+    "country": "United Kingdom",
+    "city": "London",
+    "post_code": "SE16"
+  },
+
+  "contacts": {
+    "phone": "07490216907",
+    "email": "acheprasov84@gmail.com"
+  },
+
+  "links": {
+    "cv_pdf": "",
+    "linkedin":"https://www.linkedin.com/in/alexandercheprasov/",
+    "github": "https://github.com/cheprasov",
+    "packagist": "https://packagist.org/packages/cheprasov/"
+  },
+
+  "skills": [
+    ["PHP 5/7", "PHPUnit", "Zend Framework"],
+    [{"JavaScript": ["Native", "ES5", "ES6"]}, "React", "jQuery", "Pixi.js", "Node.js", "Grunt"],
+    ["MySql", "Redis", "Memcached", "ZooKeeper"],
+    ["HTML5", "CSS3", "LESS"],
+    ["Golang", "LUA"],
+    ["Nginx", "Docker", "Unix", "Ansible", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana"],
+    ["Git", "GitHub", "Gitlab", "SVN", "JIRA"],
+    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "Microservices", "REST", "APIs", "Highload"],
+    ["Agile", "Scrum"]
+  ],
+
+  "requirements": [
+    "Now, I work in London under Tier 2 general Visa, and I require a sponsorship for a new job."
+  ],
+  "education": [],
+
+  "experience": [
+    {
+      "title": "Senior PHP Developer",
+      "company": "Badoo Trading Ltd.",
+      "country": "United Kingdom",
+      "city": "London",
+      "visa": "Tier 2 General Visa",
+      "date_beg": "2016-10",
+      "date_end": "now",
+      "description": "Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, Badoo provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day.",
+      "duties": [
+        "Backend supporting and development of users' profile, photos, users' verification, external and privat project of the company.",
+        "DB architecture design, highload optimization, Unit Testing, Code review and other."
+      ],
+      "technologies": [
+        ["PHP 7.0 - 7.1", "PHPUnit", "Blitz"],
+        ["MySql", "Memcached"],
+        ["Nginx", "Git"],
+        ["Jira"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Senior PHP / Full Stack Developer",
+      "company": "Currency Solutions Ltd.",
+      "country": "United Kingdom",
+      "city": "London",
+      "visa": "Tier 2 General Visa",
+      "date_beg": "2015-09",
+      "date_end": "2016-09",
+      "description": "Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers.",
+      "duties": [
+        "Development of Front-end (JavaScript, React) for a service of global money transfer.",
+        "Backend development for the money transer service, REST API, DB architecture, highload optimization, Unit Testing, Code review and other."
+      ],
+      "technologies": [
+        ["PHP 5.5 - 5.6", "PHPUnit", "Blitz"],
+        ["JavaScript", "ES6", "React", "jQuery", "TypeScript"],
+        ["MySql", "Redis", "Memcached"],
+        ["Nginx","Docker", "Git", "Gitlab"],
+        ["Jira", "Bitbucket", "Bamboo"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Senior PHP Developer",
+      "company": "Topface Ltd.",
+      "country": "Russia",
+      "city": "St. Petersburg",
+      "visa": null,
+      "date_beg": "2013-11",
+      "date_end": "2015-08",
+      "description": "Topface is world famous social network for datings with more than 90 million users. Development for highload: ~90rps, ~1.5 mln users daily.",
+      "tasks": [
+        "Development of the user's activity system architecture and DB structure (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload.",
+        "The development of the intellectual system for counting user's activity, with automatic recalculation in case of failures.",
+        "The implementation A/B testing, and monetization experiments."
+      ],
+      "duties": [
+        "Backend development for highload, DB architecture, DB architecture, Unit Testing, Code review"
+      ],
+      "technologies": [
+        ["PHP 5.3 - 5.4", "PHPUnit", "Blitz"],
+        ["MySql", "Redis", "Memcached", "ZooKeeper"],
+        ["Nginx", "Docker", "Lua", "Git", "Gitlab"],
+        ["Redmine"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "StarLine",
+      "country": "Russia",
+      "city": "St. Petersburg",
+      "visa": null,
+      "date_beg": "2012-09",
+      "date_end": "2013-11",
+      "description": "StarLine is a service for transport monitoring and remote alarms, and sensors control.",
+      "tasks": [
+        "Development of the user's activity system architecture and DB structure (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload.",
+        "The development of the intellectual system for counting user's activity, with automatic recalculation in case of failures.",
+        "The implementation A/B testing, and monetization experiments."
+      ],
+      "duties": [
+        "Backend and frontend development",
+        "Development for highload",
+        "Development of algorithms for tracks analysis",
+        "Team php & js lead",
+        "Interview of candidates for opened vacancies in the company"
+      ],
+      "technologies": [
+        ["PHP 5.3"],
+        ["MySql", "Redis", "Memcached", "Nginx", "Apache"],
+        ["JavaScript", "jQuery", "HTML", "CSS", "Canvas"],
+        ["Google Maps API", "Yandex Maps API"],
+        ["SVN", "Redmine"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Web / Full Stack Developer",
+      "company": "M2C ltd",
+      "country": "Russia",
+      "city": "Murmansk",
+      "visa": null,
+      "date_beg": "2008-02",
+      "date_end": "2012-09",
+      "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
+      "duties": [
+        "Development and maintenance of internal & external services of the company",
+        "Integration billing with external payment systems",
+        "Development web-service for control under digital television",
+        "Development of advertising management system",
+        "Development and design of database architecture",
+        "Flash Application Development",
+        "Work under new TV channel"
+      ],
+      "technologies": [
+        ["PHP"],
+        ["MySQL", "Oracle DB", "Memcache", "Apache"],
+        ["JavaScript", "jQuery", "Canvas"],
+        ["HTML", "CSS"],
+        ["Flash", "ActionScript"],
+        ["Adobe Photoshop", "3D Studio Max"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Web / Full Stack Developer",
+      "company": "Freelance (self employed)",
+      "country": "Russia",
+      "city": "Murmansk",
+      "visa": null,
+      "date_beg": "2002-01",
+      "date_end": "2008-08",
+      "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
+      "duties": [],
+      "technologies": [
+        ["PHP", "MySQL", "JavaScript"],
+        ["HTML", "CSS"],
+        ["Flash", "ActionScript"],
+        ["Adobe Photoshop", "3D Studio Max"],
+        ["etc"]
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Game \"Mazay Mahjong and bunnies\"",
+      "date": "2014-10",
+      "description": "It is my personal project, that I made in free time. \n Game here: https://apps.facebook.com/mazay_mahjong/ \n Please, see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA \n\n I designed a game concept, elements, levels, music. I analyzed the game logic and a user behavior, edited a design of the game, designed a system architecture for highload, and wrote front-end and back-end code. Also, I made a server configuration and software.",
+      "technologies": [
+        ["PHP", "Redis", "Memcached", "MySql", "Nginx"],
+        ["JavaScript", "jQuery", "Canvas"],
+        ["HTML", "CSS"],
+        ["Flash", "ActionScript"],
+        ["Adobe Photoshop"],
+        ["etc"]
+      ]
+    },
+
+    {
+      "title": "Open Sources",
+      "date": null,
+      "description": "https://github.com/cheprasov \n https://packagist.org/packages/cheprasov/",
+      "technologies": null
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "The most hard-working developer - Topface Developer Awards",
+      "date": "2014-09",
+      "description": "I have got a special 'Oscar'! :) https://pp.vk.me/c619526/v619526715/1a0d9/NsAgok-wmpA.jpg"
+    },
+
+    {
+      "title": "The best site in the category Infa of the Murmansk region",
+      "date": "2007-12",
+      "description": "Department for Youth Affairs of the Murmansk region + 4erdak \n This award has confirmed the participation and victory in the regional project. The best information site. It was my own personal project. I was as a designer and a programmer. http://4erdak.ru/news/4791/"
+    },
+
+    {
+      "title": "The best corporate site of the Murmansk region",
+      "date": "2007-12",
+      "description": "Department for Youth Affairs of the Murmansk region + 4erdak.ru \n This award has confirmed the participation and victory in the regional project. I was as a designer and a programmer. http://4erdak.ru/news/4791/ http://mti-murmansk.ru/"
+    },
+
+    {
+      "title": "The best corporate site of the Murmansk region",
+      "date": "2006-12",
+      "description": "Department for Youth Affairs of the Murmansk region + Arctic Media Group \n This award has confirmed the participation and victory in the regional project. The best corporate site of the 51 applicants. I was as a designer and a programmer. http://web.archive.org/web/20070110234754/http://nore.ru/news/13.html http://4erdak.ru/news/3523/"
+    },
+
+    {
+      "title": "The best site in the category Anfas of the Murmansk region",
+      "date": "2006-12",
+      "description": "Department for Youth Affairs of the Murmansk region + Arctic Media Group \n This award has confirmed the participation and victory in the regional project. The best personal site of the 74 applicants. I was as a designer and a programmer. http://4erdak.ru/news/3523/"
+    }
+  ]
+}
