@@ -1,0 +1,279 @@
+body {
+    background-color: #e9e9e9;
+    padding: 0;
+    margin: 0;
+}
+
+.application {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    font-family: sans-serif;
+    color:#333;
+    min-width: 380px;
+}
+
+.application a {
+    color: #396fcc;
+}
+.application p {
+    margin-top: 0;
+}
+.application hr {
+    background-color: #ccc;
+    border-width: 0;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.application .meta:after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 2px;
+}
+.application .meta .meta-block {
+    width: 49%;
+}
+.application .meta .meta-block.left {
+    float: left;
+}
+.application .meta .meta-block.right {
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 520px) {
+    .application .meta .meta-block {
+        width: 100%;
+    }
+    .application .meta .meta-block.left {
+        float: none;
+    }
+    .application .meta .meta-block.right {
+        float: none;
+        text-align: left;
+    }
+}
+
+.application .block {
+    background-color: #fff;
+    padding: 20px 30px 10px 30px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+
+    font-size: 90%;
+    line-height: 150%;
+}
+.application .block h2 {
+    font-weight: lighter;
+    color: #afb2b5;
+    margin: 0 0 10px 0;
+    font-size: 145%;
+}
+
+
+.application .profile .photo {
+    display: block;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0 auto 10px auto;
+}
+.application .profile .block-right {
+    width: 49%;
+    float: right;
+}
+@media screen and (max-width: 620px) {
+    .application .profile .block-right {
+        width: 100%;
+        float: none;
+    }
+}
+.application .profile .name {
+    font-size: 167%;
+    font-weight: bold;
+    line-height: 150%;
+}
+.application .profile .headline {
+    font-size: 111%;
+    line-height: 200%;
+}
+.application .profile .country {
+    font-size: 95%;
+    line-height: 170%;
+    color: #66696a;
+}
+.application .profile .row {
+    width: 100%;
+    content: "";
+    display: block;
+    clear: both;
+    margin-top: 13px;
+    line-height: 108%;
+}
+.application .profile .row .column.left {
+    width: 15%;
+    color: #999;
+    font-size: 90%;
+    float: left;
+}
+.application .profile .row .column.right {
+}
+@media screen and (max-width: 400px) {
+    .application .profile .row .column.left {
+        width: 100%;
+        color: #999;
+        font-size: 90%;
+        float: none;
+    }
+    .application .profile .row .column.right {
+    }
+}
+
+.application .summary{
+    width: 100%;
+}
+.application .summary:after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+.application .summary .part {
+    box-sizing: border-box;
+}
+.application .summary .part.left {
+    width: 45%;
+    float: left;
+}
+.application .summary .part.right {
+    width: 50%;
+    float: right;
+    padding-left: 20px;
+}
+.application .summary .tech-list {
+    list-style-type: circle;
+    margin: 0;
+    padding: 0;
+    line-height: 170%;
+}
+
+@media screen and (max-width: 550px) {
+    .application .summary .part.left {
+        width: 100%;
+        float: none;
+    }
+    .application .summary .part.right {
+        width: 100%;
+        float: none;
+        padding-left: 20px;
+    }
+}
+
+
+.application .experience{
+}
+.application .experience .work .logo{
+    float: right;
+    width: 80px;
+    margin: 0 0 20px 20px;
+}
+.application .experience .work .title{
+    font-size: 140%;
+    font-weight: bold;
+    margin: 20px 0 6px 0;
+}
+.application .experience .work .title .visa{
+    font-size: 80%;
+    font-weight: lighter;
+    vertical-align: text-bottom;
+}
+.application .experience .work .company{
+    font-size: 120%;
+    color: #66696a;
+    margin: 0 0 4px 0;
+}
+.application .experience .work .period{
+    color: #66696a;
+    margin: 0 0 10px;
+}
+.application .experience .work .description,
+.application .experience .work .duties,
+.application .experience .work .tasks {
+    margin: 5px 0 10px 0;
+}
+.application .experience .work ul{
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 0 0 30px;
+    line-height: 170%;
+}
+@media screen and (max-width: 550px) {
+    .application .experience .work .logo{
+        float: right;
+        width: 40px;
+        margin: 0 0 20px 20px;
+    }
+    .application .experience .work .title .visa{
+        display: block;
+        font-size: 80%;
+        font-weight: lighter;
+        vertical-align: text-bottom;
+    }
+}
+
+.application .projects .project{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+.application .projects .project .icon {
+    width: 120px;
+    float:left;
+    margin: 0 20px 10px 0;
+}
+.application .projects .project .title{
+    font-size: 140%;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+@media screen and (max-width: 550px) {
+    .application .projects .project .icon {
+        width: 60px;
+        float:left;
+        margin: 0 20px 10px 0;
+    }
+}
+
+.application .awards .award{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 10px;
+}
+.application .awards .award .icon {
+    width: 120px;
+    float:left;
+    margin: 0 20px 30px 0;
+}
+.application .awards .award .title{
+    font-size: 140%;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.application .awards .award .organizer{
+    font-size: 120%;
+    color: #66696a;
+    margin: 0 0 4px 0;
+}
+@media screen and (max-width: 550px) {
+    .application .awards .award .icon {
+        width: 40px;
+        float:left;
+        margin: 0 20px 10px 0;
+    }
+}
