@@ -22,4 +22,14 @@ export default class StringUtils {
         text = StringUtils.nl2br(text);
         return text;
     }
+
+    static padStart(text, len, s = '0') {
+        if (text.length >= len) {
+            return text;
+        }
+        while (text.length < len) {
+            text = s + text;
+        }
+        return text;
+    }
 }

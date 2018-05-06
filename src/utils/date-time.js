@@ -1,3 +1,5 @@
+import StringUtils from './../utils/string-utils.js';
+
 const MONTHS_FULL = [null, 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 const MONTHS_SHORT = [null, 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -6,12 +8,12 @@ const DATE_FORMAT = {
     // Days
 
     // Day of the month, 2 digits with leading zeros
-    'd': (Y, M, D, H, I, S) => (+D).toString().padStart(2, '0'),
+    'd': (Y, M, D, H, I, S) => StringUtils.padStart((+D).toString(), 2, '0'),
 
     // Months
 
     //Numeric representation of a month, with leading zeros
-    'm': (Y, M, D, H, I, S) => (+M).toString().padStart(2, '0'),
+    'm': (Y, M, D, H, I, S) => StringUtils.padStart((+M).toString(), 2, '0'),
 
     // A short textual representation of a month, three letters
     'M': (Y, M, D, H, I, S) => MONTHS_SHORT[+M],
