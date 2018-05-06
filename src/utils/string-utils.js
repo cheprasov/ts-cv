@@ -4,7 +4,11 @@ export default class StringUtils {
         return text.replace(
             /(http(s)?:\/\/\S+)/g,
             (m) => {
-                return `<a href="${m}" target="_blank">${m}</a>`;
+                let l = m;
+                if (l.length > 40) {
+                    l = l.substr(0, 40) + '...';
+                }
+                return `<a href="${m}" target="_blank">${l}</a>`;
             }
         );
     }
