@@ -6,7 +6,7 @@
     "first_name": "Alexander",
     "last_name": "Cheprasov",
     "date_birth": "1984-10-10",
-    "headline": "Senior PHP / Full Stack Developer",
+    "headline": "Senior PHP / JavaScript Developer",
     "country": "United Kingdom",
     "city": "London",
     "post_code": "SE16 3JH"
@@ -37,9 +37,9 @@
   ],
 
   "about": [
-    "Hey. My name is Alexander and I am a Senior PHP / Full Stack Developer.",
+    "Hey. My name is Alexander and I am a Senior PHP / JavaScript Developer.",
     "I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development.",
-    "I have been working as programmer more then 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Backend (PHP 5/7, MySql, Redis) and Frontend (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies."
+    "I have been working as programmer more then 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Back-End (PHP 5/7, MySql, Redis) and Front-End (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies."
   ],
 
   "requirements": [
@@ -73,7 +73,7 @@
     },
 
     {
-      "title": "Senior PHP / Full Stack Developer",
+      "title": "Senior PHP / JavaScript Developer",
       "company": "Currency Solutions Ltd.",
       "logo": "currency.png",
       "country": "United Kingdom",
@@ -124,7 +124,7 @@
     },
 
     {
-      "title": "Senior Full Stack Developer",
+      "title": "Senior PHP / JavaScript Developer",
       "company": "StarLine",
       "country": "Russia",
       "city": "St. Petersburg",
