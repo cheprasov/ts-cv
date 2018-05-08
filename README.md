@@ -40,7 +40,7 @@ I have been working as programmer more then 12 years with PHP and JavaScript, an
 - Agile, Scrum
 
 ## My requirements
-Now, I work in London under Tier 2 general Visa, and I require a sponsorship for a new job. 
+Now, I work in London under Tier 2 general Visa, and I require a sponsorship for a new permanent role.
 
 ## Experience
  
