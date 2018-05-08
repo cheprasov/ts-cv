@@ -132,11 +132,6 @@
       "date_beg": "2012-09",
       "date_end": "2013-11",
       "description": "StarLine is a service for transport monitoring and remote alarms, and sensors control.",
-      "tasks": [
-        "Development of the user's activity system architecture and DB structure (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload.",
-        "The development of the intellectual system for counting user's activity, with automatic recalculation in case of failures.",
-        "The implementation A/B testing, and monetization experiments."
-      ],
       "duties": [
         "Backend and frontend development",
         "Development for highload",

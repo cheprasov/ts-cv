@@ -2,7 +2,7 @@ Last update: 25 March 2018
 
 # Alexander Cheprasov
 
-Senior PHP / Full Stack Developer
+Senior PHP / JavaScript Developer
 
 London, United Kingdom, SE16 3JH
 
@@ -19,7 +19,7 @@ Current work:	Badoo Trading Ltd.
 Previous works: Currency Solutions Ltd., Topface, StarLine, Ltd M2C, ...
 
 ## Summary
-My name is Alexander and I am a Senior PHP / Full Stack Developer. 
+My name is Alexander and I am a Senior PHP / JavaScript Developer.
 
 I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development. 
 
@@ -57,7 +57,7 @@ Used Technologies:
 - Jira 
 - etc.
  
-### Senior PHP / Full Stack Developer at Currency Solutions (London, UK / Tier 2 Visa)
+### Senior PHP / JavaScript Developer at Currency Solutions (London, UK / Tier 2 Visa)
 September 2015 – September 2016 (1 year 1 month)  
 Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers. 
 
@@ -99,7 +99,7 @@ Used Technologies:
 - Redmine 
 - etc.
 
-### Senior Full-Stack Developer at StarLine (St. Petersburg, Russia)
+### Senior PHP / JavaScript Developer at StarLine (St. Petersburg, Russia)
 September 2012 – November 2013 (1 year 3 months)  
 StarLine is service for transport monitoring and remote alarms and sensors control. 
 
