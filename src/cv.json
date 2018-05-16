@@ -1,5 +1,5 @@
 {
-  "update": "2018-05-05",
+  "update": "2018-05-16",
 
   "profile": {
     "photo_url": "photo.jpg",
@@ -46,7 +46,17 @@
     "Now, I work in London under Tier 2 general Visa, and I require a sponsorship for a new permanent role."
   ],
 
-  "education": [],
+  "education": [
+    {
+      "school": "Murmansk Humanities Institute (MHI)",
+      "field": "Criminal Law, Justice and Corrections",
+      "degree": "Master's degree",
+      "date_beg": "2002",
+      "date_end": "2007",
+      "country": "Russia",
+      "city": "Murmansk"
+    }
+  ],
 
   "experience": [
     {
@@ -87,8 +97,8 @@
         "Backend development for the money transer service, REST API, DB architecture, highload optimization, Unit Testing, Code review and other."
       ],
       "technologies": [
-        ["PHP 5.5 - 5.6", "PHPUnit", "Blitz"],
-        ["JavaScript", "ES6", "React", "jQuery", "TypeScript"],
+        ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
+        ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel"],
         ["MySql", "Redis", "Memcached"],
         ["Nginx","Docker", "Git", "Gitlab"],
         ["Jira", "Bitbucket", "Bamboo"],

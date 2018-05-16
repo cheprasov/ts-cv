@@ -277,3 +277,19 @@ body {
         margin: 0 20px 10px 0;
     }
 }
+
+
+.application .education .school .title{
+    font-size: 140%;
+    font-weight: bold;
+    margin: 20px 0 6px 0;
+}
+.application .education .school .degree{
+    font-size: 120%;
+    color: #66696a;
+    margin: 0 0 4px 0;
+}
+.application .education .school .period{
+    color: #66696a;
+    margin: 0 0 10px;
+}
