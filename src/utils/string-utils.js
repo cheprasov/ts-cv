@@ -1,12 +1,12 @@
 export default class StringUtils {
 
-    static markLink(text) {
+    static markLink(text, len = 60) {
         return text.replace(
             /(http(s)?:\/\/\S+)/g,
             (m) => {
                 let l = m;
-                if (l.length > 40) {
-                    l = l.substr(0, 40) + '...';
+                if (len && l.length > len) {
+                    l = l.substr(0, len) + '...';
                 }
                 return `<a href="${m}" target="_blank">${l}</a>`;
             }
