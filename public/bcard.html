@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Alexander Cheprasov CV</title>
+    <style type="text/css">
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            color:#333;
+            min-width: 380px;
+        }
+        a {
+            color: #396fcc;
+            text-decoration: none;
+        }
+        a:hover {
+            color: blue;
+            transition: color 2s ease-in-out;
+        }
+        .profile {
+            box-sizing: border-box;
+            width: 50%;
+            border: 2px solid #eee;
+            float: left;
+            padding: 20px 30px;
+        }
+        .profile .name {
+            font-size: 167%;
+            font-weight: bold;
+            line-height: 150%;
+        }
+        .profile .headline {
+            font-size: 111%;
+            line-height: 200%;
+        }
+        .profile .country {
+            font-size: 95%;
+            line-height: 170%;
+            color: #66696a;
+        }
+        .profile .row {
+            width: 100%;
+            content: "";
+            display: block;
+            clear: both;
+            margin-top: 13px;
+            line-height: 108%;
+        }
+        .profile .row .column.left {
+            width: 15%;
+            color: #999;
+            font-size: 90%;
+            float: left;
+        }
+        .profile .row .column.right {
+        }
+        @media screen and (max-width: 400px) {
+            .profile .row .column.left {
+                width: 100%;
+                color: #999;
+                font-size: 90%;
+                float: none;
+            }
+            .profile .row .column.right {
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="profile">
+    <div class="name">Alexander Cheprasov</div>
+    <div class="headline">Senior PHP / JavaScript Developer</div>
+    <div class="info">
+        <div class="row">
+            <div class="column left">Phone</div>
+            <div class="column right">07490 216907</div>
+        </div>
+        <div class="row">
+            <div class="column left">Email</div>
+            <div class="column right"><a href="mailto:acheprasov84@gmail.com">acheprasov84@gmail.com</a></div>
+        </div>
+        <div class="row">
+            <div class="column left">CV Link</div>
+            <div class="column right"><a href="https://cheprasov.com/cv.pdf">https://cheprasov.com/cv.pdf</a></div>
+        </div>
+        <div class="row">
+            <div class="column left">Linkedin</div>
+            <div class="column right"><a href="https://www.linkedin.com/in/alexandercheprasov/" target="_blank">https://www.linkedin.com/in/alexandercheprasov/</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    let profile = document.body.innerHTML;
+    document.body.innerHTML = profile.repeat(12);
+</script>
+</html>

@@ -67,7 +67,7 @@
       "city": "London",
       "visa": "Tier 2 General Visa",
       "date_beg": "2016-10-10",
-      "date_end": "now",
+      "date_end": "2018-06-21",
       "description": "Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, Badoo provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day.",
       "duties": [
         "Backend supporting and development of users' profile, photos, users' verification, external and privat project of the company.",
@@ -76,7 +76,7 @@
       "technologies": [
         ["PHP 7.0 - 7.1", "PHPUnit", "Blitz"],
         ["MySql", "Memcached"],
-        ["Nginx", "Git"],
+        ["Nginx", "Git", "AWS"],
         ["Jira"],
         ["etc"]
       ]
@@ -100,7 +100,7 @@
         ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
         ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel"],
         ["MySql", "Redis", "Memcached"],
-        ["Nginx","Docker", "Git", "Gitlab"],
+        ["Nginx","Docker", "Git", "Gitlab", "AWS"],
         ["Jira", "Bitbucket", "Bamboo"],
         ["etc"]
       ]
@@ -126,7 +126,7 @@
       ],
       "technologies": [
         ["PHP 5.3 - 5.4", "PHPUnit", "Blitz"],
-        ["MySql", "Redis", "Memcached", "ZooKeeper"],
+        ["MySql", "Redis", "Memcached", "ZooKeeper", "Node.js"],
         ["Nginx", "Docker", "Lua", "Git", "Gitlab"],
         ["Redmine"],
         ["etc"]
@@ -160,7 +160,7 @@
     },
 
     {
-      "title": "Web / Full Stack Developer",
+      "title": "Full Stack Web Developer",
       "company": "M2C ltd",
       "country": "Russia",
       "city": "Murmansk",
@@ -189,14 +189,14 @@
     },
 
     {
-      "title": "Web / Full Stack Developer",
+      "title": "Full Stack Web Developer",
       "company": "Freelance (self employed)",
       "country": "Russia",
       "city": "Murmansk",
       "visa": null,
       "date_beg": "2002-01",
       "date_end": "2008-08",
-      "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
+      "description": "Freelance",
       "duties": [],
       "technologies": [
         ["PHP", "MySQL", "JavaScript"],
