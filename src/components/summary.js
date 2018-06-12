@@ -9,10 +9,14 @@ export default class Summary extends React.Component {
     }
 
     getInfo() {
-        let CV = this.getCV();
+        const hideContacts = this.props.config.hideContacts || false;
+        const CV = this.getCV();
         let i = 0;
         return CV.about.map(
             (line) => {
+                if (hideContacts) {
+                    line = line.replace(new RegExp(CV.profile.first_name, 'g'), '<...>');
+                }
                 return <p key={'block-about-p-' + (i++)}>{line}</p>;
             }
         );

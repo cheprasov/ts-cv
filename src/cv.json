@@ -1,5 +1,5 @@
 {
-  "update": "2018-05-16",
+  "update": "2018-06-12",
 
   "profile": {
     "photo_url": "photo.jpg",
@@ -18,7 +18,7 @@
   },
 
   "links": {
-    "cv_pdf": "http://cheprasov.com/cv.pdf",
+    "cv_pdf": "https://cheprasov.com/cv.pdf",
     "linkedin":"https://www.linkedin.com/in/alexandercheprasov/",
     "github": "https://github.com/cheprasov",
     "packagist": "https://packagist.org/packages/cheprasov/"

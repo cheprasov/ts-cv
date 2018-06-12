@@ -13,12 +13,33 @@ import Awards from './awards.js';
 import CV from './../cv.json';
 
 export default class Application extends React.Component {
+
+    constructor() {
+        super();
+        this.state = {
+            hideContacts: false
+        };
+    }
+
+    /**
+     * @param {boolean} hide
+     */
+    setHideContacts(hide) {
+        this.setState({hideContacts: hide});
+    }
+
+    getConfig() {
+        return {
+            hideContacts: this.state.hideContacts
+        };
+    }
+
     render() {
         return (
             <div className="application">
-                <Meta cv={CV} />
-                <Block content={<Profile cv={CV} />} />
-                <Block title="Summary & Skills" content={<Summary cv={CV} />} />
+                <Meta cv={CV} application={this} config={this.getConfig()} />
+                <Block content={<Profile cv={CV} config={this.getConfig()} />} />
+                <Block title="Summary & Skills" content={<Summary cv={CV} config={this.getConfig()} />} />
                 <Block title="Visa requirements" content={CV.requirements} />
                 <Block title="Experience" content={<Experience data={CV.experience} />} />
                 <Block title="Education" content={<Education data={CV.education} />} />

@@ -4,18 +4,23 @@ import DateTime from './../utils/date-time.js';
 
 export default class Profile extends React.Component {
     render() {
-        let CV = this.props.cv;
-        let profile = CV.profile || {};
+        const hideContacts = this.props.config.hideContacts || false;
+        const CV = this.props.cv;
+        const profile = CV.profile || {};
+        const DateBirth = new DateTime(profile.date_birth);
 
-        let DateBirth = new DateTime(profile.date_birth);
+        const lines = [];
+        if (!hideContacts) {
+            lines.push(['Age', `${DateBirth.getPeriod(null, false)} / ${DateBirth.getFormatDate('%d.%m.%Y')}`]);
+            lines.push(['Phone', CV.contacts.phone]);
+            lines.push(['Email', CV.contacts.email]);
+            lines.push(['Linkedin', CV.links.linkedin]);
+        } else {
+            lines.push(['Age', `${DateBirth.getPeriod(null, false)}`]);
+        }
+        lines.push(['Current', CV.experience[0].company]);
 
-        let info = [
-            ['Age', `${DateBirth.getPeriod(null, false)} / ${DateBirth.getFormatDate('%d.%m.%Y')}`],
-            ['Phone', CV.contacts.phone],
-            ['Email', CV.contacts.email],
-            ['Linkedin', CV.links.linkedin],
-            ['Current', CV.experience[0].company],
-        ].map(
+        const info = lines.map(
             (arg) => {
                 let value = '';
                 if (/^http(s?):\/\//.test(arg[1])) {
@@ -33,6 +38,17 @@ export default class Profile extends React.Component {
                 );
             }
         );
+
+        if (hideContacts) {
+            return (
+                <div className="profile">
+                    <div className="name">{profile.headline}</div>
+                    <div className="headline">{profile.city}, {profile.country}</div>
+                    <div className="info">{info}</div>
+                    <div>&nbsp;</div>
+                </div>
+            );
+        }
 
         return (
             <div className="profile">
