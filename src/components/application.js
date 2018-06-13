@@ -38,13 +38,27 @@ export default class Application extends React.Component {
         return (
             <div className="application">
                 <Meta cv={CV} application={this} config={this.getConfig()} />
-                <Block content={<Profile cv={CV} config={this.getConfig()} />} />
-                <Block title="Summary & Skills" content={<Summary cv={CV} config={this.getConfig()} />} />
-                <Block title="Visa requirements" content={CV.requirements} />
-                <Block title="Experience" content={<Experience data={CV.experience} />} />
-                <Block title="Education" content={<Education data={CV.education} />} />
-                <Block title="Personal Projects" content={<Projects data={CV.projects} />} />
-                <Block title="Honors & Awards" content={<Awards data={CV.awards} />} />
+                <Block>
+                    <Profile cv={CV} config={this.getConfig()} />
+                </Block>
+                <Block title="Summary & Skills">
+                    <Summary cv={CV} config={this.getConfig()} />
+                </Block>
+                <Block title="Visa requirements">
+                    {CV.requirements}
+                </Block>
+                <Block title="Experience">
+                    <Experience data={CV.experience} />
+                </Block>
+                <Block title="Education">
+                    <Education data={CV.education} />
+                </Block>
+                <Block title="Personal Projects">
+                    <Projects data={CV.projects} />
+                </Block>
+                <Block title="Honors & Awards">
+                    <Awards data={CV.awards} />
+                </Block>
             </div>
         );
     }

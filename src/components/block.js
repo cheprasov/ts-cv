@@ -10,14 +10,14 @@ export default class Block extends React.Component {
         }
 
         let content = '';
-        if (Array.isArray(this.props.content)) {
-            content = this.props.content.map(
+        if (Array.isArray(this.props.children)) {
+            content = this.props.children.map(
                 (line) => {
                     return <p key={'block-p-' + (keyI++)}>{line}</p>;
                 }
             );
         } else {
-            content = this.props.content;
+            content = this.props.children;
         }
         return (
             <div className="block">
