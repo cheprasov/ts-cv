@@ -25,7 +25,7 @@ export default class Summary extends React.Component {
     render() {
         return (
             <div className="summary">
-                <div className="part left">
+                <div className="part left justify">
                     {this.getInfo()}
                 </div>
                 <div className="part right">

@@ -17,7 +17,7 @@ export default class Awards extends React.Component {
                         <h3 className="title">{exp.title}</h3>
                         <div className="organizer">{exp.organizer}</div>
                         <div className="date">{(new DateTime(exp.date)).getFormatDate('%F %Y')}</div>
-                        <div className="description"
+                        <div className="description justify"
                              dangerouslySetInnerHTML={{__html: StringUtils.prepare(exp.description)}}
                         />
                     </div>

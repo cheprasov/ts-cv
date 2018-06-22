@@ -1,5 +1,5 @@
 {
-  "update": "2018-06-12",
+  "update": "2018-06-22",
 
   "profile": {
     "photo_url": "photo.jpg",
@@ -9,7 +9,8 @@
     "headline": "Senior PHP / JavaScript Developer",
     "country": "United Kingdom",
     "city": "London",
-    "post_code": "SE16 3JH"
+    "post_code": "SE16 3JH",
+    "status": "Unemployed, and I am actively looking for a new role"
   },
 
   "contacts": {
@@ -25,15 +26,16 @@
   },
 
   "skills": [
-    ["PHP 5 / 7", "PHPUnit", "Zend Framework"],
-    ["JavaScript", ["Native", "ES5", "ES6"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt"],
+    ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Protobuf"],
+    ["JavaScript", ["Native", "ES6", "ES.Next"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt"],
     ["MySql", "Redis", "Memcached", "ZooKeeper"],
     ["HTML5", "CSS3", "LESS"],
     ["Golang", "LUA"],
     ["Nginx", "Docker", "Unix", "Ansible", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana"],
-    ["Git", "GitHub", "Gitlab", "SVN", "JIRA"],
-    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "Microservices", "REST", "APIs", "Highload"],
-    ["Agile", "Scrum"]
+    ["Git", "GitHub", "Gitlab", "SVN"],
+    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "Microservices", "REST", "APIs"],
+    ["Highload", "Data Structures", "Algorithms"],
+    ["Agile", "Scrum", "JIRA"]
   ],
 
   "about": [
@@ -43,7 +45,7 @@
   ],
 
   "requirements": [
-    "Now, I work in London under Tier 2 general Visa, and I require a sponsorship for a new permanent role."
+    "I am Russian, and I require a sponsorship for a new role in the UK or Europe"
   ],
 
   "education": [
@@ -74,7 +76,7 @@
         "DB architecture design, highload optimization, Unit Testing, Code review and other."
       ],
       "technologies": [
-        ["PHP 7.0 - 7.1", "PHPUnit", "Blitz"],
+        ["PHP 7.0 - 7.1", "PHPUnit", "Blitz", "Protobuf"],
         ["MySql", "Memcached"],
         ["Nginx", "Git", "AWS"],
         ["Jira"],
@@ -150,7 +152,7 @@
         "Interview of candidates for opened vacancies in the company"
       ],
       "technologies": [
-        ["PHP 5.3"],
+        ["PHP 5.3", "Protobuf"],
         ["MySql", "Redis", "Memcached", "Nginx", "Apache"],
         ["JavaScript", "jQuery", "HTML", "CSS", "Canvas"],
         ["Google Maps API", "Yandex Maps API"],

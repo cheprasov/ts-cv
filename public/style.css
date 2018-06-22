@@ -11,6 +11,10 @@ body {
     margin: 0;
 }
 
+.justify {
+    text-align: justify;
+}
+
 .application {
     margin-left: auto;
     margin-right: auto;
@@ -72,6 +76,7 @@ body {
 
     font-size: 90%;
     line-height: 150%;
+    overflow: hidden;
 }
 .application .block h2 {
     font-weight: lighter;

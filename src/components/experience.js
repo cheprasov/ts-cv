@@ -97,7 +97,7 @@ export default class Experience extends React.Component {
                         </h3>
                         <div className="company">{exp.company} / {exp.city}, {exp.country}</div>
                         <div className="period">{this.getPeriod(exp.date_beg, exp.date_end)}</div>
-                        <div className="description"
+                        <div className="description justify"
                              dangerouslySetInnerHTML={{__html: StringUtils.prepare(exp.description)}}
                         />
                         {this.getDuties(exp.duties) || ''}

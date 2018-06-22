@@ -23,7 +23,7 @@ export default class Projects extends React.Component {
                                 </div>
                             ) : ''
                         }
-                        <div className="description"
+                        <div className="description justify"
                              dangerouslySetInnerHTML={{__html: StringUtils.prepare(exp.description)}}
                         />
                     </div>

@@ -18,7 +18,15 @@ export default class Profile extends React.Component {
         } else {
             lines.push(['Age', `${DateBirth.getPeriod(null, false)}`]);
         }
-        lines.push(['Current', CV.experience[0].company]);
+
+        //if (CV.experience[0].date_end === 'now' || (Date.now() < (new Date(CV.experience[0].date_end)).getTime())) {
+        //    lines.push(['Current', CV.experience[0].company]);
+        //} else {
+        //    lines.push(['Last work', CV.experience[0].company]);
+        //}
+        if (profile.status) {
+            lines.push(['Status', profile.status]);
+        }
 
         const info = lines.map(
             (arg) => {

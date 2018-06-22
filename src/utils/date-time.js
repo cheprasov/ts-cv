@@ -132,7 +132,7 @@ export default class DateTime {
         if ($withMonths) {
             let months = DiffDate.getMonth();
             let days = DiffDate.getDate();
-            if (days >= 29) {
+            if (days >= 10) {
                 months += 1;
             }
             if (months) {
