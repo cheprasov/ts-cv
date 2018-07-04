@@ -26,7 +26,7 @@
   },
 
   "skills": [
-    ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Protobuf"],
+    ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
     ["JavaScript", ["Native", "ES6", "ES.Next"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt"],
     ["MySql", "Redis", "Memcached", "ZooKeeper"],
     ["HTML5", "CSS3", "LESS"],
