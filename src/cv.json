@@ -215,7 +215,11 @@
       "image_url": "github.jpg",
       "title": "Open Source Projects on Github",
       "date": null,
-      "description": "Github: https://github.com/cheprasov \n Packagist: https://packagist.org/packages/cheprasov/",
+      "description": [
+        "Github: https://github.com/cheprasov",
+        "Packagist: https://packagist.org/packages/cheprasov/",
+        "Also I have received a certificate for free license for all products of JetBrains for the contribution and development to open source PHP projects."
+      ],
       "technologies": null
     },
 

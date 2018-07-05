@@ -17,10 +17,19 @@ export default class StringUtils {
         return text.replace(/\n/g, '<br />');
     }
 
-    static prepare(text) {
-        text = StringUtils.markLink(text);
-        text = StringUtils.nl2br(text);
-        return text;
+    static prepare(lines) {
+        let result = [];
+        if (!Array.isArray(lines)) {
+            lines = [lines];
+        }
+        lines.forEach(
+            (line) => {
+                line = StringUtils.markLink(line);
+                line = StringUtils.nl2br(line);
+                result.push(line);
+            }
+        );
+        return result.join("<br />");
     }
 
     static padStart(text, len, s = '0') {
