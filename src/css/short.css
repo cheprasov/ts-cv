@@ -1,0 +1,70 @@
+.application-short {
+    font-size: 120%;
+}
+.application-short p {
+    margin: 0;
+}
+
+.application-short a {
+    color: #113355;
+}
+
+.application-short h1,
+.application-short h2 {
+    font-weight: normal;
+}
+
+.application-short h2 {
+    font-size: 100%;
+    border-bottom: 1px solid #777;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.application-short h3 {
+    font-size: 100%;
+    margin: 15px 0 0 0;
+}
+
+.application-short .block {
+    background-color: #fff;
+    padding: 10px 30px 0 30px;
+    box-sizing: border-box;
+
+    font-size: 90%;
+    line-height: 150%;
+}
+
+.application-short .block:last-child {
+    padding-bottom: 20px;
+}
+
+.application-short .profile .name {
+    width: 300px;
+    float: left;
+    display: block;
+    white-space: nowrap;
+}
+
+.application-short .profile .info {
+    margin-top: 10px;
+    float: right;
+    text-align: right;
+}
+
+.application-short .experience .duties ul {
+    margin: 0;
+}
+
+.application-short .header {
+    overflow: hidden;
+    font-size: 90%;
+}
+
+.application-short .header .header-left {
+    float: left;
+}
+
+.application-short .header .header-right {
+    float: right;
+}

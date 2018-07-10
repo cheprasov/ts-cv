@@ -1,7 +1,6 @@
 import React from 'react';
 
-import DateTime from './../utils/date-time.js';
-import StringUtils from './../utils/string-utils.js';
+import DateTime from '/SRC/utils/date-time.js';
 
 let keyI = 0;
 
@@ -23,15 +22,8 @@ export default class Education extends React.Component {
             (exp, i) => {
                 return (
                     <div className="school" key={'key-edu-' + (keyI++)}>
-                        {i ? (<hr />) : ''}
-                        {
-                            exp.logo ? (
-                                <img className="logo" src={'./imgs/' + exp.logo} />
-                            ) : ''
-                        }
-                        <h3 className="title">{exp.school}</h3>
-                        <div className="degree">{exp.degree} in {exp.field}</div>
-                        <div className="period">{this.getPeriod(exp.date_beg, exp.date_end)} / {exp.city}, {exp.country}</div>
+                        <h3 className="title">{exp.degree} in {exp.field}</h3>
+                        <div className="period">{exp.school}, {this.getPeriod(exp.date_beg, exp.date_end)}</div>
                     </div>
                 );
             }

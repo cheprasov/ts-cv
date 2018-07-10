@@ -12,7 +12,7 @@ export default class Summary extends React.Component {
         const hideContacts = this.props.config.hideContacts || false;
         const CV = this.getCV();
         let i = 0;
-        return CV.about.map(
+        return CV.about.origin.map(
             (line) => {
                 if (hideContacts) {
                     line = line.replace(new RegExp(CV.profile.first_name, 'g'), '<...>');

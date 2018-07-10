@@ -6,8 +6,9 @@ export default class Technologies extends React.Component {
 
     /**
      * @param {array} techs
+     * @return {string}
      */
-    getLine(techs) {
+    static getLine(techs) {
         let line = [];
         for (let t of techs) {
             if (Array.isArray(t)) {
@@ -19,17 +20,28 @@ export default class Technologies extends React.Component {
         return line.join(', ');
     }
 
-    render() {
-        let list = [];
-        for (let techs of this.props.data) {
-            let line = this.getLine(techs);
+    /**
+     * @param {array} techs
+     * @return {array}
+     */
+    static getLines(techs) {
+        const lines = [];
+        for (let tech of techs) {
+            let line = this.getLine(tech);
             if (!line) {
                 continue;
             }
-            list.push(
-                <li key={'tech-list-' + (keyI++)}>{line}</li>
-            );
+            lines.push(line);
         }
+        return lines;
+    }
+
+    render() {
+        const list = this.constructor.getLines(this.props.data).map(
+            (line) => {
+                return <li key={'tech-list-item-' + (keyI++)}>{line}</li>
+            }
+        );
 
         return (
             <ul className="tech-list">{list}</ul>

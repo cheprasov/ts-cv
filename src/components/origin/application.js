@@ -1,8 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import '/CSS/origin.css';
 
-import Meta from './meta.js';
-import Block from './block.js';
+import CV from '/SRC/cv.json';
+
+import Block from './../block.js';
+
+import Header from './header.js';
 import Profile from './profile.js';
 import Summary from './summary.js';
 import Experience from './experience.js';
@@ -10,7 +13,6 @@ import Education from './education.js';
 import Projects from './projects.js';
 import Awards from './awards.js';
 
-import CV from './../cv.json';
 
 export default class Application extends React.Component {
 
@@ -30,14 +32,14 @@ export default class Application extends React.Component {
 
     getConfig() {
         return {
-            hideContacts: this.state.hideContacts
+            hideContacts: this.state.hideContacts,
         };
     }
 
     render() {
         return (
-            <div className="application">
-                <Meta cv={CV} application={this} config={this.getConfig()} />
+            <div className="application application-origin">
+                <Header cv={CV} application={this} config={this.getConfig()} />
                 <Block>
                     <Profile cv={CV} config={this.getConfig()} />
                 </Block>

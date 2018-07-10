@@ -22,7 +22,9 @@ export default class Block extends React.Component {
         return (
             <div className="block">
                 {title}
-                {content}
+                <div className="block-content">
+                    {content}
+                </div>
             </div>
         );
     }

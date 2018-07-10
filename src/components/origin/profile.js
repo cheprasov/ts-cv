@@ -1,6 +1,6 @@
 import React from 'react';
 
-import DateTime from './../utils/date-time.js';
+import DateTime from '/SRC/utils/date-time.js';
 
 export default class Profile extends React.Component {
     render() {
@@ -24,6 +24,7 @@ export default class Profile extends React.Component {
         //} else {
         //    lines.push(['Last work', CV.experience[0].company]);
         //}
+
         if (profile.status) {
             lines.push(['Status', profile.status]);
         }

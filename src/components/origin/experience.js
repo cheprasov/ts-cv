@@ -1,8 +1,9 @@
 import React from 'react';
 
+import DateTime from '/SRC/utils/date-time.js';
+import { prepare } from '/SRC/utils/string-utils.js';
+
 import Technologies from './technologies.js';
-import DateTime from './../utils/date-time.js';
-import StringUtils from './../utils/string-utils.js';
 
 let keyI = 0;
 
@@ -98,7 +99,7 @@ export default class Experience extends React.Component {
                         <div className="company">{exp.company} / {exp.city}, {exp.country}</div>
                         <div className="period">{this.getPeriod(exp.date_beg, exp.date_end)}</div>
                         <div className="description justify"
-                             dangerouslySetInnerHTML={{__html: StringUtils.prepare(exp.description)}}
+                             dangerouslySetInnerHTML={{__html: prepare(exp.description)}}
                         />
                         {this.getDuties(exp.duties) || ''}
                         {this.getTasks(exp.tasks) || ''}

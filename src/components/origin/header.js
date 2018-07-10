@@ -1,8 +1,8 @@
 import React from 'react';
 
-import DateTime from './../utils/date-time.js';
+import DateTime from '/SRC/utils/date-time.js';
 
-export default class Meta extends React.Component {
+export default class Header extends React.Component {
 
     onHideCheckbox(e) {
         this.props.application.setHideContacts(e.target.checked)
@@ -13,10 +13,10 @@ export default class Meta extends React.Component {
         const DT = new DateTime(this.props.cv.update);
         const link = this.props.cv.links.cv_pdf;
         return (
-            <div className="meta">
-                <div className="meta-block left">Last update: {DT.getFormatDate()}</div>
-                {hideContacts ? '' : <div className="meta-block left">CV PDF link: <a target="_blank" href={link}>{link}</a></div>}
-                <div className="meta-block right no-print">
+            <div className="header">
+                <div className="header-block left">Last update: {DT.getFormatDate()}</div>
+                {hideContacts ? '' : <div className="header-block left">CV PDF link: <a target="_blank" href={link}>{link}</a></div>}
+                <div className="header-block right no-print">
                     <input type="checkbox" onChange={(e) => {this.onHideCheckbox(e);}} />hide contacts
                 </div>
             </div>
