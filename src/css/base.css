@@ -31,3 +31,34 @@ body {
 .application .block {
     overflow: hidden;
 }
+
+
+.application .header::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 2px;
+}
+.application .header .header-block {
+    width: 33%;
+}
+.application .header .header-block.left {
+    float: left;
+}
+.application .header .header-block.right {
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+    .application .header .header-block {
+        width: 100%;
+    }
+    .application .header .header-block.left {
+        float: none;
+    }
+    .application .header .header-block.right {
+        float: none;
+        text-align: left;
+    }
+}

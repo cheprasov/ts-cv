@@ -4,8 +4,8 @@ import '/CSS/origin.css';
 import CV from '/SRC/cv.json';
 
 import Block from './../block.js';
+import Header from './../header.js';
 
-import Header from './header.js';
 import Profile from './profile.js';
 import Summary from './summary.js';
 import Experience from './experience.js';

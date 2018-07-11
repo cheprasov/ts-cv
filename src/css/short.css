@@ -57,14 +57,5 @@
 }
 
 .application-short .header {
-    overflow: hidden;
     font-size: 90%;
-}
-
-.application-short .header .header-left {
-    float: left;
-}
-
-.application-short .header .header-right {
-    float: right;
 }

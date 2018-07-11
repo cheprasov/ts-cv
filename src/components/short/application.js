@@ -3,8 +3,8 @@ import '/CSS/short.css';
 
 import CV from '/SRC/cv.json';
 import Block from './../block.js';
+import Header from './../header.js';
 
-import Header from './header.js';
 import Profile from './profile.js';
 import Summary from './summary.js';
 import Skills from './skills.js';
@@ -39,7 +39,7 @@ export default class Application extends React.Component {
     render() {
         return (
             <div className="application application-short">
-                <Header cv={CV} application={this} />
+                <Header cv={CV} application={this} config={this.getConfig()} />
                 {
                     this.getConfig().hideContacts ? '' : (
                         <Block>

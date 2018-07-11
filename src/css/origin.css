@@ -9,36 +9,6 @@
     margin: 20px 0;
 }
 
-.application-origin .header::after {
-    content: "";
-    display: block;
-    clear: both;
-    margin-bottom: 2px;
-}
-.application-origin .header .header-block {
-    width: 33%;
-}
-.application-origin .header .header-block.left {
-    float: left;
-}
-.application-origin .header .header-block.right {
-    float: right;
-    text-align: right;
-}
-
-@media screen and (max-width: 650px) {
-    .application-origin .header .header-block {
-        width: 100%;
-    }
-    .application-origin .header .header-block.left {
-        float: none;
-    }
-    .application-origin .header .header-block.right {
-        float: none;
-        text-align: left;
-    }
-}
-
 .application-origin .block {
     background-color: #fff;
     padding: 20px 30px 10px 30px;
