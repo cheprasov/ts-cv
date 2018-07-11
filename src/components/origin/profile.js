@@ -15,6 +15,7 @@ export default class Profile extends React.Component {
             lines.push(['Phone', CV.contacts.phone]);
             lines.push(['Email', CV.contacts.email]);
             lines.push(['Linkedin', CV.links.linkedin]);
+            lines.push(['GitHub', CV.links.github]);
         } else {
             lines.push(['Age', `${DateBirth.getPeriod(null, false)}`]);
         }

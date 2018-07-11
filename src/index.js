@@ -11,8 +11,9 @@ const initRouter = () => {
     return (
         <Router basename="/">
             <div>
-                <Route path="/" exact render={() => <ApplicationOrigin />}/>
-                <Route path="/short" render={() => <ApplicationShort />}/>
+                <Route path="/" exact render={() => <ApplicationShort />}/>
+                <Route path="/origin" exact render={() => <ApplicationOrigin />}/>
+                <Route path="/short" exact render={() => <ApplicationShort />}/>
             </div>
         </Router>
     );

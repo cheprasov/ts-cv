@@ -9,12 +9,13 @@ export default class Profile extends React.Component {
         lines.push(['Phone', CV.contacts.phone]);
         lines.push(['Email', CV.contacts.email]);
         lines.push(['Linkedin', CV.links.linkedin]);
+        lines.push(['GitHub', CV.links.github]);
 
         const contacts = lines.map(
             (arg) => {
                 let value = '';
                 if (/^http(s?):\/\//.test(arg[1])) {
-                    value = (<a href={arg[1]} target="_blank">{arg[1]}</a>);
+                    value = (<a href={arg[1]} target="_blank">{arg[1].replace(/^http(s?):\/\//, '')}</a>);
                 } else if (/.+@.+\.[a-z]{2,}$/.test(arg[1])) {
                     value = (<a href={"mailto:" + arg[1]}>{arg[1]}</a>);
                 } else {
