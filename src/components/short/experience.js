@@ -92,7 +92,7 @@ export default class Experience extends React.Component {
         );
 
         return (
-            <div className="experience">
+            <div className="experience justify">
                 {companies}
             </div>
         );

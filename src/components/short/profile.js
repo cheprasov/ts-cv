@@ -10,6 +10,7 @@ export default class Profile extends React.Component {
         lines.push(['Email', CV.contacts.email]);
         lines.push(['Linkedin', CV.links.linkedin]);
         lines.push(['GitHub', CV.links.github]);
+        lines.push(['Location', `${CV.profile.city}, ${CV.profile.country}`]);
 
         const contacts = lines.map(
             (arg) => {
