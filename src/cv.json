@@ -1,5 +1,5 @@
 {
-  "update": "2018-07-10",
+  "update": "2018-07-31",
 
   "profile": {
     "photo_url": "photo.jpg",
@@ -27,7 +27,7 @@
 
   "skills": [
     ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
-    ["JavaScript", ["Native", "ES6", "ES.Next"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt"],
+    ["JavaScript", ["Native", "ES6", "ES.Next"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt", "Jest", "Enzyme"],
     ["MySql", "Redis", "Memcached", "ZooKeeper"],
     ["HTML5", "CSS3", "LESS"],
     ["Golang", "LUA"],
@@ -109,7 +109,7 @@
       "department": "Backend & Frontend Development",
       "technologies": [
         ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
-        ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel"],
+        ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel", "Jest"],
         ["MySql", "Redis", "Memcached"],
         ["Nginx","Docker", "Git", "Gitlab", "AWS"],
         ["Jira", "Bitbucket", "Bamboo"]

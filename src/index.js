@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '/CSS/base.css';
 
-import { Route, HashRouter as Router} from 'react-router-dom'
+import { Switch, Route, HashRouter as Router} from 'react-router-dom'
 
 import ApplicationOrigin from './components/origin/application.js';
 import ApplicationShort from './components/short/application.js';
@@ -10,11 +10,11 @@ import ApplicationShort from './components/short/application.js';
 const initRouter = () => {
     return (
         <Router basename="/">
-            <div>
-                <Route path="/" exact render={() => <ApplicationShort />}/>
+            <Switch>
                 <Route path="/origin" exact render={() => <ApplicationOrigin />}/>
                 <Route path="/short" exact render={() => <ApplicationShort />}/>
-            </div>
+                <Route render={() => <ApplicationShort />} />
+            </Switch>
         </Router>
     );
 };
