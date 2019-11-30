@@ -1,36 +1,47 @@
 {
-  "name": "cv",
+  "name": "@cheprasov/ts-cv",
   "version": "1.0.0",
-  "description": "Last update: 25 March 2018",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production",
-    "watch": "webpack --watch --mode development"
-  },
+  "author": "Alexander Cheprasov",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheprasov/cv.git"
+    "url": "git+https://github.com/cheprasov/ts-cv"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cheprasov/cv/issues"
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.1.2"
   },
-  "homepage": "https://github.com/cheprasov/cv#readme",
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
-    "css-loader": "^1.0.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.7.0",
-    "webpack-cli": "^2.1.2"
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-airbnb-typescript": "^4.0.1",
+    "eslint-config-react": "^1.1.7",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.2.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build:prod": "webpack --mode production",
+    "build": "webpack --mode development",
+    "build:watch": "webpack --watch --mode development",
+    "flow": "flow",
+    "eslint": "node ./node_modules/.bin/eslint ./app/src/",
+    "test": "jest"
   }
 }

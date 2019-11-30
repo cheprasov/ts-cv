@@ -1,0 +1,35 @@
+@media print {
+    .no-print {
+        display: none !important;
+    }
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e9e9e9;
+    font-family: sans-serif;
+}
+
+.justify {
+    text-align: justify;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: #113355;
+}
+a:hover {
+    color: #cb2e3c;
+}
+
+h1, h2 {
+    font-weight: normal;
+}

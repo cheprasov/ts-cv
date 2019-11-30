@@ -1,0 +1,48 @@
+.Profile {
+}
+
+.Profile__info {
+    float: left;
+
+    @media screen and (max-width: 500px) {
+        float: unset;
+    }
+}
+
+.Profile__name {
+    margin-top: 0.2em;
+    font-size: 2em;
+    line-height: 1.25em;
+
+    &.Profile__name--hidden {
+        display: none;
+    }
+
+    @media screen and (max-width: 300px) {
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+}
+
+.Profile__headline {
+    line-height: 1.75em;
+    font-size: 1.25em;
+
+    @media screen and (max-width: 300px) {
+        font-size: 1.1em;
+    }
+}
+
+.Profile__contacts {
+    margin-top: 1em;
+    float: right;
+    text-align: right;
+
+    &.Profile__contacts--hidden {
+        display: none;
+    }
+
+    @media screen and (max-width: 500px) {
+        float: unset;
+    }
+}

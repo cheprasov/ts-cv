@@ -1,70 +1,91 @@
 {
-  "update": "2018-07-31",
+  "update": "2019-11-30",
 
   "profile": {
-    "photo_url": "photo.jpg",
-    "first_name": "Alexander",
-    "last_name": "Cheprasov",
-    "date_birth": "1984-10-10",
-    "headline": "Senior Backend / Full Stack Developer",
+    "photoUrl": "photo.jpg",
+    "firstName": "Alexander",
+    "lastName": "Cheprasov",
+    "dateBirth": "1984-10-10",
+    "headline": "Lead / Senior Software Developer",
     "country": "United Kingdom",
     "city": "London",
-    "post_code": "SE16 3JH",
-    "status": "Unemployed, and I am actively looking for a new role"
+    "postCode": "SW6",
+    "status": "Employed"
   },
 
   "contacts": {
-    "phone": "+44 7490 216907",
-    "email": "acheprasov84@gmail.com"
+    "phone": "+44 7898793617",
+    "email": "acheprasov84+job@gmail.com"
   },
 
   "links": {
-    "cv_pdf": "https://cheprasov.com/cv.pdf",
     "linkedin":"https://www.linkedin.com/in/alexandercheprasov/",
     "github": "https://github.com/cheprasov",
-    "packagist": "https://packagist.org/packages/cheprasov/"
+    "packagist": "https://packagist.org/packages/cheprasov/",
+    "npm": "https://www.npmjs.com/~cheprasov"
   },
 
   "skills": [
+    ["JavaScript", ["Native", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "jQuery", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Grunt", "Jest", "Enzyme"],
     ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
-    ["JavaScript", ["Native", "ES6", "ES.Next"], "React", "jQuery", "Pixi.js", "Node.js", "Webpack", "Grunt", "Jest", "Enzyme"],
+    ["Go lang"],
     ["MySql", "Redis", "Memcached", "ZooKeeper"],
-    ["HTML5", "CSS3", "LESS"],
-    ["Golang", "LUA"],
-    ["Nginx", "Docker", "Unix", "Ansible", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana"],
-    ["Git", "GitHub", "Gitlab", "SVN"],
-    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "Microservices", "REST", "APIs"],
-    ["Highload", "Data Structures", "Algorithms", "Information security"]
+    ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM"],
+    ["Git", "Nginx", "Docker", "Unix", "Ansible", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana"],
+    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
+    ["Highload", "Microservices", "Data Structures", "Algorithms", "Information security"]
   ],
 
-  "about": {
-    "origin": [
-      "Hey. My name is Alexander and I am a Senior Backend / Full Stack Developer.",
-      "I have great experience in the best and the most successful companies, such as Badoo, Topface and StarLine, where I worked on highload projects in a key department of internal development.",
-      "I have been working as programmer more than 12 years with PHP and JavaScript, and I have strong knowledges of development complex systems requiring a high level of security, highload and tests. Of course, I have commercial experience as Back-End (PHP 5/7, MySql, Redis) and Front-End (JavaScript, React, Native JS, ES6, jQuery, HTML5, CSS3, LESS) developer in success companies."
-    ],
-    "short": [
-      "Highly motivated seasoned software engineer with 12 years of rich experience in web software development."
-    ]
-  },
+  "about": [
+    "Highly motivated seasoned software engineer with 14 years of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface and StarLine and so on."
+  ],
 
   "requirements": [
     "I require a sponsorship for a new role in the UK (Tier 2 General Visa)"
   ],
 
-  "education": [
+  "educations": [
     {
-      "school": "Murmansk Humanities Institute (MHI)",
+      "name": "Murmansk Humanities Institute (MHI)",
       "field": "Criminal Law, Justice and Corrections",
       "degree": "Master's degree",
-      "date_beg": "2002",
-      "date_end": "2007",
+      "dateBeg": "2002",
+      "dateEnd": "2007",
       "country": "Russia",
       "city": "Murmansk"
     }
   ],
 
-  "experience": [
+  "experiences": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Ksubaka Ltd",
+      "logo": "ksubaka.png",
+      "country": "United Kingdom",
+      "city": "London",
+      "visa": "Tier 2 General Visa",
+      "dateBeg": "2018-09-10",
+      "dateEnd": "now",
+      "description": "",
+      "duties": [
+        "Development architecture for web projects",
+        "Optimization applications' performance for browsers and mobile devices",
+        "Development new React and AngularJS components and support current projects",
+        "Refactoring legacy code of current projects",
+        "Code review, interview candidates",
+        "and so on"
+      ],
+      "department": "Frontend Development",
+      "technologies": [
+        ["JavaScript", ["Native", "ES6", "ES7", "ES.Next"], "TypeScript", "Node.js", "npm"],
+        ["React", "AngularJS", "Lodash", "Flow"],
+        ["Sinon", "Jest", "Enzyme"],
+        ["HTML", "CSS", "LESS", "Bootstrap"],
+        ["Webpack", "Grunt"],
+        ["Jira"]
+      ]
+    },
+
     {
       "title": "Senior PHP Developer",
       "company": "Badoo Trading Ltd.",
@@ -72,8 +93,8 @@
       "country": "United Kingdom",
       "city": "London",
       "visa": "Tier 2 General Visa",
-      "date_beg": "2016-10-10",
-      "date_end": "2018-06-21",
+      "dateBeg": "2016-10-10",
+      "dateEnd": "2018-06-21",
       "description": "Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, Badoo provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day.",
       "duties": [
         "Backend supporting and development of user profiles, photos, user verification service, external and private projects of the company.",
@@ -98,8 +119,8 @@
       "country": "United Kingdom",
       "city": "London",
       "visa": "Tier 2 General Visa",
-      "date_beg": "2015-09-01",
-      "date_end": "2016-09-30",
+      "dateBeg": "2015-09-01",
+      "dateEnd": "2016-09-30",
       "description": "Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers.",
       "duties": [
         "Front-end development (JavaScript + React) for a service of global money transfer.",
@@ -123,8 +144,8 @@
       "country": "Russia",
       "city": "St. Petersburg",
       "visa": null,
-      "date_beg": "2013-11-01",
-      "date_end": "2015-08-30",
+      "dateBeg": "2013-11-01",
+      "dateEnd": "2015-08-30",
       "description": "Topface is world famous social network for datings with more than 90 million users. Development for highload: ~90rps, ~1.5 mln users daily.",
       "duties": [
         "Development of the user's activity system structure  and DB architecture (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload.",
@@ -147,15 +168,15 @@
       "country": "Russia",
       "city": "St. Petersburg",
       "visa": null,
-      "date_beg": "2012-09",
-      "date_end": "2013-11",
+      "dateBeg": "2012-09",
+      "dateEnd": "2013-11",
       "description": "StarLine is a service for transport monitoring and remote alarms, and sensors control.",
       "duties": [
         "Backend and frontend development",
         "Development for highload",
         "Development of algorithms for tracks analysis",
         "Team php & js lead",
-        "Interview of candidates for opened vacancies in the company"
+        "Interview candidates for vacancies of the company"
       ],
       "department": "Backend & Frontend Development",
       "technologies": [
@@ -173,8 +194,8 @@
       "country": "Russia",
       "city": "Murmansk",
       "visa": null,
-      "date_beg": "2008-02",
-      "date_end": "2012-09",
+      "dateBeg": "2008-02",
+      "dateEnd": "2012-09",
       "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
       "duties": [
         "Development and maintenance of internal & external services of the company",
@@ -202,8 +223,8 @@
       "country": "Russia",
       "city": "Murmansk",
       "visa": null,
-      "date_beg": "2002-01",
-      "date_end": "2008-08",
+      "dateBeg": "2002-01",
+      "dateBnd": "2008-08",
       "description": "Freelance",
       "duties": [],
       "department": "Backend & Frontend Development",
@@ -218,19 +239,18 @@
 
   "projects": [
     {
-      "image_url": "github.jpg",
+      "imageUrl": "github.jpg",
       "title": "Open Source Projects on Github",
-      "date": null,
+      "postTitle": "(more than 300k downloads)",
       "description": [
         "Github: https://github.com/cheprasov",
-        "Packagist: https://packagist.org/packages/cheprasov/",
-        "Also I have received a certificate for free license for all products of JetBrains for the contribution and development to open source PHP projects."
-      ],
-      "technologies": null
+        "Packagist (PHP): https://packagist.org/packages/cheprasov/",
+        "NPM (JS): https://www.npmjs.com/~cheprasov"
+      ]
     },
 
     {
-      "image_url": "mazay.png",
+      "imageUrl": "mazay.png",
       "title": "Game \"Mazay Mahjong and bunnies\"",
       "date": "2014-10",
       "description": [
@@ -250,6 +270,15 @@
   ],
 
   "awards": [
+    {
+      "title": "I have got 2 years in row License Certificate from JetBrains for the contribution and development to open source PHP projects",
+      "organizer": "JetBrains",
+      "date": ["2019-07", "2019-07"],
+      "description": [
+        "In 2018 and 2019 JetBrains Company provided me License Certificate for JetBrains All Products Pack for the contribution and development to open source PHP projects ."
+      ]
+    },
+
     {
       "title": "The Most Hard-Working Developer",
       "organizer": "Topface Developer Awards",

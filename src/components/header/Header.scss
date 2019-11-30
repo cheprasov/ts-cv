@@ -1,0 +1,34 @@
+.Header {
+    font-size: 0.85rem;
+}
+
+.Header::after {
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 0.125em;
+}
+
+.Header__block {
+    width: 33%;
+}
+.Header__block--left {
+    float: left;
+}
+.Header__block--right {
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 650px) {
+    .Header__block {
+        width: 100%;
+    }
+    .Header__block--left {
+        float: none;
+    }
+    .Header__block--right {
+        float: none;
+        text-align: left;
+    }
+}

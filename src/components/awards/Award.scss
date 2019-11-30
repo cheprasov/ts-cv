@@ -1,0 +1,16 @@
+.Awards {
+    .ArticleBlock__logo {
+        width: 80px;
+    }
+    @media screen and (max-width: 550px) {
+        .ArticleBlock__logo {
+            width: 40px;
+        }
+    }
+}
+
+.Awards__hr {
+    height: 0;
+    border: 0;
+    border-bottom: 1px dashed #777;
+}

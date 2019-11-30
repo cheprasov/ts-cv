@@ -1,0 +1,39 @@
+.ArticleBlock {
+    clear: both;
+}
+
+.ArticleBlock__title {
+    font-size: 1.2em;
+    margin: 0.85em 0 0.2em 0;
+}
+
+.ArticleBlock__postTitle {
+    font-size: 0.8em;
+    font-weight: lighter;
+}
+
+.ArticleBlock__subtitle {
+    font-size: 1.1em;
+    color: #66696a;
+    margin: 0 0 0.2em 0;
+}
+
+.ArticleBlock__info {
+    color: #66696a;
+    margin: 0 0 0.2em 0;
+}
+
+.ArticleBlock__logo {
+    width: 120px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+@media screen and (max-width: 550px) {
+    .ArticleBlock__postTitle {
+        display: block;
+    }
+    .ArticleBlock__logo {
+        width: 40px;
+    }
+}
