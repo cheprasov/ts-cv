@@ -1,10 +1,9 @@
 import React from 'react';
 import { ProjectInf } from '../../type/cv';
-import ArticleBlock from '../text/ArticleBlock';
+import ArticleBlock from '../article/ArticleBlock';
 import { convertToHTML } from '../../utils/reactUtils';
 import DateTime from '../../date/DateTime';
 import Technologies from '../technologies/Technologies';
-
 
 interface ProjectProps {
     project: ProjectInf;
@@ -21,10 +20,8 @@ const Project = ({ project }: ProjectProps) => {
                 postTitle={postTitle}
                 info={projectDate}
                 logo={imageUrl}
+                text={description}
             />
-            <div className="Project__description">
-                {convertToHTML(description)}
-            </div>
             {technologies && (
                 <div className="Project__technologies">
                     <>Technologies: </>

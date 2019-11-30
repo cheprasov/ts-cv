@@ -1,7 +1,7 @@
 import React from 'react';
 import { EducationInf } from '../../type/cv';
 import { getPeriod } from '../../utils/dateUtils';
-import ArticleBlock from '../text/ArticleBlock';
+import ArticleBlock from '../article/ArticleBlock';
 
 interface EducationProps {
     educations: EducationInf[];

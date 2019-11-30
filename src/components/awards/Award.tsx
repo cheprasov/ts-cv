@@ -1,6 +1,6 @@
 import React from 'react';
 import { AwardInf } from '../../type/cv';
-import ArticleBlock from '../text/ArticleBlock';
+import ArticleBlock from '../article/ArticleBlock';
 import DateTime from '../../date/DateTime';
 
 import './Award.scss';
@@ -12,7 +12,7 @@ interface AwardProps {
 const LOGO_AWARD = 'award.jpeg';
 
 const Award = ({ award }: AwardProps) => {
-    const { title, organizer, description, date } = award;
+    const { title, organizer, description, date, logo } = award;
     const dates = (Array.isArray(date) ? date : [date]).map(dt => {
         return new DateTime(dt).getFormatDate('%F %Y');
     });
@@ -21,9 +21,8 @@ const Award = ({ award }: AwardProps) => {
         <div className="Award">
             <ArticleBlock
                 title={title}
-                subtitle={`by ${organizer}`}
-                info={dates.join(' - ')}
-                logo={LOGO_AWARD}
+                subtitle={`by ${organizer}, ${dates.join(', ')}`}
+                logo={logo || LOGO_AWARD}
                 text={description}
             />
         </div>

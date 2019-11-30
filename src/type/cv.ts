@@ -19,6 +19,7 @@ export type TechnologiesType = TechnologyType[];
 export interface AwardInf {
     title: string;
     organizer: string;
+    logo?: string;
     date: DateType;
     description: string[] | string;
 }

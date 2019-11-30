@@ -4,7 +4,7 @@ import Technologies from '../technologies/Technologies';
 import { getPeriod } from '../../utils/dateUtils';
 
 import './Experience.scss';
-import ArticleBlock from '../text/ArticleBlock';
+import ArticleBlock from '../article/ArticleBlock';
 import { convertToHTML } from '../../utils/reactUtils';
 
 interface ExperienceProps {
