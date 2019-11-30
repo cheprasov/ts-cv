@@ -1,7 +1,6 @@
 import React from 'react';
 import { ProjectInf } from '../../type/cv';
 import ArticleBlock from '../article/ArticleBlock';
-import { convertToHTML } from '../../utils/reactUtils';
 import DateTime from '../../date/DateTime';
 import Technologies from '../technologies/Technologies';
 
