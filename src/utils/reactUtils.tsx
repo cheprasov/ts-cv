@@ -37,12 +37,9 @@ export const mergeElementString = (list: ReactElementStringType[]) => {
 };
 
 export const convertToHTML = (text: string | string[]): React.ReactElement => {
-    console.log(text);
-
     const lines = Array.isArray(text) ? text : [text];
 
     const words: ReactElementStringType[] = [];
-
 
     lines.forEach((line: string, index: number) => {
         if (index > 0) {
@@ -60,7 +57,5 @@ export const convertToHTML = (text: string | string[]): React.ReactElement => {
         });
     });
 
-
-    const res = (<>{mergeElementString(words)}</>);
-    return res;
+    return (<>{mergeElementString(words)}</>);
 };

@@ -1,36 +1,4 @@
 
-export const markLink = (text: string, len: number = 60): string => {
-    return text.replace(
-        /(http(s)?:\/\/\S+)/g,
-        (m) => {
-            let l = m;
-            if (len && l.length > len) {
-                l = l.substr(0, len) + '...';
-            }
-            return `<a href="${m}" target="_blank">${l}</a>`;
-        }
-    );
-};
-
-export const nl2br = (text: string): string => {
-    return text.replace(/\n/g, '<br />');
-};
-
-export const prepare = (lines: string | string[]): string => {
-    let result: string[] = [];
-    if (!Array.isArray(lines)) {
-        lines = [lines];
-    }
-    lines.forEach(
-        (line) => {
-            line = markLink(line);
-            line = nl2br(line);
-            result.push(line);
-        },
-    );
-    return result.join('<br />');
-};
-
 export const padStart = (text: string, len: number, s = '0'): string => {
     if (text.length >= len) {
         return text;
