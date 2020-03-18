@@ -20,7 +20,7 @@ const Header = ({ cv, onChangeContactVisibility }: HeaderProps) => {
     const dateTime = new DateTime(cv.update);
     return (
         <div className="Header">
-            <div className="Header__block--left">Last update: {dateTime.getFormatDate()}</div>
+            {/*<div className="Header__block--left">Last update: {dateTime.getFormatDate()}</div>*/}
             <div className="Header__block--right no-print">
                 <label>
                     <input type="checkbox" onChange={onChange} />

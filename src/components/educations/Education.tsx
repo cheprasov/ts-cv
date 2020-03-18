@@ -10,7 +10,7 @@ interface EducationProps {
 const Educations = ({ educations }: EducationProps) => {
 
     const schools = educations.map(
-        (education) => {
+        education => {
             const { name, field, degree, dateBeg, dateEnd, city, country } = education;
             const period = getPeriod(dateBeg, dateEnd);
             return (
@@ -25,9 +25,9 @@ const Educations = ({ educations }: EducationProps) => {
     );
 
     return (
-        <div className="education">
+        <section className="education">
             {schools}
-        </div>
+        </section>
     );
 };
 

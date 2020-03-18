@@ -1,7 +1,9 @@
 import React from 'react';
+import { convertToHTML } from '../../utils/reactUtils';
+import Technologies from '../technologies/Technologies';
+import { TechnologiesType } from '../../type/cv';
 
 import './ArticleBlock.scss';
-import { convertToHTML } from '../../utils/reactUtils';
 
 interface ArticleBlockProps {
     title: string;
@@ -10,24 +12,33 @@ interface ArticleBlockProps {
     info?: string;
     logo?: string;
     text?: string | string[];
+    technologies?: TechnologiesType[];
 }
 
-const ArticleBlock = ({ title, postTitle, subtitle, info, logo, text }: ArticleBlockProps) => {
+const ArticleBlock = ({ title, postTitle, subtitle, info, logo, text, technologies }: ArticleBlockProps) => {
     return (
-        <div className="ArticleBlock">
+        <article className="ArticleBlock">
             {logo && (
                 <img className="ArticleBlock__logo" alt={logo} src={`./imgs/${logo}`} />
             )}
             <h3 className="ArticleBlock__title">
                 {title}
-                {postTitle ? (<> <span className="ArticleBlock__postTitle">{postTitle}</span></>) : ''}
+                {postTitle ? (<> <span className="ArticleBlock__afterTitle">{postTitle}</span></>) : ''}
             </h3>
             <div className="ArticleBlock__subtitle">{subtitle}</div>
             <div className="ArticleBlock__info">{info}</div>
             {text && (
                 <div className="ArticleBlock__description">{convertToHTML(text)}</div>
             )}
-        </div>
+            {technologies && (
+                <div className="ArticleBlock__technologies">
+                    <span className="ArticleBlock__technologies__title">Tech Stack: </span>
+                    <span className="ArticleBlock__technologies__list">
+                        <Technologies technologies={technologies} />
+                    </span>
+                </div>
+            )}
+        </article>
     );
 };
 

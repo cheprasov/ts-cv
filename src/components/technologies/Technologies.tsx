@@ -1,39 +1,33 @@
 import React from 'react';
-import { TechnologiesType } from '../../type/cv';
+import { TechnologiesType, TechnologyType } from '../../type/cv';
 
 interface TechnologiesProps {
     technologies: TechnologiesType[];
 }
 
 const Technologies = ({ technologies }: TechnologiesProps) => {
-
-    const getLine = (techs: TechnologiesType) => {
-        let line = [];
-        for (let t of techs) {
-            if (Array.isArray(t)) {
-                line[line.length - 1] += ` (${t.join(', ')})`;
+    const getLine = (techs: TechnologyType[]): string => {
+        return techs.reduce((list, tech) => {
+            if (Array.isArray(tech)) {
+                list[list.length - 1] += ` (${tech.join(', ')})`;
             } else {
-                line.push(t);
+                list.push(tech);
             }
-        }
-        return line.join(', ');
+            return list;
+        }, [] as TechnologyType[]).join(', ');
     };
 
-    const getLines = (techs: TechnologiesType[]) => {
-        const lines = [];
-        for (let tech of techs) {
-            let line = getLine(tech);
-            if (!line) {
-                continue;
+    const getLines = (techs: TechnologiesType[]): string[] => {
+        return techs.reduce((lines, tech) => {
+            const line = getLine(tech);
+            if (line) {
+                lines.push(line);
             }
-            lines.push(line);
-        }
-        return lines;
+            return lines;
+        }, []) as string[];
     };
-
 
     const list = getLines(technologies).join(', ');
-
     return (<>{list}</>);
 };
 

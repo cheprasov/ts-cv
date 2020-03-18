@@ -20,13 +20,8 @@ const Project = ({ project }: ProjectProps) => {
                 info={projectDate}
                 logo={imageUrl}
                 text={description}
+                technologies={technologies}
             />
-            {technologies && (
-                <div className="Project__technologies">
-                    <>Technologies: </>
-                    <Technologies technologies={technologies} />
-                </div>
-            )}
         </div>
     );
 };

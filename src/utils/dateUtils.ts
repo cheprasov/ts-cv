@@ -1,6 +1,6 @@
 import DateTime from '../date/DateTime';
 
-export const getPeriod = (begDate: string, endDate: string, withPeriod: boolean = false) => {
+export const getPeriod = (begDate: string, endDate: string, withPeriod: boolean = false): string => {
     const dateTime1 = new DateTime(begDate);
     const date1 = dateTime1.getFormatDate('%F %Y');
 

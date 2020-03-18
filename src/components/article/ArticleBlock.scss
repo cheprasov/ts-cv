@@ -9,7 +9,7 @@
     margin: 0.85em 0 0.2em 0;
 }
 
-.ArticleBlock__postTitle {
+.ArticleBlock__afterTitle {
     font-size: 0.8em;
     font-weight: lighter;
 }
@@ -18,6 +18,16 @@
     font-size: 1.1em;
     color: #66696a;
     margin: 0 0 0.2em 0;
+}
+
+.ArticleBlock__description {
+    margin: 5px 0 10px 0;
+}
+
+.ArticleBlock__technologies {
+    &__title {
+        font-weight: bold;
+    }
 }
 
 .ArticleBlock__info {
@@ -32,7 +42,7 @@
 }
 
 @media screen and (max-width: 550px) {
-    .ArticleBlock__postTitle {
+    .ArticleBlock__afterTitle {
         display: block;
     }
     .ArticleBlock__logo {

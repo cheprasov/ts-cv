@@ -29,7 +29,7 @@ const Profile = ({ cv, showContacts }: ProfileProps) => {
     });
 
     return (
-        <div className="Profile">
+        <section className="Profile">
             <div className="Profile__info">
                 <div className={`Profile__name ${showContacts ? '' : 'Profile__name--hidden no-print'}`}>
                     {firstName} {lastName}
@@ -39,7 +39,7 @@ const Profile = ({ cv, showContacts }: ProfileProps) => {
             <div className={`Profile__contacts ${showContacts ? '' : 'Profile__contacts--hidden no-print'}`}>
                 {contacts}
             </div>
-        </div>
+        </section>
     );
 };
 

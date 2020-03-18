@@ -1,3 +1,4 @@
+import DateTime from '../date/DateTime';
 
 export const padStart = (text: string, len: number, s = '0'): string => {
     if (text.length >= len) {
@@ -11,6 +12,26 @@ export const padStart = (text: string, len: number, s = '0'): string => {
 
 export const upperCaseFirst = (str: string): string => {
     return str[0].toUpperCase() + str.slice(1);
+};
+
+export const replaceVars = (str: string): string => {
+    const regExp = /\{\{(\w+):([^}]+)\}\}/gi;
+    const vars = str.match(regExp);
+    if (!vars) {
+        return str;
+    }
+    return vars.reduce((result, variable) => {
+        const [type, value] = variable.slice(2, -2).split(/(?<=^\w+):/);
+        switch (type) {
+            case 'years_count':
+                const period = (new DateTime()).getPeriod(new DateTime(value), false);
+                return str.replace(variable, period);
+                break;
+            default:
+                return str;
+        }
+        return result;
+    }, str);
 };
 
 export const getUrlWithoutScheme = (url: string): string => {

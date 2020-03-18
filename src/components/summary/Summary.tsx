@@ -1,5 +1,6 @@
 import React from 'react';
 import { CVInf } from '../../type/cv';
+import { replaceVars } from '../../utils/stringUtils';
 
 interface SummaryProps {
     cv: CVInf;
@@ -8,19 +9,13 @@ interface SummaryProps {
 const Summary = ({ cv }: SummaryProps) => {
 
     const getInfo = (): React.ReactElement[] => {
-        return cv.about.map(
-            (line, index) => {
-                return (
-                    <p key={index}>{line}</p>
-                );
-            }
-        );
+        return cv.about.map((line, index) => <p key={index}>{replaceVars(line)}</p>);
     };
 
     return (
-        <div className="Summary">
+        <summary className="Summary">
             {getInfo()}
-        </div>
+        </summary>
     );
 };
 

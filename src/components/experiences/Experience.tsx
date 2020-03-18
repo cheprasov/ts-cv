@@ -25,6 +25,7 @@ const Experience = ({ experience }: ExperienceProps) => {
 
         return (
             <div className="Experience__duties">
+                <span className="Experience__duties__title">Duties: </span>
                 <ul className="Experience__duties__ul">
                     {content}
                 </ul>
@@ -58,26 +59,18 @@ const Experience = ({ experience }: ExperienceProps) => {
     const period = getPeriod(dateBeg, dateEnd, true);
 
     return (
-        <div className="Experience">
+        <article className="Experience">
             <ArticleBlock
                 title={title}
                 postTitle={(visa && `(under ${visa})`) || undefined}
                 subtitle={`${company} / ${city}, ${country}`}
                 info={period}
                 logo={logo}
+                text={description}
+                technologies={technologies}
             />
-            <div className="Experience__description">
-                {convertToHTML(description)}
-            </div>
-
-            <span className="Experience__technologies">
-                <>Technologies: </>
-                <span className="Experience__technologies__list">
-                    <Technologies technologies={technologies} />
-                </span>
-            </span>
             {getDuties(duties) || ''}
-        </div>
+        </article>
     );
 
 };

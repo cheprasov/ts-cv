@@ -9,9 +9,9 @@ interface SkillsProps {
 const Skills = ({ technologies }: SkillsProps) => {
 
     return (
-        <div className="Skills">
+        <article className="Skills">
             <Technologies technologies={technologies} />
-        </div>
+        </article>
     );
 
 };

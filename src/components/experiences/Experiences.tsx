@@ -18,9 +18,9 @@ const Experiences = ({ experiences }: ExperiencesProps) => {
     ));
 
     return (
-        <div className="Experiences">
+        <section className="Experiences">
             {exp}
-        </div>
+        </section>
     );
 };
 

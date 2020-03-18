@@ -26,18 +26,18 @@
   },
 
   "skills": [
-    ["JavaScript", ["Native", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "jQuery", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Grunt", "Jest", "Enzyme"],
+    ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt"],
     ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
     ["Go lang"],
     ["MySql", "Redis", "Memcached", "ZooKeeper"],
     ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM"],
-    ["Git", "Nginx", "Docker", "Unix", "Ansible", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana"],
+    ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible"],
     ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
     ["Highload", "Microservices", "Data Structures", "Algorithms", "Information security"]
   ],
 
   "about": [
-    "Highly motivated seasoned software engineer with 14 years of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface and StarLine and so on."
+    "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface, Ksubaka and StarLine and so on."
   ],
 
   "requirements": [
@@ -77,9 +77,10 @@
       ],
       "department": "Frontend Development",
       "technologies": [
-        ["JavaScript", ["Native", "ES6", "ES7", "ES.Next"], "TypeScript", "Node.js", "npm"],
+        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript"],
         ["React", "AngularJS", "Lodash", "Flow"],
-        ["Sinon", "Jest", "Enzyme"],
+        ["Node.js", "npm"],
+        ["Jest", "Enzyme", "Sinon"],
         ["HTML", "CSS", "LESS", "Bootstrap"],
         ["Webpack", "Grunt"],
         ["Jira"]
@@ -224,8 +225,7 @@
       "city": "Murmansk",
       "visa": null,
       "dateBeg": "2002-01",
-      "dateBnd": "2008-08",
-      "description": "Freelance",
+      "dateEnd": "2008-08",
       "duties": [],
       "department": "Backend & Frontend Development",
       "technologies": [

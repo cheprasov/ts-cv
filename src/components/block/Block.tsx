@@ -39,12 +39,10 @@ interface BlockProps {
 
 const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
     return (
-        <div className="Block">
-            {title && (
-                <h2 className="Block__header">{title}</h2>
-            )}
+        <section className="Block">
+            {title && (<h2 className="Block__header">{title}</h2>)}
             {children}
-        </div>
+        </section>
     );
 };
 

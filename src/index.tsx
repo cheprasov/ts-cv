@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Switch, Route, HashRouter } from 'react-router-dom'
 import Application from './components/Application';
+import { CVInf } from './type/cv';
 
 import cv from './cv.json';
-
 import './index.scss';
-import { CVInf } from './type/cv';
 
 const initRouter = () => {
     return (
         <HashRouter basename="/">
             <Switch>
-                <Route render={() => <Application cv={cv as CVInf} />} />
+                <Route exact render={() => <Application cv={cv as CVInf} />} />
             </Switch>
         </HashRouter>
     );
