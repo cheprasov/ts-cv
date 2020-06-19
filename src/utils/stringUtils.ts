@@ -21,7 +21,7 @@ export const replaceVars = (str: string): string => {
         return str;
     }
     return vars.reduce((result, variable) => {
-        const [type, value] = variable.slice(2, -2).split(/(?<=^\w+):/);
+        const [type, value] = variable.slice(2, -2).split(':');
         switch (type) {
             case 'years_count':
                 const period = (new DateTime()).getPeriod(new DateTime(value), false);
