@@ -42,7 +42,7 @@ const Application = ({ cv }: ApplicationProps) => {
             <Block title="Skills">
                 <Skills technologies={cv.skills} />
             </Block>
-            <Block title="Visa requirements">
+            <Block title="Visa Requirements">
                 {cv.requirements}
             </Block>
             <Block title="Experience">

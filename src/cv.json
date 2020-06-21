@@ -1,320 +1,333 @@
 {
-  "update": "2019-11-30",
+    "update": "2019-11-30",
 
-  "profile": {
-    "photoUrl": "photo.jpg",
-    "firstName": "Alexander",
-    "lastName": "Cheprasov",
-    "dateBirth": "1984-10-10",
-    "headline": "Lead / Senior Software Developer",
-    "country": "United Kingdom",
-    "city": "London",
-    "postCode": "SW6",
-    "status": "Employed"
-  },
-
-  "contacts": {
-    "phone": "+44 7898793617",
-    "email": "acheprasov84+job@gmail.com"
-  },
-
-  "links": {
-    "linkedin":"https://www.linkedin.com/in/alexandercheprasov/",
-    "github": "https://github.com/cheprasov",
-    "packagist": "https://packagist.org/packages/cheprasov/",
-    "npm": "https://www.npmjs.com/~cheprasov"
-  },
-
-  "skills": [
-    ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt"],
-    ["PHP 5 / 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
-    ["Go lang"],
-    ["MySql", "Redis", "Memcached", "ZooKeeper"],
-    ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM"],
-    ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible"],
-    ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
-    ["Highload", "Microservices", "Data Structures", "Algorithms", "Information security"]
-  ],
-
-  "about": [
-    "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface, Ksubaka and StarLine and so on."
-  ],
-
-  "requirements": [
-    "I require a sponsorship for a new role in the UK (Tier 2 General Visa)"
-  ],
-
-  "educations": [
-    {
-      "name": "Murmansk Humanities Institute (MHI)",
-      "field": "Criminal Law, Justice and Corrections",
-      "degree": "Master's degree",
-      "dateBeg": "2002",
-      "dateEnd": "2007",
-      "country": "Russia",
-      "city": "Murmansk"
-    }
-  ],
-
-  "experiences": [
-    {
-      "title": "Senior Frontend Developer",
-      "company": "Ksubaka Ltd",
-      "logo": "ksubaka.png",
-      "country": "United Kingdom",
-      "city": "London",
-      "visa": "Tier 2 General Visa",
-      "dateBeg": "2018-09-10",
-      "dateEnd": "now",
-      "description": "",
-      "duties": [
-        "Development architecture for web projects",
-        "Optimization applications' performance for browsers and mobile devices",
-        "Development new React and AngularJS components and support current projects",
-        "Refactoring legacy code of current projects",
-        "Code review, interview candidates",
-        "and so on"
-      ],
-      "department": "Frontend Development",
-      "technologies": [
-        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript"],
-        ["React", "AngularJS", "Lodash", "Flow"],
-        ["Node.js", "npm"],
-        ["Jest", "Enzyme", "Sinon"],
-        ["HTML", "CSS", "LESS", "Bootstrap"],
-        ["Webpack", "Grunt"],
-        ["Jira"]
-      ]
+    "profile": {
+        "photoUrl": "photo.jpg",
+        "firstName": "Alexander",
+        "lastName": "Cheprasov",
+        "dateBirth": "1984-10-10",
+        "headline": "Lead / Senior Software Developer",
+        "country": "United Kingdom",
+        "city": "London",
+        "postCode": "SW6",
+        "status": "Employed"
     },
 
-    {
-      "title": "Senior PHP Developer",
-      "company": "Badoo Trading Ltd.",
-      "logo": "badoo.png",
-      "country": "United Kingdom",
-      "city": "London",
-      "visa": "Tier 2 General Visa",
-      "dateBeg": "2016-10-10",
-      "dateEnd": "2018-06-21",
-      "description": "Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, Badoo provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day.",
-      "duties": [
-        "Backend supporting and development of user profiles, photos, user verification service, external and private projects of the company.",
-        "DB architecture design, highload optimization, testing, code review and so on.",
-        "Development of proxy service for avoiding connections blocks.",
-        "Implementation A/B testing, new features, GDPR.",
-        "Optimization and testing of code, review and so on."
-      ],
-      "department": "Backend Development",
-      "technologies": [
-        ["PHP 7.0 - 7.1", "PHPUnit", "Blitz", "Protobuf"],
-        ["MySql", "Memcached"],
-        ["Nginx", "Git", "AWS"],
-        ["Jira"]
-      ]
+    "contacts": {
+        "phone": "+44 7898793617",
+        "email": "acheprasov84+job@gmail.com"
     },
 
-    {
-      "title": "Senior PHP / JavaScript Developer",
-      "company": "Currency Solutions Ltd.",
-      "logo": "currency.png",
-      "country": "United Kingdom",
-      "city": "London",
-      "visa": "Tier 2 General Visa",
-      "dateBeg": "2015-09-01",
-      "dateEnd": "2016-09-30",
-      "description": "Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers.",
-      "duties": [
-        "Front-end development (JavaScript + React) for a service of global money transfer.",
-        "Backend development for the money transfer service, REST API, DB architecture, highload optimization, testing, code review and so on.",
-        "Support and development CRM system of the company."
-      ],
-      "department": "Backend & Frontend Development",
-      "technologies": [
-        ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
-        ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel", "Jest"],
-        ["MySql", "Redis", "Memcached"],
-        ["Nginx","Docker", "Git", "Gitlab", "AWS"],
-        ["Jira", "Bitbucket", "Bamboo"]
-      ]
+    "links": {
+        "linkedin":"https://www.linkedin.com/in/alexandercheprasov/",
+        "github": "https://github.com/cheprasov",
+        "packagist": "https://packagist.org/packages/cheprasov/",
+        "npm": "https://www.npmjs.com/~cheprasov"
     },
 
-    {
-      "title": "Senior PHP Developer",
-      "company": "Topface Ltd.",
-      "logo": "topface.png",
-      "country": "Russia",
-      "city": "St. Petersburg",
-      "visa": null,
-      "dateBeg": "2013-11-01",
-      "dateEnd": "2015-08-30",
-      "description": "Topface is world famous social network for datings with more than 90 million users. Development for highload: ~90rps, ~1.5 mln users daily.",
-      "duties": [
-        "Development of the user's activity system structure  and DB architecture (such as messages, sympathies, gifts and so on) to increase stability, safety, speed, failover and highload.",
-        "The development of the intellectual system for counting user's activity, with automatic recalculation in case of failures.",
-        "The implementation A/B testing, and monetization experiments.",
-        "Backend development for highload, DB architecture, DB architecture, testing, code review"
-      ],
-      "department": "Backend Development",
-      "technologies": [
-        ["PHP 5.3 - 5.4", "PHPUnit", "Blitz"],
-        ["MySql", "Redis", "Memcached", "ZooKeeper", "Node.js"],
-        ["Nginx", "Docker", "Lua", "Git", "Gitlab"],
-        ["Redmine"]
-      ]
-    },
+    "skills": [
+        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt"],
+        ["PHP 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
+        ["Go-lang"],
+        ["MySql", "Redis", "Memcached", "ZooKeeper"],
+        ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM"],
+        ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible"],
+        ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
+        ["Highload", "Microservices", "Data Structures", "Algorithms", "Information Security"],
+        ["Jira", "Slack"]
+    ],
 
-    {
-      "title": "Senior PHP / JavaScript Developer",
-      "company": "StarLine",
-      "country": "Russia",
-      "city": "St. Petersburg",
-      "visa": null,
-      "dateBeg": "2012-09",
-      "dateEnd": "2013-11",
-      "description": "StarLine is a service for transport monitoring and remote alarms, and sensors control.",
-      "duties": [
-        "Backend and frontend development",
-        "Development for highload",
-        "Development of algorithms for tracks analysis",
-        "Team php & js lead",
-        "Interview candidates for vacancies of the company"
-      ],
-      "department": "Backend & Frontend Development",
-      "technologies": [
-        ["PHP 5.3", "Protobuf"],
-        ["MySql", "Redis", "Memcached", "Nginx", "Apache"],
-        ["JavaScript", "jQuery", "HTML", "CSS", "Canvas"],
-        ["Google Maps API", "Yandex Maps API"],
-        ["SVN", "Redmine"]
-      ]
-    },
+    "about": [
+        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface, Ksubaka and StarLine and so on."
+    ],
 
-    {
-      "title": "Full Stack Web Developer",
-      "company": "M2C ltd",
-      "country": "Russia",
-      "city": "Murmansk",
-      "visa": null,
-      "dateBeg": "2008-02",
-      "dateEnd": "2012-09",
-      "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
-      "duties": [
-        "Development and maintenance of internal & external services of the company",
-        "Integration billing with external payment systems",
-        "Development web-service for control under digital television",
-        "Development of advertising management system",
-        "Development and design of database architecture",
-        "Flash Application Development",
-        "Work under new TV channel"
-      ],
-      "department": "Backend & Frontend Development",
-      "technologies": [
-        ["PHP"],
-        ["MySQL", "Oracle DB", "Memcache", "Apache"],
-        ["JavaScript", "jQuery", "Canvas"],
-        ["HTML", "CSS"],
-        ["Flash", "ActionScript"],
-        ["Adobe Photoshop", "3D Studio Max"]
-      ]
-    },
+    "requirements": [
+        "I require a sponsorship for a new role in the UK (Tier 2 General Visa)"
+    ],
 
-    {
-      "title": "Full Stack Web Developer",
-      "company": "Freelance (self employed)",
-      "country": "Russia",
-      "city": "Murmansk",
-      "visa": null,
-      "dateBeg": "2002-01",
-      "dateEnd": "2008-08",
-      "duties": [],
-      "department": "Backend & Frontend Development",
-      "technologies": [
-        ["PHP", "MySQL", "JavaScript"],
-        ["HTML", "CSS"],
-        ["Flash", "ActionScript"],
-        ["Adobe Photoshop", "3D Studio Max"]
-      ]
-    }
-  ],
+    "educations": [
+        {
+            "name": "Murmansk Humanities Institute (MHI)",
+            "field": "Criminal Law, Justice and Corrections",
+            "degree": "Master's degree",
+            "dateBeg": "2002",
+            "dateEnd": "2007",
+            "country": "Russia",
+            "city": "Murmansk"
+        }
+    ],
 
-  "projects": [
-    {
-      "imageUrl": "github.jpg",
-      "title": "Open Source Projects on Github",
-      "postTitle": "(more than 300k downloads)",
-      "description": [
-        "Github: https://github.com/cheprasov",
-        "Packagist (PHP): https://packagist.org/packages/cheprasov/",
-        "NPM (JS): https://www.npmjs.com/~cheprasov"
-      ]
-    },
+    "experiences": [
+        {
+            "title": "Senior Frontend Developer",
+            "company": "Ksubaka Ltd",
+            "logo": "ksubaka.png",
+            "country": "United Kingdom",
+            "city": "London",
+            "visa": "Tier 2 General Visa",
+            "dateBeg": "2018-09-10",
+            "dateEnd": "now",
+            "description": "",
+            "duties": [
+                "Developed new web projects of the company and optimised performance for existed projects.",
+                "Developed solution able to aggregate and visualize data.",
+                "Built and maintained various tools that facilitate and support the business.",
+                "Developed new React components, React hooks and AngularJS directive.",
+                "Optimized applications' performance and responsiveness for browsers and mobile devices.",
+                "Refactored legacy code of existed projects",
+                "Reviewed code, interviewed new candidates.",
+                "Coached less experienced staff members."
+            ],
+            "department": "Frontend Development",
+            "technologies": [
+                ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript"],
+                ["React", "AngularJS", "Lodash", "Flow"],
+                ["Node.js", "npm"],
+                ["Jest", "Enzyme", "Sinon"],
+                ["HTML", "CSS", "SASS", "LESS", "Bootstrap"],
+                ["Webpack", "Grunt"],
+                ["Jira", "Slack"]
+            ]
+        },
 
-    {
-      "imageUrl": "mazay.png",
-      "title": "Game \"Mazay Mahjong and bunnies\"",
-      "date": "2014-10",
-      "description": [
-        "It is my personal project, that I made in free time.",
-        "Game here: https://apps.facebook.com/mazay_mahjong/",
-        "Please, see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA",
-        "I designed a game concept, elements, levels, music. I analyzed the game logic and a user behavior, edited a design of the game, designed a system architecture for highload, and wrote front-end and back-end code. Also, I made a server configuration and software."
-      ],
-      "technologies": [
-        ["PHP", "Redis", "Memcached", "MySql", "Nginx"],
-        ["JavaScript", "jQuery", "Canvas"],
-        ["HTML", "CSS"],
-        ["Flash", "ActionScript"],
-        ["Adobe Photoshop"]
-      ]
-    }
-  ],
+        {
+            "title": "Senior PHP Developer",
+            "company": "Badoo Trading Ltd.",
+            "logo": "badoo.png",
+            "country": "United Kingdom",
+            "city": "London",
+            "visa": "Tier 2 General Visa",
+            "dateBeg": "2016-10-10",
+            "dateEnd": "2018-06-21",
+            "description": "Badoo is the largest dating network in the world. With 370 million users across 190 countries and 450 employees worldwide, it provides the best technology for people to meet, because happiness is better shared. Each day more than 400,000 people sign up for a Badoo experience; users send over 350 million messages and 10 million photos are added to the Badoo platform. Users spend an average of 1.8 hours daily on the Badoo experience, for a total of over 12 billion swipes per day.",
+            "duties": [
+                "Developed new features and maintained exists functionality for users' profiles, photos, verification service, external and internal projects of the company.",
+                "Designed DB & workflow architecture for new features.",
+                "Developed of proxy service for avoiding connections blocks.",
+                "Participated in the creation of a new service for searching for lookalikes ny an uploaded photo.",
+                "Implemented A/B tests, GDPR, and so on.",
+                "Worked on optimization project for highload.",
+                "Wrote tests, reviewed code & PR."
+            ],
+            "department": "Backend Development",
+            "technologies": [
+                ["PHP 7.0 - 7.1", "PHPUnit", "Blitz", "Protobuf"],
+                ["MySql", "Memcached"],
+                ["Nginx", "Git", "AWS", "Pinba"],
+                ["Jira", "HipChat"]
+            ]
+        },
 
-  "awards": [
-    {
-      "title": "I have got 2 years in row License Certificate from JetBrains for the contribution and development to open source PHP projects",
-      "organizer": "JetBrains",
-      "logo": "JetBrains.png",
-      "date": ["2018-07", "2019-07"],
-      "description": [
-        "In 2018 and 2019 JetBrains Company provided me License Certificate for JetBrains All Products Pack for the contribution and development to open source PHP projects ."
-      ]
-    },
+        {
+            "title": "Senior PHP / JavaScript Developer",
+            "company": "Currency Solutions Ltd.",
+            "logo": "currency.png",
+            "country": "United Kingdom",
+            "city": "London",
+            "visa": "Tier 2 General Visa",
+            "dateBeg": "2015-09-01",
+            "dateEnd": "2016-09-30",
+            "description": "Currency Solutions is a rather large Foreign Exchange firm, that unlike other companies, that usually handle both smaller and larger payments, focuses only on large transfers.",
+            "duties": [
+                "Developed web service (JavaScript + React) for global money transfer.",
+                "Developed backend for the transfer service, REST API.",
+                "Designed DB architecture and optimised highload performance.",
+                "Wrote tests, reviewed code.",
+                "Supported CRM system of the company and created new features for it."
+            ],
+            "department": "Backend & Frontend Development",
+            "technologies": [
+                ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
+                ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel", "Jest"],
+                ["MySql", "Redis", "Memcached"],
+                ["Nginx","Docker", "Git", "Gitlab", "AWS"],
+                ["Jira", "Bitbucket", "Bamboo"]
+            ]
+        },
 
-    {
-      "title": "The Most Hard-Working Developer",
-      "organizer": "Topface Developer Awards",
-      "date": "2014-09",
-      "description": [
-        "https://pp.vk.me/c619526/v619526715/1a0d9/NsAgok-wmpA.jpg"
-      ]
-    },
+        {
+            "title": "Senior PHP Developer",
+            "company": "Topface Ltd.",
+            "logo": "topface.png",
+            "country": "Russia",
+            "city": "St. Petersburg",
+            "visa": null,
+            "dateBeg": "2013-11-01",
+            "dateEnd": "2015-08-30",
+            "description": "Topface is world famous social network for datings with more than 90 million users. Development for highload: ~90rps, ~1.5 mln users daily.",
+            "duties": [
+                "Developed users' activity system and DB architecture (such as messages, sympathies, gifts and so on) for increasing stability, safety, performance, failover and highload.",
+                "Developed of the intellectual system for counting of users' activity, with automatic recalculation in case of failures.",
+                "Implemented A/B tests and monetization experiments.",
+                "Developed backend for highload.",
+                "Wrote tests, reviewed code."
+            ],
+            "department": "Backend Development",
+            "technologies": [
+                ["PHP 5.3 - 5.4", "PHPUnit", "Blitz"],
+                ["MySql", "Redis", "Memcached", "ZooKeeper", "Node.js"],
+                ["Nginx", "Docker", "Lua", "Git", "Gitlab"],
+                ["Redmine"]
+            ]
+        },
 
-    {
-      "title": "The best site in the category Infa of the Murmansk region",
-      "organizer": "Department for Youth Affairs of the Murmansk region + 4erdak.ru",
-      "date": "2007-12",
-      "description": "This award has confirmed the participation and victory in the regional project. The best information site. It was my own personal project. I was as a designer and a programmer. http://4erdak.ru/news/4791/"
-    },
+        {
+            "title": "Senior PHP / JavaScript Developer",
+            "company": "StarLine",
+            "logo": "starline.jpg",
+            "country": "Russia",
+            "city": "St. Petersburg",
+            "visa": null,
+            "dateBeg": "2012-09",
+            "dateEnd": "2013-11",
+            "description": "StarLine is a service for transport monitoring and remote alarms, and sensors control.",
+            "duties": [
+                "Developed back-end and front-end of service for monitoring cars by GPS data.",
+                "Developed new algorithms for analysis cars' tracks and removing noise GPS-data.",
+                "Coached less experienced staff members, reviewed code.",
+                "Interviewed new candidates for vacancies of the company."
+            ],
+            "department": "Backend & Frontend Development",
+            "technologies": [
+                ["PHP 5.3", "Protobuf"],
+                ["MySql", "Redis", "Memcached", "Nginx", "Apache"],
+                ["JavaScript", "jQuery", "HTML", "CSS", "Canvas"],
+                ["Google Maps API", "Yandex Maps API"],
+                ["SVN", "Redmine"]
+            ]
+        },
 
-    {
-      "title": "The best corporate site of the Murmansk region",
-      "organizer": "Department for Youth Affairs of the Murmansk region + 4erdak.ru",
-      "date": "2007-12",
-      "description": "This award has confirmed the participation and victory in the regional project. I was as a designer and a programmer. http://4erdak.ru/news/4791/ http://mti-murmansk.ru/"
-    },
+        {
+            "title": "Full Stack Web Developer",
+            "company": "M2C ltd",
+            "logo": "m2c.png",
+            "country": "Russia",
+            "city": "Murmansk",
+            "visa": null,
+            "dateBeg": "2008-02",
+            "dateEnd": "2012-09",
+            "description": "M2C ltd is the largest provider of Internet, digital television and telephony in Murmansk.",
+            "duties": [
+                "Developed and maintained of internal & external services of the company.",
+                "Integrated company's billing with external payment systems.",
+                "Developed web-service for managing digital television provided for clients.",
+                "Developed advertising management and SMS notification systems.",
+                "Designed database architecture.",
+                "Developed flash applications.",
+                "Worked on tech development for a new TV channel of the company.",
+                "Created a lot web-sites for the company needs."
+            ],
+            "department": "Backend & Frontend Development",
+            "technologies": [
+                ["PHP"],
+                ["MySQL", "Oracle DB", "Memcache", "Apache"],
+                ["JavaScript", "jQuery", "Canvas"],
+                ["HTML", "CSS"],
+                ["Flash", "ActionScript"],
+                ["Adobe Photoshop", "3D Studio Max"]
+            ]
+        },
 
-    {
-      "title": "The best corporate site of the Murmansk region",
-      "organizer": "Department for Youth Affairs of the Murmansk region + Arctic Media Group",
-      "date": "2006-12",
-      "description": "This award has confirmed the participation and victory in the regional project. The best corporate site of the 51 applicants. I was as a designer and a programmer. http://web.archive.org/web/20070110234754/http://nore.ru/news/13.html http://4erdak.ru/news/3523/"
-    },
+        {
+            "title": "Full Stack Web Developer",
+            "company": "Freelance (self employed)",
+            "country": "Russia",
+            "city": "Murmansk",
+            "visa": null,
+            "dateBeg": "2002-01",
+            "dateEnd": "2008-08",
+            "duties": [],
+            "department": "Backend & Frontend Development",
+            "technologies": [
+                ["PHP", "MySQL", "JavaScript"],
+                ["HTML", "CSS"],
+                ["Flash", "ActionScript"],
+                ["Adobe Photoshop", "3D Studio Max"]
+            ]
+        }
+    ],
 
-    {
-      "title": "The best site in the category Anfas of the Murmansk region",
-      "organizer": "Department for Youth Affairs of the Murmansk region + Arctic Media Group",
-      "date": "2006-12",
-      "description": "This award has confirmed the participation and victory in the regional project. The best personal site of the 74 applicants. I was as a designer and a programmer. http://4erdak.ru/news/3523/"
-    }
-  ]
+    "projects": [
+        {
+            "imageUrl": "github.jpg",
+            "title": "Open Source Projects on Github",
+            "postTitle": "(more than 420k downloads in total)",
+            "description": [
+                "Github: https://github.com/cheprasov",
+                "Packagist (PHP): https://packagist.org/packages/cheprasov/",
+                "NPM (JS): https://www.npmjs.com/~cheprasov"
+            ],
+            "technologies": [
+                ["TypeScript", "JavaScript", "Go-lang", "PHP", "Redis and so on"]
+            ]
+        },
+
+        {
+            "imageUrl": "mazay.png",
+            "title": "Game \"Mazay Mahjong and bunnies\"",
+            "date": "2014-10",
+            "description": [
+                "Personal project I made in free time.",
+                "Game is here: https://apps.facebook.com/mazay_mahjong/",
+                "Please see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA",
+                "I designed a game concept, elements and levels of the game, and I selected the music. I was in collaboration with the artist about ideas and concepts, analyzed logic and users' behaviour. I edited the received images and the design of the game, I designed the system architecture for highload, and wrote front-end and back-end code."
+            ],
+            "technologies": [
+                ["PHP", "Redis", "Memcache", "MySql", "Nginx"],
+                ["JavaScript", "jQuery", "Canvas"],
+                ["HTML", "CSS"],
+                ["Flash", "ActionScript"],
+                ["Adobe Photoshop"]
+            ]
+        }
+    ],
+
+    "awards": [
+        {
+            "title": "I have got 2 years in row License Certificate from JetBrains for the contribution and development to open source PHP projects",
+            "organizer": "JetBrains",
+            "logo": "JetBrains.png",
+            "date": ["2018-07", "2019-07"],
+            "description": [
+                "In 2018 and 2019 JetBrains Company provided me License Certificate for JetBrains All Products Pack for the contribution and development to open source PHP projects."
+            ]
+        },
+
+        {
+            "title": "The Most Hard-Working Developer",
+            "organizer": "Topface Developer Awards",
+            "date": "2014-09",
+            "description": [
+                "https://pp.vk.me/c619526/v619526715/1a0d9/NsAgok-wmpA.jpg"
+            ]
+        },
+
+        {
+            "title": "The best site in the category Infa of the Murmansk region",
+            "organizer": "Department for Youth Affairs of the Murmansk region + 4erdak.ru",
+            "date": "2007-12",
+            "description": "This award has confirmed the participation and victory in the regional project. The best information site. It was my own personal project. I was as a designer and a programmer. http://4erdak.ru/news/4791/"
+        },
+
+        {
+            "title": "The best corporate site of the Murmansk region",
+            "organizer": "Department for Youth Affairs of the Murmansk region + 4erdak.ru",
+            "date": "2007-12",
+            "description": "This award has confirmed the participation and victory in the regional project. I was as a designer and a programmer. http://4erdak.ru/news/4791/ http://mti-murmansk.ru/"
+        },
+
+        {
+            "title": "The best corporate site of the Murmansk region",
+            "organizer": "Department for Youth Affairs of the Murmansk region + Arctic Media Group",
+            "date": "2006-12",
+            "description": "This award has confirmed the participation and victory in the regional project. The best corporate site of the 51 applicants. I was as a designer and a programmer. http://web.archive.org/web/20070110234754/http://nore.ru/news/13.html http://4erdak.ru/news/3523/"
+        },
+
+        {
+            "title": "The best site in the category Anfas of the Murmansk region",
+            "organizer": "Department for Youth Affairs of the Murmansk region + Arctic Media Group",
+            "date": "2006-12",
+            "description": "This award has confirmed the participation and victory in the regional project. The best personal site of the 74 applicants. I was as a designer and a programmer. http://4erdak.ru/news/3523/"
+        }
+    ]
 }

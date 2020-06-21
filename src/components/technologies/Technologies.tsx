@@ -28,7 +28,7 @@ const Technologies = ({ technologies }: TechnologiesProps) => {
     };
 
     const list = getLines(technologies).join(', ');
-    return (<>{list}</>);
+    return (<>{list}.</>);
 };
 
 export default Technologies;
