@@ -38,7 +38,7 @@
     ],
 
     "about": [
-        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in the most successful companies, such as Badoo, Currency Solutions, Topface, Ksubaka and StarLine and so on."
+        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in successful tech companies."
     ],
 
     "requirements": [
@@ -73,7 +73,7 @@
                 "Developed solution able to aggregate and visualize data.",
                 "Built and maintained various tools that facilitate and support the business.",
                 "Developed new React components, React hooks and AngularJS directive.",
-                "Optimized applications' performance and responsiveness for browsers and mobile devices.",
+                "Optimised applications' performance and responsiveness for browsers and mobile devices.",
                 "Refactored legacy code of existed projects",
                 "Reviewed code, interviewed new candidates.",
                 "Coached less experienced staff members."
@@ -104,9 +104,9 @@
                 "Developed new features and maintained exists functionality for users' profiles, photos, verification service, external and internal projects of the company.",
                 "Designed DB & workflow architecture for new features.",
                 "Developed of proxy service for avoiding connections blocks.",
-                "Participated in the creation of a new service for searching for lookalikes ny an uploaded photo.",
+                "Participated in the creation of a new service for searching for lookalikes by an uploaded photo.",
                 "Implemented A/B tests, GDPR, and so on.",
-                "Worked on optimization project for highload.",
+                "Worked on optimisation project for highload.",
                 "Wrote tests, reviewed code & PR."
             ],
             "department": "Backend Development",
