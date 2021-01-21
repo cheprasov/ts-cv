@@ -1,4 +1,5 @@
 import DateTime from '../date/DateTime';
+import Lexemes from '../lexemes/Lexemes';
 
 export const padStart = (text: string, len: number, s = '0'): string => {
     if (text.length >= len) {
@@ -32,6 +33,21 @@ export const replaceVars = (str: string): string => {
         }
         return result;
     }, str);
+};
+
+export const replaceLexeme = (lexemes: Lexemes, str: string): Promise<string> => {
+    const regExp = /\{\{lexeme:([^}]+)\}\}/gi;
+    const vars = str.match(regExp);
+    if (!vars) {
+        return Promise.resolve(str);
+    }
+    return vars.reduce((promise, value) => {
+        const lexemeKey = value.slice(9, -2);
+        return promise.then(async s => {
+            const v = await lexemes.getAsync(lexemeKey);
+            return s.replace(new RegExp(value, 'g'), v);
+        });
+    }, Promise.resolve(str));
 };
 
 export const getUrlWithoutScheme = (url: string): string => {

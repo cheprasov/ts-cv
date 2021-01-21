@@ -1,5 +1,5 @@
 {
-    "update": "2019-11-30",
+    "update": "2021-01-20",
 
     "profile": {
         "photoUrl": "photo.jpg",
@@ -14,7 +14,7 @@
     },
 
     "contacts": {
-        "phone": "+44 7898793617",
+        "phone": "+44 789 879 36 17",
         "email": "acheprasov84+job@gmail.com"
     },
 
@@ -251,7 +251,7 @@
         {
             "imageUrl": "github.jpg",
             "title": "Open Source Projects on Github",
-            "postTitle": "(more than 420k downloads in total)",
+            "postTitle": "(more than {{lexeme:repos.downloads}} downloads in total)",
             "description": [
                 "Github: https://github.com/cheprasov",
                 "Packagist (PHP): https://packagist.org/packages/cheprasov/",
@@ -263,11 +263,25 @@
         },
 
         {
+            "imageUrl": "checker.svg",
+            "title": "Daily Licences Checker",
+            "date": "2020-07",
+            "description": [
+                "Personal project I made at free time. https://sponsors.cheprasov.com/",
+                "The project is created for helping Tier 2 & 5 (Skilled Workers) visa holders to be operatively informed about their company’s sponsor licence has changed or expired."
+            ],
+            "technologies": [
+                ["TypeScript", "NodeJS", "PHP", "MySql", "Nginx"],
+                ["HTML", "CSS"]
+            ]
+        },
+
+        {
             "imageUrl": "mazay.png",
             "title": "Game \"Mazay Mahjong and bunnies\"",
             "date": "2014-10",
             "description": [
-                "Personal project I made in free time.",
+                "Personal project I made at free time.",
                 "Game is here: https://apps.facebook.com/mazay_mahjong/",
                 "Please see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA",
                 "I designed a game concept, elements and levels of the game, and I selected the music. I was in collaboration with the artist about ideas and concepts, analyzed logic and users' behaviour. I edited the received images and the design of the game, I designed the system architecture for highload, and wrote front-end and back-end code."
@@ -284,12 +298,12 @@
 
     "awards": [
         {
-            "title": "I have got 2 years in row License Certificate from JetBrains for the contribution and development to open source PHP projects",
+            "title": "I have got 3 years in row License Certificate from JetBrains for the contribution and development to open source PHP projects",
             "organizer": "JetBrains",
             "logo": "JetBrains.png",
-            "date": ["2018-07", "2019-07"],
+            "date": ["2018-07", "2019-07", "2020-06"],
             "description": [
-                "In 2018 and 2019 JetBrains Company provided me License Certificate for JetBrains All Products Pack for the contribution and development to open source PHP projects."
+                "In 2020, 2019 and 2018 JetBrains Company provided me License Certificate for JetBrains All Products Pack for the contribution and development to open source PHP projects."
             ]
         },
 

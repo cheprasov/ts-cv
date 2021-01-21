@@ -17,6 +17,8 @@
     "@typescript-eslint/explicit-function-return-type": 0,
     "@typescript-eslint/indent": ["error", 4],
     "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/interface-name-prefix": "off",
+    "@typescript-eslint/no-non-null-assertion": "off",
     "react/jsx-filename-extension": ["warn", {"extensions": [".jsx", ".tsx"]}],
     "react/prop-types": 0,
     "react/jsx-first-prop-new-line": [1, "multiline"],
