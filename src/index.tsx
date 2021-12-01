@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Switch, Route, HashRouter } from 'react-router-dom'
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Application from './components/Application';
 import { CVInf } from './type/cv';
 import { lexemesSingleton } from './lexemes/Lexemes';
@@ -12,18 +12,18 @@ import './index.scss';
 
 
 Repos.getRepos().then(data => {
-    const count = Math.floor((data.total || 610000) / 1000);
-    lexemesSingleton.set(ELexemes.REPOS_DOWNLOADS, `${count}k`);
+    const million = Math.round(data.total / 10_000) / 100;
+    lexemesSingleton.set(ELexemes.REPOS_DOWNLOADS, `${million} million`);
 }).catch(() => {
-    lexemesSingleton.set(ELexemes.REPOS_DOWNLOADS, '610k');
+    lexemesSingleton.set(ELexemes.REPOS_DOWNLOADS, '1 million');
 });
 
 const initRouter = () => {
     return (
         <HashRouter basename="/">
-            <Switch>
-                <Route exact render={() => <Application cv={cv as CVInf} />} />
-            </Switch>
+            <Routes>
+                <Route path="/" element={<Application cv={cv as CVInf} />} />
+            </Routes>
         </HashRouter>
     );
 };

@@ -1,6 +1,6 @@
 export interface IPromiseData {
     promise: Promise<string>;
-    resolve: (value?: string | PromiseLike<string> | undefined) => void;
+    resolve: (value: string | PromiseLike<string>) => void;
     reject: (reason?: any) => void;
 }
 

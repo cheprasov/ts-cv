@@ -14,7 +14,9 @@ export interface IRepos {
 const URL = 'https://cheprasov.com/cfw/repos-downloads';
 
 export default class Repos {
+
     static getRepos(): Promise<IRepos> {
         return axios.get<IRepos>(URL).then(response => response.data);
     }
+
 }

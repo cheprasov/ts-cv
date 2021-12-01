@@ -1,12 +1,12 @@
 {
-    "update": "2021-01-20",
+    "update": "2021-12-01",
 
     "profile": {
         "photoUrl": "photo.jpg",
         "firstName": "Alexander",
         "lastName": "Cheprasov",
         "dateBirth": "1984-10-10",
-        "headline": "Lead / Senior Software Developer",
+        "headline": "Principal Software Developer",
         "country": "United Kingdom",
         "city": "London",
         "postCode": "SW6",
@@ -26,15 +26,15 @@
     },
 
     "skills": [
-        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt"],
+        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt", "GraphQL"],
         ["PHP 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
         ["Go-lang"],
-        ["MySql", "Redis", "Memcached", "ZooKeeper"],
-        ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM"],
-        ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible"],
+        ["MySQL", "Redis", "Memcached", "ZooKeeper"],
+        ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM", "Emotion CSS"],
+        ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible", "Sanity"],
         ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
         ["Highload", "Microservices", "Data Structures", "Algorithms", "Information Security"],
-        ["Jira", "Slack"]
+        ["Jira", "Slack", "ClickUp"]
     ],
 
     "about": [
@@ -42,7 +42,7 @@
     ],
 
     "requirements": [
-        "I require a sponsorship for a new role in the UK (Tier 2 General Visa)"
+        "I have a Settlement in the UK and I do not have any restrictions on ability to work. I may work in any business or profession, as an employee or self-employed, and I do not require any visa or sponsorship."
     ],
 
     "educations": [
@@ -59,14 +59,44 @@
 
     "experiences": [
         {
-            "title": "Senior Frontend Developer",
+            "title": "Senior Software Developer",
+            "company": "LoveHolidays (WANT2BTHERE LTD)",
+            "logo": "loveholidays.png",
+            "country": "United Kingdom",
+            "city": "London",
+            "dateBeg": "2021-04-06",
+            "dateEnd": "now",
+            "description": "",
+            "duties": [
+                "Developed new web projects and supported current projects of the company.",
+                "Built and maintained various tools that facilitate and support the business.",
+                "Developed new React components, React hooks and so on.",
+                "Simplified algorithms complexity & fixed code performance issues.",
+                "Optimised applications' performance and responsiveness for browsers and mobile devices.",
+                "Refactored legacy code of existed projects.",
+                "Did presentations inside the company about performances and issues in JS.",
+                "Reviewed projects architecture & code."
+            ],
+            "department": "",
+            "technologies": [
+                ["TypeScript", "JavaScript"],
+                ["React", "Preact", "GraphQL", "Sanity"],
+                ["Node.js", "npm", "Kubernetes", "Docker", "Google Cloud"],
+                ["Jest", "Lint"],
+                ["HTML", "CSS", "SASS", "Emotion CSS", "Bootstrap"],
+                ["Webpack"],
+                ["ClickUp", "Slack", "Figma"]
+            ]
+        },
+        {
+            "title": "Senior Software Developer",
             "company": "Ksubaka Ltd",
             "logo": "ksubaka.png",
             "country": "United Kingdom",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2018-09-10",
-            "dateEnd": "now",
+            "dateEnd": "2021-04-05",
             "description": "",
             "duties": [
                 "Developed new web projects of the company and optimised performance for existed projects.",
@@ -74,7 +104,7 @@
                 "Built and maintained various tools that facilitate and support the business.",
                 "Developed new React components, React hooks and AngularJS directive.",
                 "Optimised applications' performance and responsiveness for browsers and mobile devices.",
-                "Refactored legacy code of existed projects",
+                "Refactored legacy code of existed projects.",
                 "Reviewed code, interviewed new candidates.",
                 "Coached less experienced staff members."
             ],
@@ -91,7 +121,7 @@
         },
 
         {
-            "title": "Senior PHP Developer",
+            "title": "Senior Software Developer",
             "company": "Badoo Trading Ltd.",
             "logo": "badoo.png",
             "country": "United Kingdom",
@@ -112,14 +142,14 @@
             "department": "Backend Development",
             "technologies": [
                 ["PHP 7.0 - 7.1", "PHPUnit", "Blitz", "Protobuf"],
-                ["MySql", "Memcached"],
+                ["MySQL", "Memcached"],
                 ["Nginx", "Git", "AWS", "Pinba"],
                 ["Jira", "HipChat"]
             ]
         },
 
         {
-            "title": "Senior PHP / JavaScript Developer",
+            "title": "Senior Software Developer",
             "company": "Currency Solutions Ltd.",
             "logo": "currency.png",
             "country": "United Kingdom",
@@ -139,14 +169,14 @@
             "technologies": [
                 ["PHP 5.5 - 5.6", "PHPUnit", "Zend Framework"],
                 ["JavaScript", "ES6", "React", "jQuery", "TypeScript", "Grunt", "Babel", "Jest"],
-                ["MySql", "Redis", "Memcached"],
+                ["MySQL", "Redis", "Memcached"],
                 ["Nginx","Docker", "Git", "Gitlab", "AWS"],
                 ["Jira", "Bitbucket", "Bamboo"]
             ]
         },
 
         {
-            "title": "Senior PHP Developer",
+            "title": "Senior Software Developer",
             "company": "Topface Ltd.",
             "logo": "topface.png",
             "country": "Russia",
@@ -165,14 +195,14 @@
             "department": "Backend Development",
             "technologies": [
                 ["PHP 5.3 - 5.4", "PHPUnit", "Blitz"],
-                ["MySql", "Redis", "Memcached", "ZooKeeper", "Node.js"],
+                ["MySQL", "Redis", "Memcached", "ZooKeeper", "Node.js"],
                 ["Nginx", "Docker", "Lua", "Git", "Gitlab"],
                 ["Redmine"]
             ]
         },
 
         {
-            "title": "Senior PHP / JavaScript Developer",
+            "title": "Senior Software Developer",
             "company": "StarLine",
             "logo": "starline.jpg",
             "country": "Russia",
@@ -190,7 +220,7 @@
             "department": "Backend & Frontend Development",
             "technologies": [
                 ["PHP 5.3", "Protobuf"],
-                ["MySql", "Redis", "Memcached", "Nginx", "Apache"],
+                ["MySQL", "Redis", "Memcached", "Nginx", "Apache"],
                 ["JavaScript", "jQuery", "HTML", "CSS", "Canvas"],
                 ["Google Maps API", "Yandex Maps API"],
                 ["SVN", "Redmine"]
@@ -271,8 +301,20 @@
                 "The project is created for helping Tier 2 & 5 (Skilled Workers) visa holders to be operatively informed about their company’s sponsor licence has changed or expired."
             ],
             "technologies": [
-                ["TypeScript", "NodeJS", "PHP", "MySql", "Nginx"],
+                ["TypeScript", "NodeJS", "PHP", "MySQL", "Nginx"],
                 ["HTML", "CSS"]
+            ]
+        },
+
+        {
+            "imageUrl": "alexchess.png",
+            "title": "Magnetic Chessboard with Movable Pieces on etsy",
+            "date": "2021-03",
+            "description": [
+                "This project was made by me and for my personal use, based on my idea and needs. But after several friends' requests I made a decision to publish the project on etsy and make it for people who would like to have the same chess set. Welcome to my shop: https://www.etsy.com/uk/shop/AlexChess"
+            ],
+            "technologies": [
+                ["Blender", "Adobe Illustrator", "Affinity Photo", "Affinity Designer"]
             ]
         },
 
@@ -287,7 +329,7 @@
                 "I designed a game concept, elements and levels of the game, and I selected the music. I was in collaboration with the artist about ideas and concepts, analyzed logic and users' behaviour. I edited the received images and the design of the game, I designed the system architecture for highload, and wrote front-end and back-end code."
             ],
             "technologies": [
-                ["PHP", "Redis", "Memcache", "MySql", "Nginx"],
+                ["PHP", "Redis", "Memcache", "MySQL", "Nginx"],
                 ["JavaScript", "jQuery", "Canvas"],
                 ["HTML", "CSS"],
                 ["Flash", "ActionScript"],
