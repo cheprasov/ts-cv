@@ -58,6 +58,7 @@
     "build:watch": "webpack --watch --mode development",
     "eslint": "node ./node_modules/.bin/eslint ./app/src/",
     "test": "jest",
-    "update_hashes": "ts-node --project tsconfig.node.json ./scripts/update_hashes.ts"
+    "update_hashes": "ts-node --project tsconfig.node.json ./scripts/update_hashes.ts",
+    "deploy": "./scripts/deploy.sh"
   }
 }
