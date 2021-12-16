@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { getUrlWithoutScheme, isEmail, isString, isUrl } from './stringUtils';
+import { getUrlWithoutScheme, isEmail, isPhone, isString, isUrl } from './stringUtils';
 
 export type ReactElementStringType = React.ReactElement | string;
 
@@ -15,6 +15,12 @@ export const prepareLink = (text: string): React.ReactElement => {
     if (isEmail(text)) {
         return (
             <a href={`mailto:${text}`} rel="noopener noreferrer">{text}</a>
+        );
+    }
+
+    if (isPhone(text)) {
+        return (
+            <a href={`tel:${text.replace(/ /g, '')}`}>{text}</a>
         );
     }
 

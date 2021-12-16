@@ -78,4 +78,11 @@ export const isEmail = (email: string): boolean => {
     return true;
 };
 
+export const isPhone = (phone: string): boolean => {
+    if (phone.length < 10 || phone.slice(0, 3) !== '+44') {
+        return false;
+    }
+    return true;
+};
+
 export const isString = (value: any): value is string => typeof value === 'string';
