@@ -8,8 +8,8 @@ import './ArticleBlock.scss';
 interface ArticleBlockProps {
     title: string;
     postTitle?: string;
-    subtitle?: string;
-    info?: string;
+    subtitle?: string | React.ReactElement | React.ReactElement[];
+    info?: string | React.ReactElement | React.ReactElement[];
     logo?: string;
     text?: string | string[];
     technologies?: TechnologiesType[];

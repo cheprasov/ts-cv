@@ -105,7 +105,7 @@ export default class DateTime {
         return new Date(diff);
     }
 
-    getPeriod(dateTime?: DateTime, $withMonths: boolean = true): string {
+    getPeriod(dateTime?: DateTime, withMonths = true): string {
         const diffDate = this.getDiffDate(dateTime);
         const period = [];
 
@@ -114,7 +114,7 @@ export default class DateTime {
             period.push(`${years} year${years > 1 ? 's' : ''}`);
         }
 
-        if ($withMonths) {
+        if (withMonths) {
             let months = diffDate.getMonth();
             const days = diffDate.getDate();
             if (days >= 10) {
@@ -127,4 +127,9 @@ export default class DateTime {
 
         return period.join(' ');
     }
+
+    toISOString(): string {
+        return this.createDate().toISOString();
+    }
+
 }

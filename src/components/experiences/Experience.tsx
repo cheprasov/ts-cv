@@ -6,6 +6,7 @@ import { getPeriod } from '../../utils/dateUtils';
 import './Experience.scss';
 import ArticleBlock from '../article/ArticleBlock';
 import { convertToHTML } from '../../utils/reactUtils';
+import Period from '../date/Period';
 
 interface ExperienceProps {
     experience: ExperienceInf;
@@ -56,15 +57,13 @@ const Experience = ({ experience }: ExperienceProps) => {
         logo, title, company, city, country, visa, dateBeg, dateEnd, department, technologies, description, duties,
     } = experience;
 
-    const period = getPeriod(dateBeg, dateEnd, true);
-
     return (
         <article className="Experience">
             <ArticleBlock
                 title={title}
                 postTitle={(visa && `(under ${visa})`) || undefined}
                 subtitle={`${company} / ${city}, ${country}`}
-                info={period}
+                info={<Period dateBeg={dateBeg} dateEnd={dateEnd} />}
                 logo={logo}
                 text={description}
                 technologies={technologies}

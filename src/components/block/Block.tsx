@@ -38,11 +38,20 @@ interface BlockProps {
 }
 
 const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
+    if (!title) {
+        return (
+            <section className="Block">
+                {children}
+            </section>
+        );
+    }
     return (
-        <section className="Block">
-            {title && (<h2 className="Block__header">{title}</h2>)}
+        <details className="Block" open>
+            <summary>
+                <h2 className="Block__header">{title}</h2>
+            </summary>
             {children}
-        </section>
+        </details>
     );
 };
 
