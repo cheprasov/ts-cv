@@ -25,7 +25,9 @@ const Experience = ({ experience }: ExperienceProps) => {
                 <Details.Summary>
                     {logo && <Article.Logo>{logo}</Article.Logo>}
                     <Article.Title>
-                        {title} <Lighter>at</Lighter> {company}
+                        <Details.SummaryPointer>
+                            {title} <Lighter>at</Lighter> {company}
+                        </Details.SummaryPointer>
                     </Article.Title>
                     <Article.Subtitle>
                         <Period dateBeg={dateBeg} dateEnd={dateEnd} /> / {city}, {country}

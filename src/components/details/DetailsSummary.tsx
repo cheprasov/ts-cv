@@ -1,8 +1,13 @@
 import React from 'react';
+import { joinClassNames } from '../../utils/stringUtils';
 
-const DetailsSummary: React.FunctionComponent = ({ children }) => {
+export interface DetailsSummaryProps {
+    pointer?: boolean;
+}
+
+const DetailsSummary: React.FunctionComponent<DetailsSummaryProps> = ({ children, pointer = false }) => {
     return (
-        <summary className="Details__summary">
+        <summary className={joinClassNames('Details__summary', pointer && 'Details__summary--pointer')}>
             {children}
         </summary>
     );

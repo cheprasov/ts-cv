@@ -5,7 +5,7 @@ export const joiner = (sep: string, ...values: string[]): string => {
     return values.filter(v => v).join(sep)
 }
 
-export const joinClassNames = (...values: string[]): string => {
+export const joinClassNames = (...values: any[]): string => {
     return joiner(' ', ...values);
 }
 

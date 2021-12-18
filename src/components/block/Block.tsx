@@ -48,7 +48,7 @@ const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
     }
     return (
         <Details.Wrapper className="Block" open>
-            <Details.Summary>
+            <Details.Summary pointer>
                 <h2 className="Block__header">{title}</h2>
             </Details.Summary>
             <Details.Content>
