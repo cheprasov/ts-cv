@@ -31,6 +31,7 @@ import React from 'react';
 // }
 
 import './Block.scss';
+import * as Details from '../details';
 
 interface BlockProps {
     children: React.ReactElement | string[];
@@ -46,12 +47,14 @@ const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
         );
     }
     return (
-        <details className="Block" open>
-            <summary>
+        <Details.Wrapper className="Block" open>
+            <Details.Summary>
                 <h2 className="Block__header">{title}</h2>
-            </summary>
-            {children}
-        </details>
+            </Details.Summary>
+            <Details.Content>
+                {children}
+            </Details.Content>
+        </Details.Wrapper>
     );
 };
 

@@ -1,0 +1,23 @@
+.Details {
+
+  &__summary {
+    cursor: pointer;
+
+    &::marker {
+      color: #113355;
+    }
+
+    &:hover {
+      color: #cb2e3c;
+
+      &::marker {
+        color: #cb2e3c;
+      }
+    }
+  }
+
+  &__content {
+    padding-left: 2em;
+  }
+
+}

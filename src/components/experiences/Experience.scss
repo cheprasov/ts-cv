@@ -1,16 +1,18 @@
 .Experience {
-}
 
-.Experience__duties__ul {
-    margin: 0.5em 0;
+    & .Article__title {
+        display: inline;
+    }
+
+    & .Details__content {
+        padding-left: 0;
+    }
+
 }
 
 .Experience__duties,
 .Experience__tasks {
     margin: 5px 0 10px 0;
-}
-.Experience__duties__title {
-    font-weight: bold;
 }
 .Experience__work__ul {
     list-style-type: disc;
@@ -20,17 +22,19 @@
 }
 
 .Experience {
+    .Article__logo,
     .ArticleBlock__logo {
         float: right;
-        width: 80px;
-        margin: 0 0 20px 20px;
+        width: 4.5em;
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 550px) {
     .Experience {
+        .Article__logo,
         .ArticleBlock__logo {
-            width: 40px;
+            width: 3em;
         }
     }
 }

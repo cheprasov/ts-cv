@@ -1,0 +1,46 @@
+.Article::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.Article__title {
+    font-size: 1.2em;
+    margin: 0.85em 0 0.2em 0;
+}
+
+.Article__subtitle {
+    font-size: 1.1em;
+    color: #66696a;
+    margin: 0 0 0.2em 0;
+}
+
+.Article__description {
+    margin: 5px 0 10px 0;
+}
+
+.Article__technologies {
+    &__title {
+        font-weight: bold;
+    }
+}
+
+.Article__info {
+    color: #66696a;
+    margin: 0 0 0.2em 0;
+}
+
+.Article__logo {
+    width: 120px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+@media screen and (max-width: 550px) {
+    .Article__afterTitle {
+        display: block;
+    }
+    .Article__logo {
+        width: 40px;
+    }
+}
