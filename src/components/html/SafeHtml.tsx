@@ -2,11 +2,15 @@ import React from 'react';
 import { convertToHTML } from '../../utils/reactUtils';
 
 export interface SafeHtmlProps {
-    children: string;
+    children: string | string[];
 }
 
 const SafeHtml: React.FunctionComponent<SafeHtmlProps> = ({ children }) => {
-    return convertToHTML(children);
+    return (
+        <div className="SafeHtml">
+            {convertToHTML(children)}
+        </div>
+    );
 }
 
 export default SafeHtml;

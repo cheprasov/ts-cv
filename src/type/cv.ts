@@ -78,7 +78,7 @@ export interface ProfileInf {
 export interface ProjectInf {
     imageUrl: string;
     title: string;
-    postTitle?: string;
+    subTitle?: string;
     date?: string;
     description: string[];
     technologies?: TechnologiesType[];

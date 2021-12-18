@@ -1,7 +1,9 @@
 import React from 'react';
 import { AwardInf } from '../../type/cv';
-import ArticleBlock from '../article/ArticleBlock';
-import DateTime from '../../date/DateTime';
+import SafeHtml from '../html/SafeHtml';
+import Time from '../date/Time';
+import * as Article from '../article';
+import * as Details from '../details';
 
 import './Award.scss';
 
@@ -13,19 +15,20 @@ const LOGO_AWARD = 'award.jpeg';
 
 const Award = ({ award }: AwardProps) => {
     const { title, organizer, description, date, logo } = award;
-    const dates = (Array.isArray(date) ? date : [date]).map(dt => {
-        return new DateTime(dt).getFormatDate('%F %Y');
-    });
 
     return (
-        <div className="Award">
-            <ArticleBlock
-                title={title}
-                subtitle={`by ${organizer}, ${dates.join(', ')}`}
-                logo={logo || LOGO_AWARD}
-                text={description}
-            />
-        </div>
+        <Article.Wrapper>
+            <Details.Wrapper>
+                <Details.Summary pointer>
+                    <Article.Logo>{logo || LOGO_AWARD}</Article.Logo>
+                    <Article.Title>{title}</Article.Title>
+                    <Article.Subtitle>by {organizer} in <Time dates={date} /></Article.Subtitle>
+                </Details.Summary>
+                <Article.Content>
+                    <SafeHtml>{description}</SafeHtml>
+                </Article.Content>
+            </Details.Wrapper>
+        </Article.Wrapper>
     );
 };
 

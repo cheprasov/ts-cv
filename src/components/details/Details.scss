@@ -1,3 +1,5 @@
+@import './src/constants';
+
 .Details {
 
   &__summary {
@@ -10,18 +12,18 @@
     &--pointer,
     &Pointer {
       &:hover {
-        color: #cb2e3c;
+        color: $hoverColor;
       }
     }
 
     &:hover {
       &::marker {
-        color: #cb2e3c;
+        color: $hoverColor;
       }
     }
   }
 
-  &__content {
+  &__content--leftPadding {
     padding-left: 2em;
   }
 

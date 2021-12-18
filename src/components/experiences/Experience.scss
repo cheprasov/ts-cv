@@ -1,11 +1,13 @@
 .Experience {
 
-    & .Article__title {
-        display: inline;
-    }
+    & .Article {
+        &__title {
+            display: inline;
+        }
 
-    & .Details__content {
-        padding-left: 0;
+        &__content > * {
+            margin: 0.75em 0;
+        }
     }
 
 }
@@ -22,9 +24,7 @@
 }
 
 .Experience {
-    .Article__logo,
-    .ArticleBlock__logo {
-        float: right;
+    .Article__logo {
         width: 4.5em;
         margin: 0;
     }
@@ -32,8 +32,7 @@
 
 @media screen and (max-width: 550px) {
     .Experience {
-        .Article__logo,
-        .ArticleBlock__logo {
+        .Article__logo {
             width: 3em;
         }
     }

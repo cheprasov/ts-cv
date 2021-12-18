@@ -31,9 +31,14 @@
 }
 
 .Article__logo {
-    width: 120px;
+    width: 5em;
     float: left;
-    margin: 0 20px 10px 0;
+    margin: 0 1em 0.5em 0;
+
+    &--right {
+        float: right;
+        margin: 0 0 0.5em 1em;
+    }
 }
 
 @media screen and (max-width: 550px) {
@@ -41,6 +46,6 @@
         display: block;
     }
     .Article__logo {
-        width: 40px;
+        width: 3em;
     }
 }

@@ -1,3 +1,5 @@
+@import './constants';
+
 @media print {
     .no-print {
         display: none !important;
@@ -24,10 +26,10 @@ p {
 }
 
 a {
-    color: #113355;
+    color: $linkColor;
 }
 a:hover {
-    color: #cb2e3c;
+    color: $hoverColor;
 }
 
 h1, h2 {

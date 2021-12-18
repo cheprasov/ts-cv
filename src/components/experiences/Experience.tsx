@@ -21,27 +21,20 @@ const Experience = ({ experience }: ExperienceProps) => {
 
     return (
         <Article.Wrapper className="Experience">
-            <Details.Wrapper>
-                <Details.Summary>
-                    {logo && <Article.Logo>{logo}</Article.Logo>}
+            <Details.Wrapper open>
+                <Details.Summary pointer>
+                    {logo && <Article.Logo right>{logo}</Article.Logo>}
                     <Article.Title>
-                        <Details.SummaryPointer>
-                            {title} <Lighter>at</Lighter> {company}
-                        </Details.SummaryPointer>
+                        {title} <Lighter>at</Lighter> {company}
                     </Article.Title>
                     <Article.Subtitle>
-                        <Period dateBeg={dateBeg} dateEnd={dateEnd} /> / {city}, {country}
+                        <Period dateBeg={dateBeg} dateEnd={dateEnd} showInterval /> / {city}, {country}
                     </Article.Subtitle>
                 </Details.Summary>
                 <Details.Content>
                     <Article.Content>
-                        {description}
-                        {technologies && (
-                            <div className="Experience__techStack">
-                                <b>Tech Stack: </b>
-                                <Technologies technologies={technologies} />
-                            </div>
-                        )}
+                        {technologies && <Technologies technologies={technologies} showTitle />}
+                        <p className="Experience__description">{description}</p>
                         <Duties duties={duties} />
                     </Article.Content>
                 </Details.Content>

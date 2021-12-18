@@ -1,10 +1,18 @@
 .Awards {
-    .ArticleBlock__logo {
-        width: 80px;
+
+    .Article {
+        &__logo {
+            width: 3em;
+        }
+
+        &__title {
+            display: inline;
+        }
     }
+
     @media screen and (max-width: 550px) {
-        .ArticleBlock__logo {
-            width: 40px;
+        .Article__logo {
+            width: 2em;
         }
     }
 }
