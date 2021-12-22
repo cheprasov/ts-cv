@@ -1,14 +1,11 @@
 import React from 'react';
 import { joinClassNames } from '../../utils/stringUtils';
 
-export interface DetailsSummaryProps {
-    leftPadding?: boolean;
-}
+export interface DetailsSummaryProps {}
 
-const DetailsSummary: React.FunctionComponent<DetailsSummaryProps> = ({ children, leftPadding = false }) => {
+const DetailsSummary: React.FunctionComponent<DetailsSummaryProps> = ({ children }) => {
     const classNames = joinClassNames(
         'Details__content',
-        leftPadding && 'Details__content--leftPadding',
     );
 
     return (

@@ -23,7 +23,7 @@ const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
                 <Details.Summary pointer>
                     <h2 className="Block__header">{title}</h2>
                 </Details.Summary>
-                <Details.Content leftPadding>
+                <Details.Content>
                     {children}
                 </Details.Content>
             </Details.Wrapper>

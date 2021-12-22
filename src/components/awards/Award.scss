@@ -1,3 +1,5 @@
+@import './src/constants';
+
 .Awards {
 
     .Article {
@@ -10,7 +12,7 @@
         }
     }
 
-    @media screen and (max-width: 550px) {
+    @include mobile {
         .Article__logo {
             width: 2em;
         }

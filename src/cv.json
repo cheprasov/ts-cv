@@ -38,7 +38,7 @@
     ],
 
     "about": [
-        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in successful tech companies."
+        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in successful tech companies, with strong proficiency with highload and performance architectures, data structures, algorithms, information security and so on."
     ],
 
     "requirements": [
@@ -62,7 +62,7 @@
             "title": "Senior Software Developer",
             "company": "LoveHolidays (WANT2BTHERE LTD)",
             "logo": "loveholidays.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "dateBeg": "2021-04-06",
             "dateEnd": "now",
@@ -82,7 +82,7 @@
                 ["TypeScript", "JavaScript"],
                 ["React", "Preact", "GraphQL", "Sanity"],
                 ["Node.js", "npm", "Kubernetes", "Docker", "Google Cloud"],
-                ["Jest", "Lint"],
+                ["Jest", "Lint", "Storybook", "Lighthouse"],
                 ["HTML", "CSS", "SASS", "Emotion CSS", "Bootstrap"],
                 ["Webpack"],
                 ["ClickUp", "Slack", "Figma"]
@@ -92,7 +92,7 @@
             "title": "Senior Software Developer",
             "company": "Ksubaka Ltd",
             "logo": "ksubaka.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2018-09-10",
@@ -124,7 +124,7 @@
             "title": "Senior Software Developer",
             "company": "Badoo Trading Ltd.",
             "logo": "badoo.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2016-10-10",
@@ -152,7 +152,7 @@
             "title": "Senior Software Developer",
             "company": "Currency Solutions Ltd.",
             "logo": "currency.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2015-09-01",

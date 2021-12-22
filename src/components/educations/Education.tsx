@@ -1,6 +1,5 @@
 import React from 'react';
 import { EducationInf } from '../../type/cv';
-import { getPeriod } from '../../utils/dateUtils';
 import * as Article from '../article';
 import Period from '../date/Period';
 

@@ -29,6 +29,7 @@ const Application = ({ cv }: ApplicationProps) => {
             <Header
                 cv={cv}
                 onChangeContactVisibility={onChangeContactVisibility}
+                showContacts={isContactsVisible}
             />
             <Block>
                 <Profile
