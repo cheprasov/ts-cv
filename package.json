@@ -59,6 +59,6 @@
     "eslint": "node ./node_modules/.bin/eslint ./app/src/",
     "test": "jest",
     "update_hashes": "ts-node --project tsconfig.node.json ./scripts/update_hashes.ts",
-    "deploy": "./scripts/deploy.sh"
+    "deploy": "webpack --mode production ; npm run update_hashes ; ./scripts/deploy.sh"
   }
 }

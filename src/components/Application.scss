@@ -1,3 +1,5 @@
+@import './src/constants';
+
 .Application {
     font-size: 1rem;
     margin-left: auto;
@@ -9,7 +11,7 @@
 
     margin-bottom: 5em;
 
-    @media screen and (max-width: 350px) {
+    @include mobileSmall {
         font-size: 0.75rem;
     }
 }
@@ -40,7 +42,7 @@
     text-align: right;
 }
 
-@media screen and (max-width: 650px) {
+@include mobile {
     .Application .header .header-block {
         width: 100%;
     }

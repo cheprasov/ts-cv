@@ -4,9 +4,10 @@ import { getPeriod } from '../../utils/dateUtils';
 export interface PeriodProps {
     dateBeg: string;
     dateEnd: string;
+    showInterval?: boolean;
 }
 
-const Period: React.FunctionComponent<PeriodProps> = ({ dateBeg, dateEnd }) => {
+const Period: React.FunctionComponent<PeriodProps> = ({ dateBeg, dateEnd, showInterval = false }) => {
 
     const [ formatDate1, formatDate2, period ] = useMemo(() => {
         return getPeriod(dateBeg, dateEnd, true);
@@ -17,7 +18,7 @@ const Period: React.FunctionComponent<PeriodProps> = ({ dateBeg, dateEnd }) => {
             <time dateTime={dateBeg}>{ formatDate1 }</time>
             {` – `}
             <time dateTime={dateEnd}>{ formatDate2 }</time>
-            { period }
+            { showInterval && period }
         </>
     );
 };

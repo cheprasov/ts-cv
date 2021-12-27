@@ -38,7 +38,7 @@
     ],
 
     "about": [
-        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in successful tech companies."
+        "Highly motivated seasoned and proactive software engineer with {{years_count:2006}} of rich experience in web software development in successful tech companies, with strong proficiency with highload and performance architectures, data structures, algorithms, information security and so on."
     ],
 
     "requirements": [
@@ -62,7 +62,7 @@
             "title": "Senior Software Developer",
             "company": "LoveHolidays (WANT2BTHERE LTD)",
             "logo": "loveholidays.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "dateBeg": "2021-04-06",
             "dateEnd": "now",
@@ -82,7 +82,7 @@
                 ["TypeScript", "JavaScript"],
                 ["React", "Preact", "GraphQL", "Sanity"],
                 ["Node.js", "npm", "Kubernetes", "Docker", "Google Cloud"],
-                ["Jest", "Lint"],
+                ["Jest", "Lint", "Storybook", "Lighthouse"],
                 ["HTML", "CSS", "SASS", "Emotion CSS", "Bootstrap"],
                 ["Webpack"],
                 ["ClickUp", "Slack", "Figma"]
@@ -92,7 +92,7 @@
             "title": "Senior Software Developer",
             "company": "Ksubaka Ltd",
             "logo": "ksubaka.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2018-09-10",
@@ -124,7 +124,7 @@
             "title": "Senior Software Developer",
             "company": "Badoo Trading Ltd.",
             "logo": "badoo.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2016-10-10",
@@ -152,7 +152,7 @@
             "title": "Senior Software Developer",
             "company": "Currency Solutions Ltd.",
             "logo": "currency.png",
-            "country": "United Kingdom",
+            "country": "UK",
             "city": "London",
             "visa": "Tier 2 General Visa",
             "dateBeg": "2015-09-01",
@@ -280,8 +280,8 @@
     "projects": [
         {
             "imageUrl": "github.jpg",
-            "title": "Open Source Projects on Github",
-            "postTitle": "(more than {{lexeme:repos.downloads}} downloads in total)",
+            "title": "Open Source Projects",
+            "subTitle": "Hurray! Today according the official statistics I have more than {{lexeme:repos.downloads}} downloads of my open source projects. \uD83C\uDF89",
             "description": [
                 "Github: https://github.com/cheprasov",
                 "Packagist (PHP): https://packagist.org/packages/cheprasov/",
@@ -295,6 +295,7 @@
         {
             "imageUrl": "checker.svg",
             "title": "Daily Licences Checker",
+            "subTitle": "Service observes status for organisations licensed to sponsor workers on the Worker and Temporary Worker immigration routes",
             "date": "2020-07",
             "description": [
                 "Personal project I made at free time. https://sponsors.cheprasov.com/",
@@ -308,7 +309,8 @@
 
         {
             "imageUrl": "alexchess.png",
-            "title": "Magnetic Chessboard with Movable Pieces on etsy",
+            "title": "Magnetic Chessboard with Movable Pieces on Etsy",
+            "subTitle": "The modern vertical chess set looks like a hybrid of a beautifully framed picture and amazing intellectual game. All pieces on the board are movable.",
             "date": "2021-03",
             "description": [
                 "This project was made by me and for my personal use, based on my idea and needs. But after several friends' requests I made a decision to publish the project on etsy and make it for people who would like to have the same chess set. Welcome to my shop: https://www.etsy.com/uk/shop/AlexChess"
@@ -320,11 +322,12 @@
 
         {
             "imageUrl": "mazay.png",
-            "title": "Game \"Mazay Mahjong and bunnies\"",
+            "title": "Game \"Mazay Mahjong and bunnies\" v.1",
+            "subTitle": "I do love mahjong and I created one of the variations of the popular mahjong game for social networks like Facebook and VK. Also, I have in development a new version of the game for mobile devices.",
             "date": "2014-10",
             "description": [
                 "Personal project I made at free time.",
-                "Game is here: https://apps.facebook.com/mazay_mahjong/",
+                "Game is here: https://apps.facebook.com/mazay_mahjong/ or https://mahjong-fb.cheprasov.com/",
                 "Please see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA",
                 "I designed a game concept, elements and levels of the game, and I selected the music. I was in collaboration with the artist about ideas and concepts, analyzed logic and users' behaviour. I edited the received images and the design of the game, I designed the system architecture for highload, and wrote front-end and back-end code."
             ],

@@ -1,11 +1,14 @@
 import React from 'react';
-import { TechnologiesType, TechnologyType } from '../../type/cv';
+import type { TechnologiesType, TechnologyType } from '../../type/cv';
+
+import './Technologies.scss';
 
 interface TechnologiesProps {
     technologies: TechnologiesType[];
+    showTitle?: boolean;
 }
 
-const Technologies = ({ technologies }: TechnologiesProps) => {
+const Technologies = ({ technologies, showTitle = false }: TechnologiesProps) => {
     const getLine = (techs: TechnologyType[]): string => {
         return techs.reduce((list, tech) => {
             if (Array.isArray(tech)) {
@@ -28,7 +31,17 @@ const Technologies = ({ technologies }: TechnologiesProps) => {
     };
 
     const list = getLines(technologies).join(', ');
-    return (<>{list}.</>);
+
+    return (
+        <div className="Technologies">
+            { showTitle && (
+                <span className="Technologies__title">
+                    Tech Stack:
+                </span>
+            )}
+            {list}.
+        </div>
+    );
 };
 
 export default Technologies;

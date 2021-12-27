@@ -1,6 +1,14 @@
 import DateTime from '../date/DateTime';
 import Lexemes from '../lexemes/Lexemes';
 
+export const joiner = (sep: string, ...values: string[]): string => {
+    return values.filter(v => v).join(sep)
+}
+
+export const joinClassNames = (...values: any[]): string => {
+    return joiner(' ', ...values);
+}
+
 export const padStart = (text: string, len: number, s = '0'): string => {
     if (text.length >= len) {
         return text;

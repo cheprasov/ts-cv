@@ -1,0 +1,26 @@
+
+$linkColor: #113355;
+$hoverColor: #cb2e3c;
+
+$mobileSmallBreakPoint: 350px;
+$mobileBreakPoint: 480px;
+$tabletBreakPoint: 800px;
+$desktopBreakPoint: 1000px;
+
+@mixin mobileSmall {
+  @media screen and (max-width: $mobileSmallBreakPoint) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media screen and (max-width: $mobileBreakPoint) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: $tabletBreakPoint) {
+    @content;
+  }
+}

@@ -1,34 +1,6 @@
 import React from 'react';
 
-// let keyI = 0;
-//
-// export default class Block extends React.Component {
-//     render() {
-//         let title = '';
-//         if (this.props.title) {
-//             title = <h2>{this.props.title}</h2>;
-//         }
-//
-//         let content = '';
-//         if (Array.isArray(this.props.children)) {
-//             content = this.props.children.map(
-//                 (line) => {
-//                     return <p key={'block-p-' + (keyI++)}>{line}</p>;
-//                 }
-//             );
-//         } else {
-//             content = this.props.children;
-//         }
-//         return (
-//             <div className="block">
-//                 {title}
-//                 <div className="block-content">
-//                     {content}
-//                 </div>
-//             </div>
-//         );
-//     }
-// }
+import * as Details from '../details';
 
 import './Block.scss';
 
@@ -46,12 +18,16 @@ const Block = ({ title, children }: BlockProps): React.ReactElement | null => {
         );
     }
     return (
-        <details className="Block" open>
-            <summary>
-                <h2 className="Block__header">{title}</h2>
-            </summary>
-            {children}
-        </details>
+        <section className="Block">
+            <Details.Wrapper open>
+                <Details.Summary pointer>
+                    <h2 className="Block__header">{title}</h2>
+                </Details.Summary>
+                <Details.Content>
+                    {children}
+                </Details.Content>
+            </Details.Wrapper>
+        </section>
     );
 };
 

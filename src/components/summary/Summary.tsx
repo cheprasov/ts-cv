@@ -13,9 +13,9 @@ const Summary = ({ cv }: SummaryProps) => {
     };
 
     return (
-        <summary className="Summary">
+        <>
             {getInfo()}
-        </summary>
+        </>
     );
 };
 

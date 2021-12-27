@@ -1,4 +1,13 @@
 .Projects {
+    & .Article {
+        &__title {
+            display: inline;
+        }
+
+        &__content > * {
+            margin-top: 0.75em;
+        }
+    }
 }
 
 .Projects__hr {

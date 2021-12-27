@@ -1,0 +1,42 @@
+@import './src/constants';
+
+.Article::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.Article__title {
+    font-size: 1.2em;
+    margin: 0.85em 0 0.2em 0;
+}
+
+.Article__subtitle {
+    font-size: 1.1em;
+    color: #66696a;
+    margin: 0 0 0.2em 0;
+}
+
+.Article__description {
+    margin: 5px 0 10px 0;
+}
+
+.Article__logo {
+    width: 5em;
+    float: left;
+    margin: 0 1em 0.5em 0;
+
+    &--right {
+        float: right;
+        margin: 0 0 0.5em 1em;
+    }
+}
+
+@include mobile {
+    .Article__afterTitle {
+        display: block;
+    }
+    .Article__logo {
+        width: 3em;
+    }
+}

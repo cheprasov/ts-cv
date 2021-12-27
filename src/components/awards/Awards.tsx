@@ -11,7 +11,6 @@ interface AwardsProps {
 const Awards = ({ awards }: AwardsProps) => {
     const content = awards.map((award, index) => {
         return (
-            // eslint-disable-next-line react/no-array-index-key
             <Fragment key={index}>
                 {index > 0 && <hr className="Awards__hr" /> }
                 <Award award={award} />

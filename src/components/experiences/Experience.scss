@@ -1,16 +1,22 @@
-.Experience {
-}
+@import './src/constants';
 
-.Experience__duties__ul {
-    margin: 0.5em 0;
+.Experience {
+
+    & .Article {
+        &__title {
+            display: inline;
+        }
+
+        &__content > * {
+            margin-top: 0.75em;
+        }
+    }
+
 }
 
 .Experience__duties,
 .Experience__tasks {
     margin: 5px 0 10px 0;
-}
-.Experience__duties__title {
-    font-weight: bold;
 }
 .Experience__work__ul {
     list-style-type: disc;
@@ -20,17 +26,16 @@
 }
 
 .Experience {
-    .ArticleBlock__logo {
-        float: right;
-        width: 80px;
-        margin: 0 0 20px 20px;
+    .Article__logo {
+        width: 4.5em;
+        margin: 0;
     }
 }
 
-@media screen and (max-width: 550px) {
+@include mobile {
     .Experience {
-        .ArticleBlock__logo {
-            width: 40px;
+        .Article__logo {
+            width: 3em;
         }
     }
 }

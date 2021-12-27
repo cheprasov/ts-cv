@@ -1,36 +1,51 @@
 import React, { useState, useEffect } from 'react';
 import { ProjectInf } from '../../type/cv';
-import ArticleBlock from '../article/ArticleBlock';
 import DateTime from '../../date/DateTime';
 import { replaceLexeme } from '../../utils/stringUtils';
 import { lexemesSingleton } from '../../lexemes/Lexemes';
+
+import * as Article from '../article';
+import * as Details from '../details';
+import Technologies from '../technologies/Technologies';
+import SafeHtml from '../html/SafeHtml';
+import Smaller from '../typography/Smaller';
+import Lighter from '../typography/Lighter';
 
 interface ProjectProps {
     project: ProjectInf;
 }
 
 const Project = ({ project }: ProjectProps) => {
-    const { title, postTitle, description, date, imageUrl, technologies } = project;
+    const { title, subTitle, description, date, imageUrl, technologies } = project;
     const projectDate = (date && new DateTime(date).getFormatDate('%F %Y')) || undefined;
-    const [postTitleState, setPostTitleState] = useState<string>('');
+    const [subTitleState, setSubTitleState] = useState<string>('');
 
     useEffect(() => {
-        if (postTitle) {
-            replaceLexeme(lexemesSingleton, postTitle).then(value => setPostTitleState(value));
+        if (subTitle) {
+            replaceLexeme(lexemesSingleton, subTitle).then(value => setSubTitleState(value));
         }
     }, [projectDate]);
 
     return (
-        <div className="Project" key={title}>
-            <ArticleBlock
-                title={title}
-                postTitle={postTitleState}
-                info={projectDate}
-                logo={imageUrl}
-                text={description}
-                technologies={technologies}
-            />
-        </div>
+        <Article.Wrapper>
+            <Details.Wrapper open>
+                <Details.Summary pointer>
+                    <Article.Logo>{imageUrl}</Article.Logo>
+                    <Article.Title>
+                        {title}
+                    </Article.Title>
+                    <Article.Subtitle>
+                        {subTitleState}
+                    </Article.Subtitle>
+                </Details.Summary>
+                <Details.Content>
+                    <Article.Content>
+                        { technologies && <Technologies technologies={technologies} showTitle /> }
+                        <SafeHtml>{description}</SafeHtml>
+                    </Article.Content>
+                </Details.Content>
+            </Details.Wrapper>
+        </Article.Wrapper>
     );
 };
 

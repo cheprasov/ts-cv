@@ -1,0 +1,31 @@
+@import './src/constants';
+
+.Details {
+  padding-left: 1.25em;
+
+  &__summary {
+    cursor: pointer;
+
+    &:first-of-type {
+      list-style-position: outside;
+    }
+
+    &::marker {
+      color: #113355;
+    }
+
+    &--pointer,
+    &Pointer {
+      &:hover {
+        color: $hoverColor;
+      }
+    }
+
+    &:hover {
+      &::marker {
+        color: $hoverColor;
+      }
+    }
+  }
+
+}
