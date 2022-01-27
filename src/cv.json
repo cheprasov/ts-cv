@@ -27,8 +27,8 @@
 
     "skills": [
         ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt", "GraphQL"],
-        ["PHP 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
         ["Go-lang"],
+        ["PHP 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
         ["MySQL", "Redis", "Memcached", "ZooKeeper"],
         ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM", "Emotion CSS"],
         ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible", "Sanity"],
@@ -65,12 +65,13 @@
             "country": "UK",
             "city": "London",
             "dateBeg": "2021-04-06",
-            "dateEnd": "now",
+            "dateEnd": "2022-01-27",
             "description": "",
             "duties": [
                 "Developed new web projects and supported current projects of the company.",
                 "Built and maintained various tools that facilitate and support the business.",
                 "Developed new React components, React hooks and so on.",
+                "Improved and maintained backend microservices.",
                 "Simplified algorithms complexity & fixed code performance issues.",
                 "Optimised applications' performance and responsiveness for browsers and mobile devices.",
                 "Refactored legacy code of existed projects.",
@@ -80,8 +81,8 @@
             "department": "",
             "technologies": [
                 ["TypeScript", "JavaScript"],
-                ["React", "Preact", "GraphQL", "Sanity"],
-                ["Node.js", "npm", "Kubernetes", "Docker", "Google Cloud"],
+                ["React", "Preact", "GraphQL", "Sanity", "Firestore"],
+                ["Node.js", "Go-lang", "npm", "Kubernetes", "Docker", "Google Cloud"],
                 ["Jest", "Lint", "Storybook", "Lighthouse"],
                 ["HTML", "CSS", "SASS", "Emotion CSS", "Bootstrap"],
                 ["Webpack"],
