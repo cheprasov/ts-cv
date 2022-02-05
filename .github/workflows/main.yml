@@ -26,14 +26,12 @@ jobs:
       run: |
         npm install
         npm run build:prod
-        npm run update_hashes
         tar -cvzf public.tar.gz ./public/
 
     - name: Commit and push
       run: |
-        git config user.name $GITHUB_ACTOR
-        git config user.email gh-actions-${GITHUB_ACTOR}@github.com
-        git remote add gh-origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        git add .
-        git commit -m "Updated public.tar.gz for deploy"
-        git push gh-origin HEAD
+          git config --global user.name 'Alexander Cheprasov'
+          git config --global user.email 'acheprasov84+github@gmail.com'
+          git add ./public.tar.gz
+          git commit -am "Updated public.tar.gz for deploy"
+          git push
