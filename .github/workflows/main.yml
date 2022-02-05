@@ -1,0 +1,38 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: Build
+      run: |
+        npm install
+        npm run build:prod
+        tar -cvzf public.tar.gz ./public/
+
+    - name: Commit and push
+      run: |
+          git config --global user.name 'Alexander Cheprasov'
+          git config --global user.email 'acheprasov84+github@gmail.com'
+          git add ./public
+          git add ./public.tar.gz
+          git commit -m "Updated ./public for deploy"
+          git push
