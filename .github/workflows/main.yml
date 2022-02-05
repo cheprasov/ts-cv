@@ -3,8 +3,6 @@ name: Build
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build:
@@ -34,6 +32,7 @@ jobs:
       run: |
           git config --global user.name 'Alexander Cheprasov'
           git config --global user.email 'acheprasov84+github@gmail.com'
+          git add ./public
           git add ./public.tar.gz
-          git commit -am "Updated public.tar.gz for deploy"
+          git commit -m "Updated ./public for deploy"
           git push
