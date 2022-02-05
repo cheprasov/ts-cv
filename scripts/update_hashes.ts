@@ -1,4 +1,5 @@
 import * as path from 'path';
+import * as crypto from 'crypto';
 import * as fs from 'fs';
 import * as process from 'process';
 
@@ -15,17 +16,21 @@ if (!html) {
     process.exit(1);
 }
 
+const checksumFile = (path: string): string => {
+    const hash = crypto.createHash('sha1');
+    hash.setEncoding('hex');
+    hash.write(fs.readFileSync(path));
+    hash.end();
+    return hash.read() || Date.now().toString(32);
+  }
+
 const hashByFile = new Map<string, string>();
 const getHashForFile = (filename: string): string | null => {
     let hash = hashByFile.get(filename);
     if (hash) {
         return hash;
     }
-    const stats = fs.statSync(path.resolve(PUBLIC_DIR, filename)) as fs.Stats;
-    if (!stats) {
-        return null;
-    }
-    hash = stats.size.toString(32) + stats.mtime.getTime().toString(32);
+    hash = checksumFile(path.resolve(PUBLIC_DIR, filename)).slice(0, 8)
     hashByFile.set(filename, hash);
     return hash;
 }
