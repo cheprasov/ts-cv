@@ -6,7 +6,7 @@ const PUBLIC_DIR = path.resolve('./public');
 const INDEX_HTML = path.resolve(PUBLIC_DIR, 'index.html');
 
 const REPLACES: RegExp[] = [
-    /(?<=\b(src|href)=")[^"]+(?=")/g,
+    /(?<=\b(src|href)=")(?!http)[^"]+(?=")/g,
 ];
 
 const html = fs.readFileSync(INDEX_HTML, { encoding: 'utf-8' });

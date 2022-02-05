@@ -1,2 +1,3 @@
 
-rsync -avzr --exclude=.DS_Store -e "ssh" ./public/ linlruweb@77.222.61.31:/home/l/linlruweb/cheprasov.com/cv/public_html/
+rsync -avzr --exclude=.DS_Store -e "ssh -p 2255" ./public/ root@server2gb:/home/linl/www/cv.cheprasov.com/public/
+rsync -avz --exclude=.DS_Store -e "ssh -p 2255" ./nginx/cv.cheprasov.com.conf root@server2gb:/home/linl/www/nginx/cv.cheprasov.com.conf
