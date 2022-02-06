@@ -56,9 +56,9 @@
     "build:prod": "webpack --mode production ; npm run update_hashes",
     "build": "webpack --mode development",
     "build:watch": "webpack --watch --mode development",
-    "eslint": "node ./node_modules/.bin/eslint ./app/src/",
+    "eslint": "node ./node_modules/.bin/eslint ./src/",
     "test": "jest",
     "update_hashes": "ts-node --project tsconfig.node.json ./scripts/update_hashes.ts",
-    "deploy": "webpack --mode production ; npm run update_hashes ; ./scripts/deploy.sh"
+    "deploy": "npm run build:prod ; ./scripts/copy_to_server.sh"
   }
 }
