@@ -13,6 +13,7 @@ wget -O ./public.tar.gz https://github.com/cheprasov/ts-cv/raw/master/public.tar
     && echo -n "" > "$LOGS_TRIGGER_FILE" \
     && rm ./public.tar.gz \
     && rm -r ./deploy \
+    && date > ./public/deploy.html \
     && echo "Done" || echo "Fail"
 
 
