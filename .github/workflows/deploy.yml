@@ -36,3 +36,9 @@ jobs:
           git add ./public.tar.gz
           git commit -m "Updated ./public for deploy"
           git push
+
+    - name: Trigger deploy
+      env:
+        DEPLOY_TRIGGER_SECRET: ${{ secrets.DEPLOY_TRIGGER_SECRET }}
+      run: |
+        curl "https://cv.cheprasov.com/deploy/trigger/${DEPLOY_TRIGGER_SECRET}"
