@@ -26,13 +26,13 @@
     },
 
     "skills": [
-        ["JavaScript", ["Native/Vanilla", "ES6", "ES7", "ES.Next"], "TypeScript", "React", "Pixi.js", "Node.js", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt", "GraphQL"],
-        ["Go-lang"],
-        ["PHP 7", "PHPUnit", "Zend Framework", "Laravel", "Protobuf"],
+        ["JavaScript", "TypeScript", "Node.js", "React", "npm", "AngularJS", "Webpack", "Flow", "Jest", "Enzyme", "jQuery", "Grunt", "GraphQL", "Pixi.js"],
+        ["Go-lang", "Nginx", "Docker", "Kubernetes"],
         ["MySQL", "Redis", "Memcached", "ZooKeeper"],
         ["HTML5", "CSS3", "LESS", "SASS/SCSS", "BEM", "Emotion CSS"],
-        ["Git", "Nginx", "Docker", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible", "Sanity"],
-        ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs"],
+        ["PHP 7", "PHPUnit", "Zend Framework", "Laravel"],
+        ["Git", "Unix", "AWS", "Apache", "Graphite", "Grafana", "ElasticSearch", "Kibana", "Ansible", "Sanity"],
+        ["OOP", "MVC", "SOA", "SOLID", "TDD", "BDD", "REST", "APIs", "Protobuf"],
         ["Highload", "Microservices", "Data Structures", "Algorithms", "Information Security"],
         ["Jira", "Slack", "ClickUp"]
     ],
@@ -80,9 +80,9 @@
             ],
             "department": "",
             "technologies": [
-                ["TypeScript", "JavaScript"],
+                ["TypeScript", "JavaScript", "Node.js"],
                 ["React", "Preact", "GraphQL", "Sanity", "Firestore"],
-                ["Node.js", "Go-lang", "npm", "Kubernetes", "Docker", "Google Cloud"],
+                ["Go-lang", "npm", "Kubernetes", "Docker", "Google Cloud"],
                 ["Jest", "Lint", "Storybook", "Lighthouse"],
                 ["HTML", "CSS", "SASS", "Emotion CSS", "Bootstrap"],
                 ["Webpack"],
