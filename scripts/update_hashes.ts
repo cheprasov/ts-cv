@@ -22,7 +22,7 @@ const checksumFile = (path: string): string => {
     hash.write(fs.readFileSync(path));
     hash.end();
     return hash.read() || Date.now().toString(32);
-  }
+}
 
 const hashByFile = new Map<string, string>();
 const getHashForFile = (filename: string): string | null => {
