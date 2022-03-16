@@ -48,3 +48,30 @@
         float: unset;
     }
 }
+
+.Profile__contactItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+    & svg {
+        margin-right: 4px;
+        visibility: hidden;
+        cursor: pointer;
+        opacity: 0.25;
+
+        &:active,
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+
+    &.Profile__contactItem--copiable:active,
+    &.Profile__contactItem--copiable:hover
+     {
+        & svg {
+            visibility: visible;
+        }
+    }
+}

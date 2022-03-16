@@ -1,4 +1,6 @@
-import React from 'react';
+import { faCopy } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { useMemo } from 'react';
 import { CVInf } from '../../type/cv';
 import { prepareLink } from '../../utils/reactUtils';
 
@@ -9,24 +11,39 @@ interface ProfileProps {
     showContacts: boolean;
 }
 
+const copyToClipboard = (text: string): Promise<void> => {
+    return navigator.clipboard.writeText(text);
+}
+
 const Profile = ({ cv, showContacts }: ProfileProps) => {
     const { profile } = cv;
     const { firstName, lastName, headline, postCode, city, country } = profile;
 
-    const lines = [];
-    lines.push(['Phone', cv.contacts.phone]);
-    lines.push(['Email', cv.contacts.email]);
-    lines.push(['LinkedIn', cv.links.linkedin]);
-    lines.push(['GitHub', cv.links.github]);
-    lines.push(['Location', `${postCode}, ${city}, ${country}`]);
+    const contacts = useMemo(() => {
+        const lines = [];
+        lines.push(['Phone', cv.contacts.phone]);
+        lines.push(['Email', cv.contacts.email]);
+        lines.push(['LinkedIn', cv.links.linkedin]);
+        lines.push(['GitHub', cv.links.github]);
+        lines.push(['Location', `${postCode}, ${city}, ${country}`]);
 
-    const contacts = lines.map((line: string[]) => {
-        return (
-            <div key={line[0]}>
-                {prepareLink(line[1])}
-            </div>
-        );
-    });
+        return lines.map((line: string[]) => {
+            const onClick = () => {
+                copyToClipboard(line[1]);
+            }
+            return (
+                <div className='Profile__contactItem Profile__contactItem--copiable' key={line[0]}>
+                     <FontAwesomeIcon
+                        onClick={onClick}
+                        title={`Copy ${line[0]} to Clipboard`}
+                        icon={faCopy}
+                    />
+                    {prepareLink(line[1])}
+                </div>
+            );
+        });
+    }, []);
+
 
     return (
         <section className="Profile">
