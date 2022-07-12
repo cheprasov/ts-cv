@@ -117,7 +117,7 @@ export default class DateTime {
         if (withMonths) {
             let months = diffDate.getMonth();
             const days = diffDate.getDate();
-            if (days >= 10) {
+            if (days >= 14) {
                 months += 1;
             }
             if (months) {

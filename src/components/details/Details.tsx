@@ -3,7 +3,7 @@ import { joinClassNames } from '../../utils/stringUtils';
 
 import './Details.scss';
 
-export interface DetailsProps {
+export interface DetailsProps extends React.PropsWithChildren {
     className?: string;
     open?: boolean
 }

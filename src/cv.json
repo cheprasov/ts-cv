@@ -10,7 +10,7 @@
         "country": "United Kingdom",
         "city": "London",
         "postCode": "SW6",
-        "status": "Employed"
+        "status": "Unemployed"
     },
 
     "contacts": {
@@ -42,7 +42,7 @@
     ],
 
     "requirements": [
-        "I have an ILR (Indefinite Leave to Remain, Settlement) in the UK and I may work in any business or profession without any restrictions (I do not require any visa or sponsorship)."
+        "I have a British citizenship in the UK and I may work in any business or profession without any restrictions (I do not require any visa or sponsorship)."
     ],
 
     "educations": [
@@ -59,13 +59,37 @@
 
     "experiences": [
         {
+            "title": "Principal Software Engineer",
+            "company": "Autone Trading Limited",
+            "logo": "autone-full.svg",
+            "country": "UK",
+            "city": "London",
+            "dateBeg": "2022-07-04",
+            "dateEnd": "2022-07-15",
+            "description": "",
+            "duties": [
+                "Working closely with the tech, product & strategy teams to proactively scope, build & improve company's platform.",
+                "Build, maintain, and support web applications and integrations using React, Node.js, Postgres and related technologies powered by AWS.",
+                "Focus on delivery while leading improvements in internal processes, practices, and tools."
+            ],
+            "department": "",
+            "technologies": [
+                ["TypeScript", "JavaScript", "Node.js"],
+                ["React", "PostgreSQL"],
+                ["npm", "Webpack", "AWS", "DynamoDB", "Lambda", "RDS", "S3"],
+                ["Jest", "Lint"],
+                ["HTML", "CSS", "SASS", "Emotion CSS", "Material-UI"],
+                ["Jira", "Slack"]
+            ]
+        },
+        {
             "title": "Senior Software Developer",
             "company": "LoveHolidays (WANT2BTHERE LTD)",
             "logo": "loveholidays.png",
             "country": "UK",
             "city": "London",
             "dateBeg": "2021-04-06",
-            "dateEnd": "2022-01-27",
+            "dateEnd": "2022-01-31",
             "description": "",
             "duties": [
                 "Developed new web projects and supported current projects of the company.",

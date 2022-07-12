@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Lighter.scss';
 
-const Lighter: React.FunctionComponent = ({ children }) => {
+const Lighter: React.FunctionComponent<React.PropsWithChildren> = ({ children }) => {
     return (
         <span className="Lighter">{children}</span>
     );

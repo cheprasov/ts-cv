@@ -18,7 +18,7 @@ export const getPeriod = (begDate: string, endDate: string, withPeriod = false):
     let period = '';
 
     if (withPeriod) {
-        period = ` (${dateTime1.getPeriod(dateTime2)})`;
+        period = `${dateTime1.getPeriod(dateTime2)}`;
     }
 
     return [date1, date2, period];

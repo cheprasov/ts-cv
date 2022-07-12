@@ -1,6 +1,8 @@
 import { faCopy } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useMemo } from 'react';
+import { useGlobalScope } from '@cheprasov/react-global-state';
+import { AppScope } from '../../globalState';
 import { CVInf } from '../../type/cv';
 import { prepareLink } from '../../utils/reactUtils';
 
@@ -8,14 +10,14 @@ import './Profile.scss';
 
 interface ProfileProps {
     cv: CVInf;
-    showContacts: boolean;
 }
 
 const copyToClipboard = (text: string): Promise<void> => {
     return navigator.clipboard.writeText(text);
 }
 
-const Profile = ({ cv, showContacts }: ProfileProps) => {
+const Profile = ({ cv }: ProfileProps) => {
+    const [ showContacts ] = useGlobalScope<AppScope>('app').showContacts;
     const { profile } = cv;
     const { firstName, lastName, headline, postCode, city, country } = profile;
 
@@ -44,11 +46,11 @@ const Profile = ({ cv, showContacts }: ProfileProps) => {
         });
     }, []);
 
-
     return (
         <section className="Profile">
             <div className="Profile__info">
-                <div className={`Profile__name ${showContacts ? '' : 'Profile__name--hidden no-print'}`}>
+                <div
+                    className={`Profile__name ${showContacts ? '' : 'Profile__name--hidden no-print'}`}>
                     {firstName} {lastName}
                 </div>
                 <div className="Profile__headline">{headline}</div>

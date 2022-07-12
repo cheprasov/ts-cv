@@ -1,8 +1,7 @@
 import React from 'react';
 import { joinClassNames } from '../../utils/stringUtils';
 
-export interface ArticleLogoProps {
-    children: string;
+export interface ArticleLogoProps extends React.PropsWithChildren {
     right?: boolean;
 }
 
@@ -11,7 +10,7 @@ const ArticleLogo: React.FunctionComponent<ArticleLogoProps> = ({ children, righ
     return (
         <img
             className={classNames}
-            alt={children}
+            alt=""
             src={`./imgs/${children}`}
         />
     );

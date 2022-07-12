@@ -1,7 +1,7 @@
 import React from 'react';
 import { joinClassNames } from '../../utils/stringUtils';
 
-export interface DetailsSummaryProps {}
+export interface DetailsSummaryProps extends React.PropsWithChildren {}
 
 const DetailsSummary: React.FunctionComponent<DetailsSummaryProps> = ({ children }) => {
     const classNames = joinClassNames(

@@ -4,7 +4,7 @@ import { joinClassNames } from '../../utils/stringUtils';
 
 import './Article.scss'
 
-export interface ArticleProps {
+export interface ArticleProps extends React.PropsWithChildren {
     className?: string;
 }
 
