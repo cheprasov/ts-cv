@@ -15,8 +15,8 @@ const Header = ({ cv }: HeaderProps) => {
     const [ showContacts, setShowContacts ] = useGlobalScope<AppScope>('app').showContacts;
 
     const onChange = (event: SyntheticEvent) => {
-        const checked = (event.target as HTMLInputElement).checked as boolean;
-        setShowContacts(!checked as any);
+        const checked = (event.target as HTMLInputElement).checked;
+        setShowContacts(!checked);
     };
 
     const dateTime = new DateTime(cv.update);

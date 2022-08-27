@@ -13,16 +13,16 @@ const Period: React.FunctionComponent<PeriodProps> = ({ dateBeg, dateEnd, showIn
         return getPeriod(dateBeg, dateEnd, true);
     }, [ dateBeg, dateEnd ]);
 
-    if (formatDate1 === formatDate2) {
-        return (
-            <time
-                dateTime={dateBeg}
-                title={`${dateBeg} - ${dateEnd}`}
-            >
-                { formatDate1 }
-            </time>
-        );
-    }
+    // if (formatDate1 === formatDate2) {
+    //     return (
+    //         <time
+    //             dateTime={dateBeg}
+    //             title={`${dateBeg} - ${dateEnd}`}
+    //         >
+    //             { formatDate1 }
+    //         </time>
+    //     );
+    // }
 
     return (
         <>

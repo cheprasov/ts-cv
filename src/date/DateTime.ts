@@ -122,6 +122,10 @@ export default class DateTime {
             }
             if (months) {
                 period.push(`${months} month${(months > 1 ? 's' : '')}`);
+            } else if (!years) {
+                if (days) {
+                    period.push(`less than a month`);
+                }
             }
         }
 
