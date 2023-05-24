@@ -1,5 +1,5 @@
 {
-    "update": "2022-08-27",
+    "update": "2023-05-24",
 
     "profile": {
         "photoUrl": "photo.jpg",
@@ -58,6 +58,32 @@
     ],
 
     "experiences": [
+        {
+            "title": "Senior Software Engineer",
+            "company": "Valstro (UK) Ltd",
+            "logo": "valstro.png",
+            "country": "UK",
+            "city": "London",
+            "dateBeg": "2022-12-12",
+            "dateEnd": "now",
+            "description": "",
+            "duties": [
+                "Building applications/services from scratch",
+                "Participating in architecture, technology selection and design",
+                "Building, testing, deploying and supporting the software",
+                "Collaborating with other teams, including Product Management, and participating in the definition and improvement of processes and tools",
+                "Learning and Teaching, Mentoring and Coaching new hires, keeping up with the latest technologies and sharing my experiences"
+            ],
+            "department": "",
+            "technologies": [
+                ["TypeScript", "JavaScript", "Node.js"],
+                ["React", "NestJS", "GraphQL", "RxJS"],
+                ["pnpm", "nx", "Webpack", "AWS", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Kubernetes"],
+                ["Jest", "Lint", "Storybook"],
+                ["HTML", "CSS"],
+                ["Notion", "Slack"]
+            ]
+        },
         {
             "title": "Principal Software Engineer",
             "company": "Autone Trading Limited",
