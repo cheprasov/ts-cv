@@ -23,7 +23,7 @@ const Profile = ({ cv }: ProfileProps) => {
 
     const contacts = useMemo(() => {
         const lines = [];
-        lines.push(['Phone', cv.contacts.phone]);
+        lines.push(['Phone', cv.contacts.phone, cv.contacts.phone.replace(/ /g, '')]);
         lines.push(['Email', cv.contacts.email]);
         lines.push(['LinkedIn', cv.links.linkedin]);
         lines.push(['GitHub', cv.links.github]);
@@ -31,7 +31,7 @@ const Profile = ({ cv }: ProfileProps) => {
 
         return lines.map((line: string[]) => {
             const onClick = () => {
-                copyToClipboard(line[1]);
+                copyToClipboard(line[2] || line[1]);
             }
             return (
                 <div className='Profile__contactItem Profile__contactItem--copiable' key={line[0]}>

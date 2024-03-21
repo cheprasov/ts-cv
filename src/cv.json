@@ -79,7 +79,7 @@
                 ["TypeScript", "JavaScript", "Node.js"],
                 ["React", "NestJS", "GraphQL", "RxJS"],
                 ["pnpm", "nx", "Webpack", "AWS", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Kubernetes"],
-                ["Jest", "Lint", "Storybook"],
+                ["Jest", "Lint", "Storybook", "Cucumber"],
                 ["HTML", "CSS"],
                 ["Notion", "Slack"]
             ]
@@ -349,7 +349,7 @@
             "subTitle": "Service observes status for organisations licensed to sponsor workers on the Worker and Temporary Worker immigration routes",
             "date": "2020-07",
             "description": [
-                "Personal project I made at free time. https://sponsors.cheprasov.com/",
+                "Personal project I made at free time. https://licensed-sponsors-uk.com/",
                 "The project is created for helping Tier 2 & 5 (Skilled Workers) visa holders to be operatively informed about their company’s sponsor licence has changed or expired."
             ],
             "technologies": [
@@ -380,6 +380,7 @@
                 "Personal project I made at free time.",
                 "Game is here: https://apps.facebook.com/mazay_mahjong/ or https://mahjong-fb.cheprasov.com/",
                 "Please see video here: https://www.youtube.com/watch?v=6V_0wZZdJLA",
+                "New version 2 is in development https://ts-game-mahjong.pages.dev/",
                 "I designed a game concept, elements and levels of the game, and I selected the music. I was in collaboration with the artist about ideas and concepts, analyzed logic and users' behaviour. I edited the received images and the design of the game, I designed the system architecture for highload, and wrote front-end and back-end code."
             ],
             "technologies": [
