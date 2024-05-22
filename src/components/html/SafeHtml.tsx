@@ -7,9 +7,9 @@ export interface SafeHtmlProps {
 
 const SafeHtml: React.FunctionComponent<SafeHtmlProps> = ({ children }) => {
     return (
-        <div className="SafeHtml">
+        <span className="SafeHtml">
             {convertToHTML(children)}
-        </div>
+        </span>
     );
 }
 

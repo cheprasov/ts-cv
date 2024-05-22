@@ -68,20 +68,28 @@
             "dateEnd": "now",
             "description": "",
             "duties": [
-                "Building applications/services from scratch",
-                "Participating in architecture, technology selection and design",
-                "Building, testing, deploying and supporting the software",
-                "Collaborating with other teams, including Product Management, and participating in the definition and improvement of processes and tools",
-                "Learning and Teaching, Mentoring and Coaching new hires, keeping up with the latest technologies and sharing my experiences"
+                "Implemented a lot of business logic around Orders flow, the key feature of the company's trading platform.",
+                "Wrote key global feature for distribution, execution and propagation Trades across the trade platform.",
+                "Implemented most complicate business feature about Execution Bust for Orders Trades.",
+                "Developed feature of async response for each operation handler to UI via WebSocket.",
+                "Created new input elements, forms, and other complicated React components, hooks for UI.",
+                "Fixed DB indexes for better performance of Orders.",
+                "Created complex script for generation AVRO scheme by TypeScript classes.",
+                "Improved E2E tests and made output structured and readable, it helps developers to find issues much faster.",
+                "Created 2 chrome extensions for improving work of developers in the company. (1. auto authorisation for GraphQL playground helps to avoid annoying manual process of coping new tokens every 5 mins. 2. Improved GitHub features for the company repos: each PRs has quick links to UI, GraphQL playground,  logs, improved CI features).",
+                "Built new internal services and refactored legacy code.",
+                "Participated in architecture, technology selection and code structure.",
+                "Collaborated with other teams, including Product Management, and participated in the definition and improvement of processes and tools.",
+                "Learned and Taught, Mentored and Coached new hires, kept up with the latest technologies and sharing my experiences."
             ],
             "department": "",
             "technologies": [
                 ["TypeScript", "JavaScript", "Node.js"],
                 ["React", "NestJS", "GraphQL", "RxJS"],
-                ["pnpm", "nx", "Webpack", "AWS", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Kubernetes"],
+                ["pnpm", "nx", "Webpack", "AWS", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Kubernetes", "GitHub CI"],
                 ["Jest", "Lint", "Storybook", "Cucumber"],
                 ["HTML", "CSS"],
-                ["Notion", "Slack"]
+                ["Notion", "Slack", "Microsoft Remote Desktop"]
             ]
         },
         {
@@ -94,9 +102,12 @@
             "dateEnd": "2022-07-15",
             "description": "",
             "duties": [
-                "Working closely with the tech, product & strategy teams to proactively scope, build & improve company's platform.",
-                "Build, maintain, and support web applications and integrations using React, Node.js, Postgres and related technologies powered by AWS.",
-                "Focus on delivery while leading improvements in internal processes, practices, and tools."
+                "Improved DB base structure and data structure for performance and much better readability for developers.",
+                "Implemented new features to the company's platform.",
+                "Migrated projects of the company from JavaScript to TypeScript.",
+                "Worked closely with the tech, product & strategy teams to proactively scope, build & improve company's platform.",
+                "Improved and maintained existing web application using React, Node.js, Postgres and related technologies powered by AWS.",
+                "Focused on delivery while leading improvements in internal processes, practices, and tools."
             ],
             "department": "",
             "technologies": [
@@ -118,14 +129,13 @@
             "dateEnd": "2022-01-31",
             "description": "",
             "duties": [
-                "Developed new web projects and supported current projects of the company.",
-                "Built and maintained various tools that facilitate and support the business.",
-                "Developed new React components, React hooks and so on.",
-                "Improved and maintained backend microservices.",
+                "Fixed many bugs and improved performance at key microservice for working with Users session data (golang)",
+                "Developed new platform for searching holidays and hotels.",
+                "Created new input elements, forms, and other complicated React components, hooks for UI.",
                 "Simplified algorithms complexity & fixed code performance issues.",
                 "Optimised applications' performance and responsiveness for browsers and mobile devices.",
                 "Refactored legacy code of existed projects.",
-                "Did presentations inside the company about performances and issues in JS.",
+                "Helped other developers better understand performances and issues in JavaScript / TypeScript.",
                 "Reviewed projects architecture & code."
             ],
             "department": "",
@@ -150,14 +160,14 @@
             "dateEnd": "2021-04-05",
             "description": "",
             "duties": [
-                "Developed new web projects of the company and optimised performance for existed projects.",
-                "Developed solution able to aggregate and visualize data.",
+                "Worked like a lead developer for creating new greenfield project with amazing success, see https://cloudshelf.ai",
+                "Optimised applications' performance for slow androind devices, browsers and mobile devices.",
+                "Developed solution for aggregate and visualize data.",
                 "Built and maintained various tools that facilitate and support the business.",
                 "Developed new React components, React hooks and AngularJS directive.",
-                "Optimised applications' performance and responsiveness for browsers and mobile devices.",
                 "Refactored legacy code of existed projects.",
                 "Reviewed code, interviewed new candidates.",
-                "Coached less experienced staff members."
+                "Coached less experienced members."
             ],
             "department": "Frontend Development",
             "technologies": [
@@ -185,7 +195,7 @@
                 "Developed new features and maintained exists functionality for users' profiles, photos, verification service, external and internal projects of the company.",
                 "Designed DB & workflow architecture for new features.",
                 "Developed of proxy service for avoiding connections blocks.",
-                "Participated in the creation of a new service for searching for lookalikes by an uploaded photo.",
+                "Participated in the creation of a new service for searching for lookalikes by an uploaded photo based on AI data.",
                 "Implemented A/B tests, GDPR, and so on.",
                 "Worked on optimisation project for highload.",
                 "Wrote tests, reviewed code & PR."
