@@ -21,13 +21,15 @@ const Profile = ({ cv }: ProfileProps) => {
     const { profile } = cv;
     const { firstName, lastName, headline, postCode, city, country } = profile;
 
+    const location = [postCode, city, country].filter(Boolean).join(', ');
+
     const contacts = useMemo(() => {
         const lines = [];
         lines.push(['Phone', cv.contacts.phone, cv.contacts.phone.replace(/ /g, '')]);
         lines.push(['Email', cv.contacts.email]);
         lines.push(['LinkedIn', cv.links.linkedin]);
         lines.push(['GitHub', cv.links.github]);
-        lines.push(['Location', `${postCode}, ${city}, ${country}`]);
+        lines.push(['Location', `${location}`]);
 
         return lines.map((line: string[]) => {
             const onClick = () => {

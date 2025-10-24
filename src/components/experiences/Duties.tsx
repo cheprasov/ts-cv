@@ -16,7 +16,7 @@ const Duties: React.FunctionComponent<DutiesProps> = ({ duties }) => {
 
     return (
         <div className="Duties">
-            <span className="Duties__title">Duties & Achievements: </span>
+            <span className="Duties__title">Duties & Achievements:</span>
             <ul className="Duties__ul">
                 {content}
             </ul>

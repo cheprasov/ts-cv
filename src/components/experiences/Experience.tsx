@@ -16,7 +16,7 @@ interface ExperienceProps {
 
 const Experience = ({ experience }: ExperienceProps) => {
     const {
-        logo, title, company, city, country, dateBeg, dateEnd, technologies, description, duties,
+        logo, title, company, city, country, dateBeg, dateEnd, technologies, description, achievements,
     } = experience;
 
     return (
@@ -35,7 +35,7 @@ const Experience = ({ experience }: ExperienceProps) => {
                     <Article.Content>
                         {technologies && <Technologies technologies={technologies} showTitle />}
                         <p className="Experience__description">{description}</p>
-                        <Duties duties={duties} />
+                        <Duties duties={achievements} />
                     </Article.Content>
                 </Details.Content>
             </Details.Wrapper>

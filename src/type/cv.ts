@@ -51,7 +51,7 @@ export interface ExperienceInf {
     dateBeg: string;
     dateEnd: string;
     description: string;
-    duties: string[];
+    achievements: string[];
     department: string;
     technologies: TechnologiesType[];
 }
