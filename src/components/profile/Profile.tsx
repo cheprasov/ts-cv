@@ -25,9 +25,9 @@ const Profile = ({ cv }: ProfileProps) => {
 
     const contacts = useMemo(() => {
         const lines = [];
-        lines.push(['Phone', cv.contacts.phone, cv.contacts.phone.replace(/ /g, '')]);
-        lines.push(['Email', cv.contacts.email]);
         lines.push(['LinkedIn', cv.links.linkedin]);
+        lines.push(['Email', cv.contacts.email]);
+        lines.push(['Phone', cv.contacts.phone, cv.contacts.phone.replace(/ /g, '')]);
         lines.push(['GitHub', cv.links.github]);
         lines.push(['Location', `${location}`]);
 
