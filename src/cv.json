@@ -1,11 +1,11 @@
 {
-  "update": "2025-10-24",
+  "update": "2026-08-18",
   "profile": {
     "photoUrl": "photo.jpg",
     "firstName": "Alexander",
     "lastName": "Cheprasov",
     "dateBirth": "1984-10-10",
-    "headline": "Engineering Leader | Tech Lead | Principal Engineer",
+    "headline": "Principal Software Engineer | Tech Lead",
     "country": "United Kingdom",
     "city": "London",
     "status": "Open to Opportunities"
@@ -21,23 +21,48 @@
     "npm": "https://www.npmjs.com/~cheprasov"
   },
   "skills": [
-    ["TypeScript", "JavaScript", "Node.js", "React", "npm", "AngularJS", "Webpack", "GraphQL"],
+    ["TypeScript", "JavaScript", "Node.js", "React", "GraphQL"],
     ["Go-lang", "Nginx", "Docker", "Kubernetes"],
     ["MySQL", "Redis", "PostgreSQL", "MongoDB"],
     ["HTML5", "CSS3", "SASS/SCSS", "BEM"],
-    ["PHP 7", "PHPUnit", "Zend Framework"],
     ["Git", "AWS", "Grafana", "ElasticSearch", "Kibana"],
-    ["OOP", "MVC", "SOA", "SOLID", "REST", "APIs", "Protobuf"],
-    ["Highload", "Microservices", "Data Structures", "Algorithms", "Information Security"],
-    ["Jira", "Slack", "ClickUp"],
-    ["Leadership", "Mentoring", "Architecture Design", "Open Source Development"]
+    [
+      "System Design",
+      "Software Architecture",
+      "Distributed Systems",
+      "Event-Driven Architecture",
+      "API Design",
+      "OOP",
+      "SOLID",
+      "REST",
+      "Data Serialization"
+    ],
+    [
+      "Highload",
+      "Microservices",
+      "Performance Optimization",
+      "Data Structures",
+      "Algorithms",
+      "Information Security"
+    ],
+    ["Leadership", "Mentoring", "Architecture Design", "Open Source Development"],
+    [
+      "AI-Assisted Engineering",
+      "Cursor",
+      "Claude",
+      "ChatGPT",
+      "Specification Analysis",
+      "Technical Planning",
+      "Coding-Agent Workflows",
+      "Implementation Review",
+      "Test Generation",
+      "Refactoring"
+    ]
   ],
   "about": [
-    "Software engineering leader with over {{years_count:2006}} of experience, building scalable products from concept to market and contributing to open-source communities with libraries like @cheprasov/jsbt. I specialize in highload architectures, end-to-end delivery, and mentoring, ready for global remote roles or relocation."
+    "Principal Software Engineer with over {{years_count:2006}} of experience, building scalable products from concept to market and contributing to open-source communities with libraries like @cheprasov/jsbt. I specialize in high-scale systems, end-to-end delivery. Experienced in taking complex features from product requirements and technical design through implementation and production delivery, increasingly using AI-assisted development workflows for analysis, implementation, testing, refactoring, and code review while retaining ownership of architecture, business logic, and code quality."
   ],
-  "requirements": [
-    "British citizen with full UK work rights, open to remote work globally and relocation for the right opportunity."
-  ],
+  "requirements": ["British citizen with full UK work rights, open to remote work globally."],
   "educations": [
     {
       "name": "Murmansk Humanities Institute (MHI)",
@@ -60,11 +85,12 @@
       "dateEnd": "now",
       "description": "",
       "achievements": [
-        "Implemented architecture design and technology selection for core trading platform features.",
-        "Implemented complex business logic for Orders and Trades, enhancing platform scalability.",
+        "Designed architecture and selected technologies for core trading platform features, translating complex product requirements into technical designs and implementation plans.",
+        "Implemented complex trading-domain logic across Orders, Trades, and Executions, including execution bust and trade/execution propagation workflows.",
         "Architected internal services and refactored legacy code for maintainability.",
         "Developed advanced React components and Chrome extensions to improve UI and workflows.",
         "Optimized database performance and E2E tests for faster issue detection.",
+        "Use AI-assisted development throughout the engineering lifecycle, including specification analysis, technical investigation, implementation, testing, and refactoring, while reviewing generated code against business requirements, architecture, and production-quality standards.",
         "Contributed to team knowledge sharing and best practices in performance, TypeScript, React, and GraphQL."
       ],
       "department": "",
@@ -73,7 +99,8 @@
         ["React", "NestJS", "GraphQL", "RxJS"],
         ["AWS", "Kafka", "PostgreSQL", "MongoDB", "Docker", "Kubernetes"],
         ["Jest", "Storybook", "Cucumber"],
-        ["HTML", "CSS"]
+        ["HTML", "CSS"],
+        ["Cursor", "Claude", ""]
       ]
     },
     {
@@ -138,7 +165,7 @@
       "dateEnd": "2022-07-15",
       "description": "",
       "achievements": [
-        "Led process improvements and architecture redesign for trading platform efficiency.",
+        "Contributed to process improvements and architecture redesign.",
         "Collaborated with cross-functional teams to scope and build new features.",
         "Migrated projects to TypeScript and optimized React/Node.js applications."
       ],
@@ -187,7 +214,7 @@
       "dateEnd": "2021-04-05",
       "description": "",
       "achievements": [
-        "Led development of Cloudshelf.ai, driving it to successful launch.",
+        "Contributed as a core developer to Cloudshelf.ai, helping bring the product to launch.",
         "Coached junior developers and conducted code reviews.",
         "Optimized applications for low-end Android devices and browsers.",
         "Built data visualization tools and React components."
@@ -257,9 +284,7 @@
         "Optimized for compact size and performance, enabling efficient Node.js-to-browser communication.",
         "Published on NPM: https://www.npmjs.com/package/@cheprasov/jsbt, actively maintained (v1.3.0)."
       ],
-      "technologies": [
-        ["TypeScript", "JavaScript", "Node.js"]
-      ]
+      "technologies": [["TypeScript", "JavaScript", "Node.js"]]
     },
     {
       "imageUrl": "github.jpg",
